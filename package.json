@@ -1,0 +1,32 @@
+{
+  "name": "healthcare-research-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for health services research with OMOP/CLIF support",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "setup:dirs": "node scripts/setup-directories.js",
+    "collect:schemas": "node scripts/collection/collect-all-schemas.js",
+    "collect:ontologies": "node scripts/collection/collect-all-ontologies.js",
+    "collect:all": "npm run collect:schemas && npm run collect:ontologies",
+    "process:all": "node scripts/processing/process-all-data.js",
+    "generate:templates": "node scripts/research/generate-templates.js",
+    "build": "tsc",
+    "start": "node dist/server/index.js",
+    "dev": "tsx watch src/server/index.ts",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "latest",
+    "csv-parse": "^5.5.0",
+    "xml2js": "^0.6.0",
+    "dotenv": "^16.0.0",
+    "p-queue": "^7.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "vitest": "^1.0.0"
+  }
+}
