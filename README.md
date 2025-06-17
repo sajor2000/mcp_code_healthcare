@@ -252,6 +252,30 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
+## Synthetic ICU Dataset Included
+
+This repository includes a **synthetic ICU dataset** with 500 patients for testing and learning:
+
+- **Location**: `data/mock-icu-data/`
+- **Formats**: MIMIC, CLIF, and OMOP CDM
+- **Contents**: 
+  - 666 ICU admissions
+  - 261 sepsis cases  
+  - Complete vital signs, labs, medications
+  - Realistic mortality rates (24.3%)
+
+### Quick Start with Synthetic Data:
+```bash
+# Generate the dataset (already included)
+python3 data/mock-icu-data/generate-synthetic-data.py
+
+# View usage examples
+node examples/use-synthetic-data.js
+
+# Query with MCP
+"Using the mock ICU dataset, analyze if vancomycin reduces sepsis mortality"
+```
+
 ## Example Workflows
 
 ### 1. Survival Analysis

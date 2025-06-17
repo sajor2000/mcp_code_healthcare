@@ -1,0 +1,21 @@
+{
+  "dataset_info": {
+    "n_patients": 500,
+    "n_admissions": 666,
+    "n_icu_stays": 608,
+    "n_diagnoses": 1615,
+    "n_medications": 1938,
+    "n_procedures": 295,
+    "n_vitals": 235767,
+    "n_labs": 65214
+  },
+  "conditions": {
+    "sepsis_cases": 261,
+    "mortality_rate": 0.24324324324324326
+  },
+  "formats_available": [
+    "MIMIC",
+    "CLIF",
+    "OMOP"
+  ]
+}
