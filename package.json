@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "description": "MCP server for health services research with OMOP/CLIF support",
   "type": "module",
-  "main": "dist/index.js",
+  "main": "dist/server/index.js",
+  "bin": {
+    "healthcare-research-mcp": "./bin/healthcare-research-mcp"
+  },
   "scripts": {
-    "setup:dirs": "node scripts/setup-directories.js",
-    "db:init": "node scripts/init-database.js init",
-    "db:check": "node scripts/init-database.js check",
-    "db:migrate": "node scripts/init-database.js migrate",
+    "setup:dirs": "node scripts/setup-dirs.js",
+    "db:init": "node scripts/init-db.js",
+    "db:check": "echo 'Database check not implemented'",
+    "db:migrate": "echo 'Database migration not implemented'",
     "collect:schemas": "node scripts/collection/collect-all-schemas.js",
     "collect:ontologies": "node scripts/collection/collect-all-ontologies.js",
     "collect:all": "npm run collect:schemas && npm run collect:ontologies",
@@ -23,7 +26,12 @@
     "test:unit": "vitest run",
     "test:coverage": "vitest run --coverage",
     "lint": "eslint src --ext .ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "docs:generate": "typedoc --out docs src/index.ts",
+    "backup:db": "node scripts/backup/backup-databases.js",
+    "backup:config": "node scripts/backup/backup-config.js",
+    "docker:build": "docker build -t healthcare-research-mcp .",
+    "docker:run": "docker run -p 3000:3000 -v $(pwd)/data:/app/data healthcare-research-mcp"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "latest",
@@ -40,7 +48,8 @@
     "winston": "^3.11.0",
     "joi": "^17.11.0",
     "node-cache": "^5.1.2",
-    "crypto-js": "^4.2.0"
+    "crypto-js": "^4.2.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",

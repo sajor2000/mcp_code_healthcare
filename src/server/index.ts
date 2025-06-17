@@ -8,10 +8,17 @@ import { FigureGeneratorTool } from '../tools/research/figure-generator.js';
 import { CodeLookupTool } from '../tools/ontology/code-lookup.js';
 import { CodeTranslatorTool } from '../tools/ontology/code-translator.js';
 import { PhenotypeTool } from '../tools/research/phenotype.js';
-import { setupResources } from '../resources/index.js';
-import { setupPrompts } from '../prompts/index.js';
+import { NaturalLanguageQueryTool } from '../tools/research/natural-language-query.js';
+import { MedicalKnowledgeTool } from '../tools/research/medical-knowledge-tool.js';
+import { MedicalWebSearchTool } from '../tools/research/medical-web-search.js';
+import { ExternalSearchTool } from '../tools/research/external-search-tool.js';
+// Resource and prompt setup are handled inline
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { config } from 'dotenv';
+
+// Load environment variables
+config();
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -19,7 +26,7 @@ export class HealthcareResearchMCPServer {
   private server: Server;
   private ontologyDb: Database;
   private schemaDb: Database;
-  private tools: Map<string, any> = new Map();
+  public tools: Map<string, any> = new Map();
   
   constructor(config: {
     ontologyDbPath?: string;
@@ -27,14 +34,25 @@ export class HealthcareResearchMCPServer {
     name?: string;
     version?: string;
   } = {}) {
-    // Initialize databases
+    // Initialize databases - use environment variables first
     const ontologyPath = config.ontologyDbPath || 
-      path.join(__dirname, '../../data/processed/medical-ontology.db');
+      process.env.ONTOLOGY_DB_PATH ||
+      path.join(__dirname, '../../data/databases/ontology.db');
     const schemaPath = config.schemaDbPath || 
-      path.join(__dirname, '../../data/processed/research-schemas.db');
+      process.env.RESEARCH_DB_PATH ||
+      path.join(__dirname, '../../data/databases/research.db');
     
-    this.ontologyDb = new Database(ontologyPath, { readonly: true });
-    this.schemaDb = new Database(schemaPath, { readonly: true });
+    // Initialize databases - create if they don't exist
+    try {
+      this.ontologyDb = new Database(ontologyPath);
+      this.schemaDb = new Database(schemaPath);
+      console.log('✓ Databases connected');
+    } catch (error) {
+      console.error('Database initialization error:', error);
+      console.log('Creating new databases...');
+      this.ontologyDb = new Database(ontologyPath);
+      this.schemaDb = new Database(schemaPath);
+    }
     
     // Initialize MCP server
     this.server = new Server({
@@ -45,8 +63,6 @@ export class HealthcareResearchMCPServer {
     
     this.setupHandlers();
     this.setupTools();
-    this.setupResources();
-    this.setupPrompts();
   }
   
   private setupHandlers() {
@@ -63,6 +79,14 @@ export class HealthcareResearchMCPServer {
   
   private setupTools() {
     console.log('Setting up MCP tools...');
+    
+    // Natural Language Query tool (primary interface)
+    this.registerTool(new NaturalLanguageQueryTool(this.server, this.schemaDb));
+    
+    // Knowledge and search tools
+    this.registerTool(new MedicalKnowledgeTool(this.server, this.ontologyDb));
+    this.registerTool(new MedicalWebSearchTool(this.server, this.schemaDb));
+    this.registerTool(new ExternalSearchTool(this.server, this.schemaDb));
     
     // Research tools
     this.registerTool(new HypothesisGeneratorTool(this.server, this.schemaDb));

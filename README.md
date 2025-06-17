@@ -1,45 +1,54 @@
 # Healthcare Research MCP Server
 
-A Model Context Protocol (MCP) server for health services research, supporting OMOP CDM and CLIF data formats with advanced hypothesis generation, cohort building, and research code generation capabilities.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Node.js Version](https://img.shields.io/badge/node-%3E%3D18.0.0-brightgreen)](https://nodejs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue)](https://www.typescriptlang.org/)
+[![MCP SDK](https://img.shields.io/badge/MCP-SDK-purple)](https://modelcontextprotocol.io)
+
+A production-ready Model Context Protocol (MCP) server for health services research, supporting OMOP CDM and CLIF data formats with LLM-powered natural language processing, automated code generation, and publication-quality figure rendering.
+
+🏥 **Transform natural language medical questions into complete, STROBE-compliant research analyses**
 
 ## Features
 
-### Core Tools
-- **Hypothesis Generation**: Generate testable research hypotheses based on clinical concepts
-- **Cohort Builder**: Build patient cohorts with complex inclusion/exclusion criteria
-- **Research Code Generator**: Generate analysis code in R, Python, SAS, and Stata
-- **Figure Generator**: Create publication-ready figures following journal style guides (NEJM, JAMA, Lancet)
+### 🔍 Natural Language Query Processing with LLM Support
+- Parse complex medical research questions in plain English using multiple LLM providers
+- Support for 8+ LLM providers: Anthropic Claude, OpenAI GPT, Google Gemini, Mistral, Cohere, Ollama, LM Studio, and custom endpoints
+- Automatic fallback to local models for privacy-sensitive data
+- Extract medical entities (conditions, medications, labs) with automatic code mapping
+- Understand temporal constraints and statistical requirements
+- Support for multiple query intents: comparison, prediction, association, temporal analysis
+- STROBE Statement compliance checking and recommendations
 
-### Advanced Capabilities
-- **Natural Language Processing**: Convert plain English queries to structured analysis plans
-- **HIPAA Compliance**: Built-in compliance checking and de-identification
-- **Manuscript Generation**: Automated manuscript section generation in IMRaD format
-- **Execute Analysis**: End-to-end analysis execution from natural language requests
+### 📊 Automated Research Code Generation
+- Generate complete analysis pipelines in R or Python
+- Support for multiple frameworks (tidyverse, scikit-learn)
+- Built-in HIPAA compliance and privacy protection
+- Automatic cohort definition and data validation
 
-## Architecture
+### 📈 Publication-Quality Figure Generation
+- Kaplan-Meier survival curves
+- Forest plots for meta-analysis
+- ROC curves with AUC
+- Box plots, scatter plots, and heatmaps
+- Export to journal styles (NEJM, JAMA, Lancet)
+- React component export for web integration
 
-The system consists of several key components:
+### 🏥 Healthcare Data Standards
+- Full support for OMOP CDM v5.4/v6.0
+- CLIF (Common Longitudinal ICU Format) for critical care
+- Integration with medical ontologies:
+  - ICD-10 diagnosis codes
+  - SNOMED CT clinical terms
+  - RxNorm medication codes
+  - LOINC laboratory codes
 
-```
-healthcare-research-mcp/
-├── src/
-│   ├── server/          # MCP server implementation
-│   ├── tools/           # Research tools
-│   │   ├── research/    # Hypothesis, cohort, code, figure tools
-│   │   └── ontology/    # Medical ontology tools
-│   ├── middleware/      # Compliance and security layers
-│   └── utils/           # Context building and utilities
-├── scripts/
-│   ├── collection/      # Data collection scripts
-│   └── processing/      # Data processing scripts
-└── data/               # Collected schemas and ontologies
-```
-
-## Prerequisites
-
-- Node.js 18+ 
-- npm or yarn
-- Python 3.8+ (for some data processing scripts)
+### 🔒 Enterprise Features
+- HIPAA-compliant data handling
+- Row-level security and audit logging
+- Caching for performance optimization
+- Comprehensive error handling and logging
+- Production-grade architecture
 
 ## Installation
 
@@ -51,32 +60,62 @@ cd healthcare-research-mcp
 # Install dependencies
 npm install
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env with your API keys and configuration
-
-# Run setup scripts
+# Set up directories and databases
 npm run setup:dirs
+npm run db:init
+
+# Download medical ontologies (optional, for code mapping)
+npm run collect:ontologies
 ```
 
 ## Configuration
 
-Create a `.env` file with the following variables:
+Create a `.env` file (see `.env.example` for all options):
 
-```bash
-# API Keys (optional, for data collection)
-FIRECRAWL_API_KEY=your_firecrawl_api_key
-BRAVE_API_KEY=your_brave_api_key
+```env
+# Database paths
+ONTOLOGY_DB_PATH=./data/databases/ontology.db
+RESEARCH_DB_PATH=./data/databases/research.db
 
-# Database Configuration
-DB_PATH=./data/research.db
+# API Keys (for web scraping)
+FIRECRAWL_API_KEY=your_key_here
+BRAVE_API_KEY=your_key_here
 
-# Compliance Settings
+# LLM Configuration (choose one or multiple for fallback)
+# Cloud Providers
+ANTHROPIC_API_KEY=sk-ant-...      # Recommended for best results
+OPENAI_API_KEY=sk-...              # Alternative cloud provider
+GOOGLE_API_KEY=...                 # Supports medical models
+
+# Local Models (for privacy)
+OLLAMA_BASE_URL=http://localhost:11434
+OLLAMA_MODEL=meditron:70b          # Medical-specialized model
+
+# Server settings
+PORT=3000
+LOG_LEVEL=info
 HIPAA_COMPLIANT=true
-AUDIT_LEVEL=detailed
 ```
 
-## Usage
+### LLM Provider Setup
+
+The system supports multiple LLM providers for natural language understanding:
+
+1. **Cloud Providers** (for best accuracy):
+   - Anthropic Claude (recommended)
+   - OpenAI GPT-4
+   - Google Gemini (with MedPaLM access)
+   
+2. **Local Models** (for privacy):
+   - Ollama with medical models (Meditron, BioGPT)
+   - LM Studio with custom GGUF models
+   
+3. **Custom Endpoints**:
+   - Any OpenAI-compatible API
+
+See [docs/LLM-PROVIDERS.md](docs/LLM-PROVIDERS.md) for detailed setup instructions.
+
+## Quick Start
 
 ### Starting the Server
 
@@ -85,134 +124,380 @@ AUDIT_LEVEL=detailed
 npm run dev
 
 # Production mode
-npm run build
-npm start
+npm run build:prod
+npm run start:prod
 ```
 
-### Example Tool Usage
+### Example Usage
 
-#### Generate Research Hypothesis
-```json
+```javascript
+// Natural language query - exactly as the user would ask
+const query = "Using this dataset I have uploaded, define sepsis, provide 
+               descriptive statistics, and see if the medication vancomycin 
+               reduces sepsis mortality at 30 days";
+
+// The server will:
+// 1. Use LLM to understand the research question
+// 2. Extract medical concepts (sepsis, vancomycin, mortality)
+// 3. Map to standard codes (ICD-10, RxNorm)
+// 4. Generate hypothesis and cohort definition
+// 5. Create complete R/Python analysis code
+// 6. Generate publication-ready figures
+// 7. Ensure STROBE compliance
+```
+
+## API Documentation
+
+### Available Tools
+
+#### 1. Natural Language Query (Primary Interface)
+```typescript
 {
-  "tool": "generate_research_hypothesis",
-  "arguments": {
-    "clinical_area": "sepsis",
-    "outcome_of_interest": "30-day mortality",
-    "population": "ICU patients",
-    "data_sources": ["OMOP", "CLIF"],
-    "hypothesis_types": ["association", "prediction"]
+  tool: "natural_language_query",
+  arguments: {
+    query: string,              // Natural language research question
+    dataset_info?: {
+      path: string,             // Path to uploaded dataset
+      format: "csv" | "parquet",
+      data_model: "OMOP" | "CLIF" | "custom"
+    },
+    execution_mode?: "analyze" | "plan_only" | "code_only",
+    output_format?: "full_report" | "summary" | "code_only",
+    use_llm?: boolean          // Default: true
   }
 }
 ```
 
-#### Build Cohort
-```json
+#### 2. Medical Knowledge Lookup
+```typescript
 {
-  "tool": "build_cohort",
-  "arguments": {
-    "data_model": "OMOP",
-    "inclusion_criteria": [
-      {
-        "type": "diagnosis",
-        "codes": ["A41.9"],
-        "code_system": "ICD10"
-      }
-    ],
-    "time_window": {
-      "start": "2020-01-01",
-      "end": "2023-12-31"
+  tool: "lookup_medical_knowledge",
+  arguments: {
+    concept: string,            // e.g., "sepsis", "ARDS", "vancomycin"
+    concept_type: "condition" | "medication" | "procedure" | "data_model",
+    include_details?: string[], // What information to include
+    sources?: string[]          // Which sources to consult
+  }
+}
+```
+
+#### 3. Medical Literature Search
+```typescript
+{
+  tool: "search_medical_literature",
+  arguments: {
+    query: string,              // e.g., "vancomycin sepsis mortality"
+    sources?: string[],         // ["pubmed", "guidelines", "clinical_trials"]
+    filters?: {
+      publication_years?: number[],
+      study_types?: string[]
+    },
+    limit?: number
+  }
+}
+```
+
+#### 4. External Search (Brave/Perplexity)
+```typescript
+{
+  tool: "search_external_sources",
+  arguments: {
+    query: string,              // e.g., "latest sepsis guidelines 2024"
+    search_type: "medical_research" | "clinical_guidelines" | "data_standards",
+    providers?: ["brave", "perplexity", "pubmed_api"],
+    options?: {
+      freshness?: "day" | "week" | "month" | "year",
+      count?: number
     }
   }
 }
 ```
 
-#### Natural Language Analysis
-```json
+#### 2. Generate Analysis Code
+```typescript
 {
-  "tool": "execute_analysis",
-  "arguments": {
-    "query": "Compare 30-day readmission rates between patients receiving Drug A vs Drug B, adjusting for age, sex, and comorbidity score",
-    "dataset": "omop_cdm",
-    "output_format": "manuscript"
+  tool: "generate_research_code",
+  arguments: {
+    query: string,
+    analysis_spec: object,  // From analyze_research_query
+    language: "R" | "Python",
+    framework?: string
   }
 }
 ```
 
-## Data Models
+#### 3. Create Publication Figure
+```typescript
+{
+  tool: "create_publication_figure",
+  arguments: {
+    type: "kaplan_meier" | "forest_plot" | "roc_curve" | ...,
+    data: object,
+    style: "NEJM" | "JAMA" | "Lancet" | "Generic",
+    title?: string,
+    export_format?: "svg" | "react"
+  }
+}
+```
 
-### OMOP CDM Support
-- Version 5.4 and 6.0
-- Standard vocabularies: ICD-10, SNOMED CT, RxNorm, LOINC
-- Full cohort definition support
+#### 4. Query Medical Ontologies
+```typescript
+{
+  tool: "query_medical_ontology",
+  arguments: {
+    term: string,
+    ontology: "ICD10" | "SNOMED" | "RxNorm" | "LOINC",
+    limit?: number
+  }
+}
+```
 
-### CLIF (Common Longitudinal ICU Format)
-- ICU-specific data elements
-- High-frequency vital signs and device data
-- Severity scores (SOFA, APACHE, SAPS)
+## Example Workflows
 
-## Security and Compliance
+### 1. Survival Analysis
+```bash
+# Query
+"Compare survival between early and late stage lung cancer patients 
+ receiving chemotherapy versus immunotherapy"
 
-### HIPAA Compliance
-- Row-level data protection
-- Automatic de-identification
-- Audit logging for all data access
-- Minimum cell size enforcement
+# Generated R code includes:
+- Cohort definition with ICD-10 codes
+- Kaplan-Meier curves
+- Cox proportional hazards model
+- Propensity score matching
+- Publication-ready figures
+```
 
-### Access Control
-- Data Use Agreement (DUA) management
-- Field-level access restrictions
-- Purpose-based access control
+### 2. Prediction Model
+```bash
+# Query
+"Predict 90-day readmission risk in heart failure patients using 
+ demographics, labs, and medications"
+
+# Generated Python code includes:
+- Feature engineering pipeline
+- Multiple ML algorithms comparison
+- Cross-validation
+- ROC curves and calibration plots
+- SHAP values for interpretability
+```
+
+### 3. Comparative Effectiveness
+```bash
+# Query  
+"Compare effectiveness of ACE inhibitors versus ARBs in reducing 
+ cardiovascular events in diabetic patients"
+
+# Generated analysis includes:
+- Propensity score matching
+- Sensitivity analyses
+- Forest plot of subgroup effects
+- Number needed to treat (NNT)
+```
+
+### 4. Complete Natural Language Analysis Example
+
+Here's exactly how you can use the system as described:
+
+```javascript
+// Your natural language query
+const result = await mcp.call('natural_language_query', {
+  query: "Using this dataset I have uploaded, define sepsis, provide descriptive statistics, and see if the medication vancomycin reduces sepsis mortality at 30 days",
+  dataset_info: {
+    path: "./data/icu_cohort.csv",
+    format: "csv",
+    data_model: "OMOP"
+  },
+  execution_mode: "analyze",
+  output_format: "full_report"
+});
+
+// The system will return:
+{
+  "parsed_query": {
+    "intent": "comparison",
+    "entities": [
+      {
+        "text": "sepsis",
+        "type": "condition",
+        "codes": [
+          { "system": "ICD-10", "code": "A41.9", "display": "Sepsis, unspecified" },
+          { "system": "SNOMED", "code": "91302008", "display": "Sepsis" }
+        ]
+      },
+      {
+        "text": "vancomycin",
+        "type": "medication",
+        "codes": [
+          { "system": "RxNorm", "code": "11124", "display": "Vancomycin" }
+        ]
+      },
+      {
+        "text": "mortality at 30 days",
+        "type": "outcome",
+        "temporal": "30 days"
+      }
+    ]
+  },
+  "hypothesis": {
+    "primary": "Vancomycin administration in sepsis patients is associated with reduced 30-day mortality compared to alternative antibiotics",
+    "mechanisms": ["Direct antimicrobial effect", "Reduced endotoxin release"],
+    "confounders": ["Sepsis severity", "Comorbidities", "Time to antibiotic"]
+  },
+  "cohort_definition": {
+    "exposure_group": "Sepsis patients receiving vancomycin within 24h",
+    "control_group": "Sepsis patients receiving alternative antibiotics",
+    "sample_size_estimate": 2847
+  },
+  "analysis_code": "# Complete R analysis code...",
+  "visualizations": [
+    {
+      "type": "kaplan_meier",
+      "svg": "<svg>...</svg>",
+      "interpretation": "Vancomycin group shows improved survival (HR 0.72, 95% CI 0.58-0.89, p=0.003)"
+    }
+  ],
+  "strobe_compliance": {
+    "score": 95,
+    "addressed_items": ["Study design", "Setting", "Participants", ...],
+    "recommendations": ["Consider sensitivity analysis for antibiotic timing"]
+  }
+}
+```
+
+## Architecture
+
+```
+healthcare-research-mcp/
+├── src/
+│   ├── server/              # MCP server implementation
+│   ├── tools/               # MCP tool definitions
+│   ├── nlp/                 # Medical NLP engine
+│   ├── visualization/       # Figure generation
+│   ├── runtime/             # Code execution
+│   ├── database/            # Data management
+│   └── utils/               # Utilities
+├── tests/
+│   ├── integration/         # End-to-end tests
+│   └── unit/                # Component tests
+└── data/
+    ├── databases/           # SQLite databases
+    ├── ontologies/          # Medical terminologies
+    └── cache/               # Performance cache
+```
+
+## Testing
+
+```bash
+# Run all tests
+npm test
+
+# Run with coverage
+npm run test:coverage
+
+# Run specific test suite
+npm test -- medical-nlp
+```
 
 ## Development
 
-### Running Tests
-```bash
-npm test
+### Adding New Figure Types
+
+```typescript
+// In src/visualization/figure-renderer.ts
+static async renderCustomPlot(config: FigureConfig): Promise<string> {
+  const { document, svg, g, width, height } = this.createSVGContext(config);
+  // Add your D3.js visualization code here
+  return svg.node()?.outerHTML || '';
+}
 ```
 
-### Building from Source
-```bash
-npm run build
+### Extending Medical NLP
+
+```typescript
+// In src/nlp/medical-nlp.ts
+private static readonly MEDICAL_PATTERNS = {
+  // Add new pattern
+  procedures: [
+    /(?:underwent|had|received)\s+([a-zA-Z\s]+)/gi
+  ]
+};
 ```
 
-### Contributing
-Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
+### Adding Statistical Methods
 
-## Architecture Notes
+```typescript
+// In src/tools/code-generator.ts
+private static generateCustomAnalysis(): string {
+  return `
+    # Your custom statistical method
+    result <- your_function(data)
+  `;
+}
+```
 
-### Enterprise Features
-- **Natural Language Processing**: Converts clinical questions to structured queries
-- **Compliance Layer**: HIPAA-compliant data access with audit trails
-- **Workflow Orchestration**: End-to-end research workflow automation
-- **Publication Support**: Journal-specific formatting and style guides
+## Performance Optimization
 
-### Extensibility
-- Plugin architecture for new data sources
-- Custom tool development framework
-- Flexible schema mapping system
+- **Caching**: NLP results and figure renders are cached for 1 hour
+- **Database Indexes**: Optimized for medical code lookups
+- **Concurrent Processing**: Parallel execution where possible
+- **Lazy Loading**: Ontologies loaded on-demand
+
+## Security Considerations
+
+- **Code Execution**: R/Python code runs in sandboxed environment
+- **Data Access**: Row-level security for patient data
+- **Audit Logging**: All queries and results are logged
+- **Input Validation**: Strict validation of all inputs
+- **PHI Protection**: Automatic small cell suppression
+
+## Troubleshooting
+
+### Common Issues
+
+1. **Database initialization fails**
+   ```bash
+   # Reset databases
+   rm -rf data/databases/*
+   npm run db:init
+   ```
+
+2. **Missing ontology codes**
+   ```bash
+   # Download ontologies
+   npm run collect:ontologies
+   ```
+
+3. **R/Python execution errors**
+   ```bash
+   # Check runtime requirements
+   R --version
+   python --version
+   ```
+
+## Contributing
+
+Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
 ## License
 
-MIT License - see [LICENSE](LICENSE) file for details.
+MIT License - see [LICENSE](LICENSE) for details.
 
-## Acknowledgments
+## Citation
 
-This project integrates with:
-- OHDSI OMOP Common Data Model
-- CLIF (Common Longitudinal ICU Format)
-- Standard medical ontologies (ICD-10, SNOMED CT, RxNorm, LOINC)
+If you use this software in your research, please cite:
+
+```bibtex
+@software{healthcare_research_mcp,
+  title = {Healthcare Research MCP Server},
+  author = {Your Name},
+  year = {2024},
+  url = {https://github.com/yourusername/healthcare-research-mcp}
+}
+```
 
 ## Support
 
-For issues, questions, or contributions:
-- Open an issue on GitHub
-- Contact the maintainers
-- See documentation at [docs/](docs/)
-
-## Roadmap
-
-- [ ] Real-time data streaming support
-- [ ] Multi-site federated analysis
-- [ ] Advanced machine learning pipelines
-- [ ] Interactive dashboard generation
-- [ ] Integration with EHR systems
+- **Documentation**: [https://docs.your-domain.com](https://docs.your-domain.com)
+- **Issues**: [GitHub Issues](https://github.com/yourusername/healthcare-research-mcp/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/yourusername/healthcare-research-mcp/discussions)

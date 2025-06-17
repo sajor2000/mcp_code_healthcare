@@ -1,0 +1,139 @@
+version: '3.8'
+
+services:
+  healthcare-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: runtime
+    image: healthcare-research-mcp:latest
+    container_name: healthcare-mcp-server
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - LOG_LEVEL=info
+      - ONTOLOGY_DB_PATH=/app/data/databases/ontology.db
+      - RESEARCH_DB_PATH=/app/data/databases/research.db
+      # Add your API keys here or use env_file
+      # - FIRECRAWL_API_KEY=${FIRECRAWL_API_KEY}
+      # - BRAVE_API_KEY=${BRAVE_API_KEY}
+    volumes:
+      - ./data/databases:/app/data/databases
+      - ./data/ontologies:/app/data/ontologies
+      - ./data/cache:/app/data/cache
+      - ./logs:/app/logs
+    healthcheck:
+      test: ["CMD", "node", "-e", "require('http').get('http://localhost:3000/health', (res) => process.exit(res.statusCode === 200 ? 0 : 1))"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+    networks:
+      - healthcare-network
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 2G
+
+  healthcare-mcp-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: development
+    image: healthcare-research-mcp:dev
+    container_name: healthcare-mcp-dev
+    ports:
+      - "3001:3000"
+      - "9229:9229"  # Node.js debugger port
+    environment:
+      - NODE_ENV=development
+      - PORT=3000
+      - LOG_LEVEL=debug
+      - ONTOLOGY_DB_PATH=/app/data/databases/ontology.db
+      - RESEARCH_DB_PATH=/app/data/databases/research.db
+    volumes:
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./package.json:/app/package.json
+      - ./tsconfig.json:/app/tsconfig.json
+      - ./vitest.config.ts:/app/vitest.config.ts
+    command: npm run dev
+    networks:
+      - healthcare-network
+    profiles:
+      - dev
+
+  # Optional: PostgreSQL for larger deployments
+  postgres:
+    image: postgres:15-alpine
+    container_name: healthcare-postgres
+    environment:
+      - POSTGRES_DB=healthcare_research
+      - POSTGRES_USER=healthcare_user
+      - POSTGRES_PASSWORD=healthcare_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - healthcare-network
+    profiles:
+      - postgres
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U healthcare_user"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: Redis for caching
+  redis:
+    image: redis:7-alpine
+    container_name: healthcare-redis
+    command: redis-server --appendonly yes
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    networks:
+      - healthcare-network
+    profiles:
+      - redis
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Optional: Nginx reverse proxy
+  nginx:
+    image: nginx:alpine
+    container_name: healthcare-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./ssl:/etc/nginx/ssl:ro
+    depends_on:
+      - healthcare-mcp
+    networks:
+      - healthcare-network
+    profiles:
+      - production
+
+networks:
+  healthcare-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+  redis_data:

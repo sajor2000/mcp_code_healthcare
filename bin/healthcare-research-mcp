@@ -1,0 +1,16 @@
+#!/usr/bin/env node
+import { HealthcareResearchMCPServer } from '../dist/server/index.js';
+
+async function main() {
+  const server = new HealthcareResearchMCPServer({
+    name: 'healthcare-research-mcp',
+    version: '1.0.0'
+  });
+  
+  await server.start();
+}
+
+main().catch((error) => {
+  console.error('Failed to start server:', error);
+  process.exit(1);
+});
