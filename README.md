@@ -9,7 +9,9 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 
 🏥 **Transform natural language medical questions into complete, STROBE-compliant research analyses**
 
-✨ **NEW: Enhanced with STROBE guidelines and CDC Adult Sepsis Event definitions for rigorous observational research**
+✨ **NEW: Complete OMOP CDM v5.4 support with comprehensive medical ontology integration (ICD-10, RxNorm, LOINC, SNOMED CT)**
+
+🔬 **Enhanced with STROBE guidelines and CDC Adult Sepsis Event definitions for rigorous observational research**
 
 ## Features
 
@@ -38,14 +40,19 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 - Export to journal styles (NEJM, JAMA, Lancet)
 - React component export for web integration
 
-### 🏥 Healthcare Data Standards
-- Full support for OMOP CDM v5.4/v6.0
-- CLIF (Common Longitudinal ICU Format) for critical care
-- Integration with medical ontologies:
-  - ICD-10 diagnosis codes
-  - SNOMED CT clinical terms
-  - RxNorm medication codes
-  - LOINC laboratory codes
+### 🏥 Healthcare Data Standards & Medical Ontologies
+- **Complete OMOP CDM v5.4 Support**: All 15 core tables with proper relationships
+- **CLIF v2.0.0**: Full 23-table Critical Care format support
+- **Comprehensive Medical Ontology Integration**:
+  - **ICD-10**: 100+ sepsis, pneumonia, heart failure codes with descriptions
+  - **SNOMED CT**: Clinical terminology with hierarchical relationships
+  - **RxNorm**: Medication codes with formulations and strengths
+  - **LOINC**: Laboratory test codes with measurement methods
+- **Advanced OMOP Features**:
+  - Automatic data structure validation with recommendations
+  - OMOP-compliant SQL query generation
+  - Concept mapping between vocabularies
+  - Standard concept usage enforcement
 
 ### 🔒 Enterprise Features
 - HIPAA-compliant data handling
@@ -67,6 +74,10 @@ npm install
 # Quick test (no database needed)
 npm run build:standalone
 ./test-mcp-standalone.sh
+
+# Test OMOP-enhanced features
+npm run build:omop
+./test-omop-enhanced.sh
 ```
 
 ## Installation (Full Version)
@@ -257,7 +268,68 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 4. Query Medical Ontologies
+### OMOP-Enhanced Tools (New!)
+
+The server now includes comprehensive OMOP CDM v5.4 support with 10 specialized tools:
+
+#### 1. OMOP Schema Access
+```typescript
+{
+  tool: "get_omop_schema",
+  arguments: {
+    table_name: string,              // Specific table or "all"
+    include_relationships?: boolean  // Include foreign keys
+  }
+}
+```
+
+#### 2. Medical Code Lookup
+```typescript
+{
+  tool: "lookup_medical_code",
+  arguments: {
+    code: string,                    // e.g., "A41.9", "11124"
+    code_system: "ICD10" | "RxNorm" | "LOINC" | "SNOMED"
+  }
+}
+```
+
+#### 3. Search Medical Codes
+```typescript
+{
+  tool: "search_medical_codes",
+  arguments: {
+    keyword: string,                 // e.g., "sepsis", "vancomycin"
+    code_systems?: string[],        // Which ontologies to search
+    limit?: number                  // Results per system
+  }
+}
+```
+
+#### 4. Condition Code Retrieval
+```typescript
+{
+  tool: "get_condition_codes",
+  arguments: {
+    condition: string,              // e.g., "sepsis", "heart failure"
+    include_related?: boolean       // Include related conditions
+  }
+}
+```
+
+#### 5. Generate OMOP Cohorts
+```typescript
+{
+  tool: "generate_omop_cohort",
+  arguments: {
+    condition: string,              // Primary condition
+    inclusion_criteria?: string[],  // Additional criteria
+    use_standard_concepts?: boolean // OMOP standard concepts only
+  }
+}
+```
+
+#### 6. Legacy Medical Ontology Tool
 ```typescript
 {
   tool: "query_medical_ontology",
