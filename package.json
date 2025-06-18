@@ -1,7 +1,7 @@
 {
   "name": "healthcare-research-mcp",
   "version": "1.0.0",
-  "description": "Transform medical research questions into complete analysis code. Supports OMOP/CLIF data, AI prediction models with fairness assessment, and publication-ready visualizations.",
+  "description": "Ask medical research questions in plain English. Get analysis code, visualizations, and comprehensive results instantly.",
   "type": "module",
   "main": "dist/server/index-simplified.js",
   "bin": {
