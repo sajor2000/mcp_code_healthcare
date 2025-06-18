@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Transform medical research questions into complete analysis code. Supports OMOP/CLIF data, AI prediction models with fairness assessment, and publication-ready visualizations.",
   "type": "module",
-  "main": "dist/server/index.js",
+  "main": "dist/server/index-simplified.js",
   "bin": {
     "healthcare-research-mcp": "./bin/healthcare-research-mcp"
   },
@@ -41,10 +41,12 @@
     "process:all": "node scripts/processing/process-all-data.js",
     "generate:templates": "node scripts/research/generate-templates.js",
     "build": "tsc",
-    "start": "node dist/server/index-omop-enhanced.js",
+    "start": "node dist/server/index-simplified.js",
     "start:standalone": "node dist/server/index-standalone.js",
     "build:standalone": "tsc src/server/index-standalone.ts --outDir dist/server --module esnext --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck",
     "build:omop": "tsc src/server/index-omop-enhanced.ts src/utils/fetch-guidelines.ts src/utils/enhanced-code-generator.ts src/utils/fetch-omop-cdm.ts src/utils/medical-ontologies.ts src/utils/fetch-tripod-ai.ts --outDir dist --module esnext --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck",
+    "build:simplified": "tsc src/server/index-simplified.ts src/utils/fetch-guidelines.ts src/utils/enhanced-code-generator.ts src/utils/fetch-omop-cdm.ts src/utils/medical-ontologies.ts src/utils/fetch-tripod-ai.ts --outDir dist --module esnext --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck",
+    "start:simplified": "node dist/server/index-simplified.js",
     "dev": "tsx watch src/server/index.ts",
     "test": "vitest",
     "test:unit": "vitest run",
