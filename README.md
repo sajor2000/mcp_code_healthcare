@@ -9,6 +9,8 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 
 🏥 **Transform natural language medical questions into complete, STROBE-compliant research analyses**
 
+✨ **NEW: Enhanced with STROBE guidelines and CDC Adult Sepsis Event definitions for rigorous observational research**
+
 ## Features
 
 ### 🔍 Natural Language Query Processing with LLM Support
@@ -19,6 +21,8 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 - Understand temporal constraints and statistical requirements
 - Support for multiple query intents: comparison, prediction, association, temporal analysis
 - STROBE Statement compliance checking and recommendations
+- CDC Adult Sepsis Event (ASE) surveillance definition implementation
+- Sequential thinking for optimal task organization
 
 ### 📊 Automated Research Code Generation
 - Generate complete analysis pipelines in R or Python
