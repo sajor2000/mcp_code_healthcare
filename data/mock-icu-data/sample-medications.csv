@@ -1,0 +1,9 @@
+subject_id,hadm_id,drug,rxnorm_code,dose_val_rx,dose_unit_rx,route
+1,1001,Vancomycin,11124,15.5,mg/kg,IV
+1,1001,Norepinephrine,7512,0.08,mcg/kg/min,IV
+2,2001,Piperacillin Tazobactam,33533,4.5,g,IV
+3,3001,Vancomycin,11124,18.2,mg/kg,IV
+3,3001,Propofol,8782,25.5,mcg/kg/min,IV
+5,5001,Vancomycin,11124,16.8,mg/kg,IV
+5,5001,Norepinephrine,7512,0.12,mcg/kg/min,IV
+7,7001,Vancomycin,11124,17.1,mg/kg,IV

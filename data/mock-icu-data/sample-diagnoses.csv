@@ -1,0 +1,11 @@
+subject_id,hadm_id,seq_num,icd10_code,description
+1,1001,1,A41.9,Sepsis
+1,1001,2,N17.9,Acute Kidney Injury
+2,2001,1,J18.9,Pneumonia
+3,3001,1,A41.9,Sepsis
+3,3001,2,J80,Ards
+4,4001,1,I50.9,Heart Failure
+5,5001,1,A41.9,Sepsis
+5,5001,2,J18.9,Pneumonia
+6,6001,1,J44.1,Copd Exacerbation
+7,7001,1,A41.9,Sepsis

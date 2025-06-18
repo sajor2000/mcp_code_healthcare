@@ -23,14 +23,24 @@ This directory contains a synthetic ICU dataset with 500 patients for testing th
    - OMOP Common Data Model v5.4
    - Files: person, visit_occurrence, condition_occurrence, drug_exposure, measurement
 
-## File Sizes
+## Dataset Files
 
-Due to GitHub size limits, the full dataset with 235,767 vital signs and 65,214 lab results is not included.
+### Sample Files Included
+- `sample-patients.csv` - 10 example patients
+- `sample-diagnoses.csv` - Example diagnoses including sepsis
+- `sample-medications.csv` - Example medications including vancomycin
 
-To generate the full dataset locally:
+### Full Dataset Generation
+
+To generate the complete 500-patient dataset with all tables:
 ```bash
 python3 generate-synthetic-data.py
 ```
+
+This will create:
+- 235,767 vital sign measurements
+- 65,214 lab results  
+- Complete MIMIC, CLIF, and OMOP format files
 
 ## Quick Access
 
