@@ -19,8 +19,15 @@ import { STROBE_CHECKLIST, CDC_SEPSIS_EVENT } from '../utils/fetch-guidelines.js
 import { 
   IntegratedAnalysisPipeline, 
   EnhancedCodeGenerator,
+  TripodAICodeGenerator,
   CONDITION_KNOWLEDGE
 } from '../utils/enhanced-code-generator.js';
+import {
+  TRIPOD_AI_CHECKLIST,
+  TRIPOD_AI_PRINCIPLES,
+  generateTripodAIChecklist,
+  assessTripodAICompliance
+} from '../utils/fetch-tripod-ai.js';
 import {
   OMOP_CDM_V54,
   OMOP_MAPPINGS,
@@ -51,6 +58,7 @@ const __dirname = path.dirname(__filename);
 // Initialize components
 const analysisPipeline = new IntegratedAnalysisPipeline();
 const codeGenerator = new EnhancedCodeGenerator();
+const tripodAIGenerator = new TripodAICodeGenerator();
 
 // Create server instance
 const server = new Server(
@@ -306,6 +314,72 @@ server.setRequestHandler(ListToolsRequestSchema, async () => ({
           }
         },
         required: ['condition']
+      }
+    },
+    
+    // TRIPOD+AI Guidelines Tools
+    {
+      name: 'get_tripod_ai_guidelines',
+      description: 'Get TRIPOD+AI checklist for AI prediction model reporting',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          study_type: {
+            type: 'string',
+            enum: ['development', 'validation', 'both'],
+            description: 'Type of prediction model study'
+          },
+          model_type: {
+            type: 'string',
+            enum: ['traditional', 'machine_learning', 'deep_learning', 'ensemble'],
+            description: 'Type of prediction model used'
+          }
+        },
+        required: ['study_type', 'model_type']
+      }
+    },
+    {
+      name: 'assess_tripod_ai_compliance',
+      description: 'Assess compliance with TRIPOD+AI guidelines for a study',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          study_features: {
+            type: 'object',
+            description: 'Features of the study to assess'
+          }
+        },
+        required: ['study_features']
+      }
+    },
+    {
+      name: 'generate_ai_prediction_code',
+      description: 'Generate AI prediction model code following TRIPOD+AI guidelines',
+      inputSchema: {
+        type: 'object',
+        properties: {
+          query: {
+            type: 'string',
+            description: 'Natural language description of prediction task'
+          },
+          model_type: {
+            type: 'string',
+            enum: ['machine_learning', 'deep_learning', 'ensemble'],
+            description: 'Type of AI model to generate'
+          },
+          language: {
+            type: 'string',
+            enum: ['R', 'Python'],
+            description: 'Programming language for code generation',
+            default: 'R'
+          },
+          include_fairness: {
+            type: 'boolean',
+            description: 'Include algorithmic fairness assessment',
+            default: true
+          }
+        },
+        required: ['query', 'model_type']
       }
     }
   ],
@@ -838,6 +912,136 @@ WHERE NOT EXISTS (
         content: [{
           type: 'text',
           text: cohortDefinition
+        }]
+      };
+    }
+    
+    // TRIPOD+AI Tools
+    case 'get_tripod_ai_guidelines': {
+      const studyType = args.study_type as string;
+      const modelType = args.model_type as string;
+      
+      const checklist = generateTripodAIChecklist(studyType, modelType);
+      const guidelines = {
+        version: TRIPOD_AI_CHECKLIST.version,
+        study_type: studyType,
+        model_type: modelType,
+        checklist,
+        principles: TRIPOD_AI_PRINCIPLES,
+        key_items: {
+          title: TRIPOD_AI_CHECKLIST.sections.title_abstract.items[1],
+          methods: TRIPOD_AI_CHECKLIST.sections.methods.items[11],
+          validation: TRIPOD_AI_CHECKLIST.sections.methods.items[14],
+          presentation: TRIPOD_AI_CHECKLIST.sections.methods.items[15],
+          performance: TRIPOD_AI_CHECKLIST.sections.results.items[22],
+          fairness: TRIPOD_AI_CHECKLIST.sections.results.items[23]
+        }
+      };
+      
+      return {
+        content: [{
+          type: 'text',
+          text: JSON.stringify(guidelines, null, 2)
+        }]
+      };
+    }
+    
+    case 'assess_tripod_ai_compliance': {
+      const studyFeatures = args.study_features as any;
+      const compliance = assessTripodAICompliance(studyFeatures);
+      
+      return {
+        content: [{
+          type: 'text',
+          text: JSON.stringify(compliance, null, 2)
+        }]
+      };
+    }
+    
+    case 'generate_ai_prediction_code': {
+      const query = args.query as string;
+      const modelType = args.model_type as string;
+      const language = args.language as string || 'R';
+      const includeFairness = args.include_fairness !== false;
+      
+      // Parse query to create analysis spec with prediction model
+      const spec = analysisPipeline.parseEnhancedQuery(query);
+      
+      // Add prediction model configuration
+      spec.prediction_model = {
+        type: modelType as any,
+        purpose: 'diagnostic', // Could be inferred from query
+        outcomes: spec.entities.filter(e => e.type === 'outcome').map(e => e.text),
+        features: spec.entities.filter(e => e.type === 'predictor').map(e => e.text),
+        validation_strategy: 'cross_validation'
+      };
+      
+      // Generate TRIPOD+AI compliant code
+      const modelCode = tripodAIGenerator.generateModelDevelopmentSection(language, spec);
+      const validationCode = tripodAIGenerator.generateTripodAIValidationSection(language, spec);
+      
+      let fullCode = tripodAIGenerator.generateResearchCode(
+        spec,
+        language as any,
+        undefined,
+        false, // Don't include STROBE for pure ML studies
+        true   // Include TRIPOD+AI
+      );
+      
+      // Add specialized AI sections
+      fullCode += modelCode + validationCode;
+      
+      if (includeFairness) {
+        fullCode += `
+# ============================================================================
+# TRIPOD+AI Algorithmic Fairness Assessment
+# ============================================================================
+
+${language === 'R' ? `
+# Fairness metrics across demographic groups
+fairness_assessment <- function(predictions, true_labels, sensitive_attr) {
+  results <- list()
+  for (group in unique(sensitive_attr)) {
+    mask <- sensitive_attr == group
+    if (sum(mask) > 10) {  # Minimum sample size
+      results[[group]] <- list(
+        n = sum(mask),
+        accuracy = mean(predictions[mask] == true_labels[mask]),
+        auc = pROC::roc(true_labels[mask], predictions[mask])$auc
+      )
+    }
+  }
+  return(results)
+}
+
+# Apply fairness assessment
+race_fairness <- fairness_assessment(test_predictions, test_labels, test_data$race)
+gender_fairness <- fairness_assessment(test_predictions, test_labels, test_data$gender)
+` : `
+# Fairness metrics across demographic groups
+def fairness_assessment(predictions, true_labels, sensitive_attr):
+    results = {}
+    for group in np.unique(sensitive_attr):
+        mask = sensitive_attr == group
+        if np.sum(mask) > 10:  # Minimum sample size
+            results[group] = {
+                'n': np.sum(mask),
+                'accuracy': accuracy_score(true_labels[mask], predictions[mask]),
+                'auc': roc_auc_score(true_labels[mask], predictions[mask])
+            }
+    return results
+
+# Apply fairness assessment
+race_fairness = fairness_assessment(y_pred, y_test, test_data['race'])
+gender_fairness = fairness_assessment(y_pred, y_test, test_data['gender'])
+`}
+`;
+      }
+      
+      return {
+        content: [{
+          type: 'text',
+          text: fullCode
         }]
       };
     }
