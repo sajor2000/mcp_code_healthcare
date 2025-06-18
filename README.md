@@ -198,11 +198,13 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 // 7. Ensure STROBE compliance
 ```
 
-## API Documentation
+## 🛠️ Available Tools for Healthcare Researchers
 
-### Available Tools
+### Core Research Tools
 
-#### 1. Natural Language Query (Primary Interface)
+#### 1. 🔍 Ask Research Questions in Plain English (`natural_language_query`)
+**Purpose:** Transform your research questions into complete analysis code
+**Best for:** Starting any research project, hypothesis generation, cohort studies
 ```typescript
 {
   tool: "natural_language_query",
@@ -220,7 +222,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 2. Medical Knowledge Lookup
+#### 2. 📚 Look Up Medical Information (`lookup_medical_knowledge`)
+**Purpose:** Get detailed information about diseases, medications, lab tests, or procedures
+**Best for:** Understanding medical codes, finding related conditions, checking normal values
 ```typescript
 {
   tool: "lookup_medical_knowledge",
@@ -233,7 +237,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 3. Medical Literature Search
+#### 3. 🔬 Search Medical Literature (`search_medical_literature`)
+**Purpose:** Find relevant research papers, clinical guidelines, and evidence
+**Best for:** Literature reviews, finding best practices, evidence-based decisions
 ```typescript
 {
   tool: "search_medical_literature",
@@ -249,7 +255,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 4. External Search (Brave/Perplexity)
+#### 4. 🌐 Search Latest Medical Information (`search_external_sources`)
+**Purpose:** Find the most recent guidelines, news, and updates in healthcare
+**Best for:** Current guidelines, emerging treatments, latest research
 ```typescript
 {
   tool: "search_external_sources",
@@ -265,7 +273,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 2. Generate Analysis Code
+#### 5. 💻 Generate Analysis Code (`generate_research_code`)
+**Purpose:** Create complete statistical analysis scripts in R or Python
+**Best for:** Statistical analysis, data processing, reproducible research
 ```typescript
 {
   tool: "generate_research_code",
@@ -278,7 +288,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 3. Create Publication Figure
+#### 6. 📊 Create Publication-Ready Figures (`create_publication_figure`)
+**Purpose:** Generate professional graphs and charts for papers and presentations
+**Best for:** Journal submissions, conference presentations, reports
 ```typescript
 {
   tool: "create_publication_figure",
@@ -292,11 +304,13 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-### TRIPOD+AI Guidelines Tools (Latest!)
+### 🤖 AI & Prediction Model Tools
 
-**Complete TRIPOD+AI v2024 compliance for AI prediction models:**
+**Build trustworthy AI models with built-in fairness and transparency:**
 
-#### 1. TRIPOD+AI Guidelines Access
+#### 7. 📋 Get AI Best Practices (`get_tripod_ai_guidelines`)
+**Purpose:** Access the latest guidelines for developing AI prediction models
+**Best for:** Planning AI studies, ensuring transparency, meeting publication requirements
 ```typescript
 {
   tool: "get_tripod_ai_guidelines",
@@ -307,7 +321,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 2. AI Model Code Generation 
+#### 8. 🧠 Build AI Prediction Models (`generate_ai_prediction_code`)
+**Purpose:** Create machine learning models with automatic fairness checks
+**Best for:** Risk prediction, outcome forecasting, clinical decision support 
 ```typescript
 {
   tool: "generate_ai_prediction_code",
@@ -320,7 +336,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 3. Compliance Assessment
+#### 9. ✅ Check AI Model Quality (`assess_tripod_ai_compliance`)
+**Purpose:** Verify your AI model meets publication and ethical standards
+**Best for:** Pre-submission checks, ensuring model trustworthiness
 ```typescript
 {
   tool: "assess_tripod_ai_compliance",
@@ -330,11 +348,13 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-### OMOP-Enhanced Tools
+### 🏥 Working with Medical Data Standards (OMOP/CLIF)
 
-**Comprehensive OMOP CDM v5.4 support with 10 specialized tools:**
+**Tools for standardized healthcare data formats:**
 
-#### 1. OMOP Schema Access
+#### 10. 📋 Understand Your Data Structure (`get_omop_schema`)
+**Purpose:** Learn about OMOP Common Data Model tables and relationships
+**Best for:** Understanding your database, planning queries, data validation
 ```typescript
 {
   tool: "get_omop_schema",
@@ -345,7 +365,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 2. Medical Code Lookup
+#### 11. 🔍 Look Up Specific Medical Codes (`lookup_medical_code`)
+**Purpose:** Get detailed information about a specific medical code
+**Best for:** Understanding diagnoses, checking medication details, lab test info
 ```typescript
 {
   tool: "lookup_medical_code",
@@ -356,7 +378,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 3. Search Medical Codes
+#### 12. 🔎 Search for Medical Codes (`search_medical_codes`)
+**Purpose:** Find all codes related to a medical concept
+**Best for:** Building cohort definitions, finding related diagnoses, comprehensive searches
 ```typescript
 {
   tool: "search_medical_codes",
@@ -368,7 +392,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 4. Condition Code Retrieval
+#### 13. 🏥 Get All Codes for a Condition (`get_condition_codes`)
+**Purpose:** Find all relevant codes for a specific disease or condition
+**Best for:** Complete disease definitions, ensuring you capture all cases
 ```typescript
 {
   tool: "get_condition_codes",
@@ -379,7 +405,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 5. Generate OMOP Cohorts
+#### 14. 👥 Build Patient Groups (`generate_omop_cohort`)
+**Purpose:** Create SQL queries to identify specific patient populations
+**Best for:** Cohort studies, case-control matching, population selection
 ```typescript
 {
   tool: "generate_omop_cohort",
@@ -391,7 +419,9 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-#### 6. Legacy Medical Ontology Tool
+#### 15. 🗺️ Query Medical Vocabularies (`query_medical_ontology`)
+**Purpose:** Direct access to medical coding systems
+**Best for:** Advanced users, custom mappings, specialized queries
 ```typescript
 {
   tool: "query_medical_ontology",

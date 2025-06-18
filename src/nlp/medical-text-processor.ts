@@ -3,7 +3,7 @@ import { MCPError } from '../utils/errors.js';
 import { Cacheable } from '../utils/cache.js';
 import { MedicalEntity, ParsedQuery } from './medical-nlp.js';
 import { STROBE_CHECKLIST, checkSTROBECompliance, generateSTROBECompliantAdditions } from './strobe-guidelines.js';
-import { LLMProvider, LLMProviderFactory, LLMProviderConfig, MEDICAL_MODELS } from './llm-providers.js';
+import { LLMProvider, LLMProviderFactory, LLMProviderConfig, MEDICAL_MODELS } from './ai-model-providers.js';
 
 const llmLogger = createModuleLogger('llm-medical-nlp');
 
