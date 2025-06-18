@@ -2,7 +2,7 @@
   "mcpServers": {
     "healthcare-research": {
       "command": "node",
-      "args": ["/Users/JCR/healthcare-research-mcp/dist/server/index.js"],
+      "args": ["/path/to/healthcare-research-mcp/dist/server/index-standalone.js"],
       "env": {
         "ONTOLOGY_DB_PATH": "/Users/JCR/healthcare-research-mcp/data/databases/ontology.db",
         "RESEARCH_DB_PATH": "/Users/JCR/healthcare-research-mcp/data/databases/research.db",

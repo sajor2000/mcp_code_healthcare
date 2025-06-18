@@ -50,14 +50,25 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 - Comprehensive error handling and logging
 - Production-grade architecture
 
-## Installation
+## 🚀 Quick Start
+
+**Get running in 5 minutes!** See [QUICK_START.md](QUICK_START.md) for the fastest setup.
 
 ```bash
-# Clone the repository
-git clone https://github.com/yourusername/healthcare-research-mcp.git
-cd healthcare-research-mcp
+# Clone and install
+git clone https://github.com/sajor2000/mcp_code_healthcare.git
+cd mcp_code_healthcare
+npm install
 
-# Install dependencies
+# Quick test (no database needed)
+npm run build:standalone
+./test-mcp-standalone.sh
+```
+
+## Installation (Full Version)
+
+```bash
+# Install with all features
 npm install
 
 # Set up directories and databases
@@ -67,6 +78,8 @@ npm run db:init
 # Download medical ontologies (optional, for code mapping)
 npm run collect:ontologies
 ```
+
+> **Note**: If you have issues with `better-sqlite3`, use the standalone version which works without it.
 
 ## Configuration
 

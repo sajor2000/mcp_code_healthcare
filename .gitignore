@@ -23,6 +23,11 @@ data/cache/
 *.gz
 *.tar
 
+# Allow mock dataset files
+!data/mock-icu-data/**/*.csv
+!data/mock-icu-data/**/*.json
+!data/mock-icu-data/**/*.md
+
 # Build outputs
 dist/
 build/
