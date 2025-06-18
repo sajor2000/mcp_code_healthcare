@@ -1,0 +1,21 @@
+{
+  "dataset_info": {
+    "n_patients": 500,
+    "n_hospitalizations": 654,
+    "mortality_rate": 0.164,
+    "female_rate": 0.426,
+    "white_rate": 0.644,
+    "hispanic_rate": 0.066,
+    "median_age": 56
+  },
+  "table_counts": {
+    "patient": 500,
+    "hospitalization": 654,
+    "adt": 838,
+    "respiratory_support": 654,
+    "medication_orders": 3612,
+    "vitals": 444864,
+    "labs": 48207,
+    "patient_assessments": 20107
+  }
+}

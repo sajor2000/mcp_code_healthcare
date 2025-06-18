@@ -1,0 +1,501 @@
+patient_id,race_name,race_category,ethnicity_name,ethnicity_category,sex_name,sex_category,birth_date,death_dttm,language_name,language_category
+P000001,White,White,Hispanic or Latino,Hispanic,Female,Female,1952-01-01,,Spanish,English
+P000002,Other,Other,Hispanic or Latino,Hispanic,Male,Male,1967-01-01,2024-09-15 00:00:00+00:00,Other,English
+P000003,White,White,Not Hispanic,Non-Hispanic,Female,Female,1963-01-01,2024-07-07 00:00:00+00:00,English,English
+P000004,White,White,Hispanic or Latino,Hispanic,Male,Male,1973-01-01,2024-11-03 00:00:00+00:00,Other,English
+P000005,White,White,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,English
+P000006,White,White,Not Hispanic,Non-Hispanic,Female,Female,1964-01-01,,English,Spanish
+P000007,White,White,Not Hispanic,Non-Hispanic,Female,Female,2001-01-01,,Other,Spanish
+P000008,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,,English,English
+P000009,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1997-01-01,2024-03-22 00:00:00+00:00,Other,English
+P000010,White,White,Not Hispanic,Non-Hispanic,Female,Female,1990-01-01,,English,English
+P000011,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1993-01-01,,English,English
+P000012,White,White,Not Hispanic,Non-Hispanic,Female,Female,1948-01-01,,Chinese,English
+P000013,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000014,White,White,Not Hispanic,Non-Hispanic,Female,Female,1949-01-01,,English,English
+P000015,White,White,Not Hispanic,Non-Hispanic,Male,Male,1971-01-01,,English,English
+P000016,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,2024-05-17 00:00:00+00:00,English,English
+P000017,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1956-01-01,2024-02-22 00:00:00+00:00,English,Other
+P000018,White,White,Not Hispanic,Non-Hispanic,Female,Female,1991-01-01,,English,English
+P000019,White,White,Not Hispanic,Non-Hispanic,Female,Female,2005-01-01,,Spanish,English
+P000020,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1923-01-01,,English,English
+P000021,White,White,Not Hispanic,Non-Hispanic,Male,Male,1973-01-01,,Other,English
+P000022,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1942-01-01,,English,English
+P000023,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1977-01-01,,English,Chinese
+P000024,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1975-01-01,,English,Chinese
+P000025,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,,English,English
+P000026,White,White,Not Hispanic,Non-Hispanic,Female,Female,1935-01-01,,English,English
+P000027,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1942-01-01,,English,Other
+P000028,White,White,Not Hispanic,Non-Hispanic,Female,Female,1939-01-01,,English,Spanish
+P000029,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1964-01-01,,English,Chinese
+P000030,White,White,Not Hispanic,Non-Hispanic,Female,Female,1993-01-01,,Other,English
+P000031,White,White,Not Hispanic,Non-Hispanic,Female,Female,1983-01-01,,Other,English
+P000032,White,White,Not Hispanic,Non-Hispanic,Female,Female,1976-01-01,,English,Spanish
+P000033,White,White,Not Hispanic,Non-Hispanic,Female,Female,1954-01-01,,English,English
+P000034,White,White,Hispanic or Latino,Hispanic,Female,Female,1979-01-01,,Chinese,English
+P000035,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1993-01-01,,Spanish,English
+P000036,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Other
+P000037,White,White,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,,Other,English
+P000038,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1967-01-01,,English,English
+P000039,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,English,Other
+P000040,White,White,Not Hispanic,Non-Hispanic,Male,Male,1978-01-01,,English,English
+P000041,White,White,Hispanic or Latino,Hispanic,Male,Male,1978-01-01,,Spanish,Spanish
+P000042,White,White,Not Hispanic,Non-Hispanic,Male,Male,1969-01-01,,Chinese,English
+P000043,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Spanish
+P000044,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1962-01-01,,English,Spanish
+P000045,White,White,Not Hispanic,Non-Hispanic,Female,Female,1986-01-01,,English,English
+P000046,White,White,Not Hispanic,Non-Hispanic,Female,Female,1949-01-01,,English,English
+P000047,White,White,Not Hispanic,Non-Hispanic,Male,Male,1953-01-01,,English,English
+P000048,White,White,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,English
+P000049,White,White,Hispanic or Latino,Hispanic,Female,Female,1948-01-01,,Other,Spanish
+P000050,White,White,Not Hispanic,Non-Hispanic,Male,Male,2002-01-01,,English,English
+P000051,White,White,Not Hispanic,Non-Hispanic,Male,Male,1934-01-01,,Other,Other
+P000052,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Spanish
+P000053,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Female,Female,1962-01-01,,English,English
+P000054,White,White,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,,English,English
+P000055,White,White,Not Hispanic,Non-Hispanic,Female,Female,1967-01-01,,English,English
+P000056,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000057,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,,English,English
+P000058,White,White,Not Hispanic,Non-Hispanic,Male,Male,2004-01-01,,English,English
+P000059,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1978-01-01,,Other,English
+P000060,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1983-01-01,2024-01-09 00:00:00+00:00,English,English
+P000061,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,2024-07-20 00:00:00+00:00,English,Chinese
+P000062,White,White,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,Other,Spanish
+P000063,White,White,Not Hispanic,Non-Hispanic,Male,Male,1933-01-01,2024-12-07 00:00:00+00:00,English,English
+P000064,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1974-01-01,2024-11-07 00:00:00+00:00,Other,English
+P000065,White,White,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,2024-02-21 00:00:00+00:00,Spanish,English
+P000066,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1948-01-01,2024-09-07 00:00:00+00:00,Spanish,English
+P000067,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1937-01-01,2024-10-30 00:00:00+00:00,Spanish,Chinese
+P000068,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1960-01-01,,English,English
+P000069,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1999-01-01,,English,Spanish
+P000070,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,2024-03-10 00:00:00+00:00,English,English
+P000071,White,White,Not Hispanic,Non-Hispanic,Male,Male,1955-01-01,,English,English
+P000072,White,White,Not Hispanic,Non-Hispanic,Female,Female,1983-01-01,,English,English
+P000073,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,,English,Chinese
+P000074,White,White,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,2024-01-27 00:00:00+00:00,Other,English
+P000075,White,White,Not Hispanic,Non-Hispanic,Male,Male,1964-01-01,,English,English
+P000076,American Indian,American Indian,Not Hispanic,Non-Hispanic,Female,Female,1962-01-01,,English,English
+P000077,White,White,Not Hispanic,Non-Hispanic,Female,Female,1979-01-01,,English,English
+P000078,White,White,Not Hispanic,Non-Hispanic,Male,Male,1950-01-01,,English,English
+P000079,White,White,Not Hispanic,Non-Hispanic,Male,Male,1999-01-01,,English,Other
+P000080,White,White,Not Hispanic,Non-Hispanic,Female,Female,1936-01-01,2024-03-11 00:00:00+00:00,English,English
+P000081,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,,English,English
+P000082,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1951-01-01,,English,English
+P000083,White,White,Not Hispanic,Non-Hispanic,Female,Female,1959-01-01,,English,English
+P000084,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,English,Spanish
+P000085,White,White,Not Hispanic,Non-Hispanic,Male,Male,1993-01-01,,English,English
+P000086,White,White,Not Hispanic,Non-Hispanic,Male,Male,1960-01-01,2024-10-23 00:00:00+00:00,Spanish,Spanish
+P000087,White,White,Not Hispanic,Non-Hispanic,Female,Female,1962-01-01,,Chinese,English
+P000088,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000089,White,White,Not Hispanic,Non-Hispanic,Male,Male,1943-01-01,,English,English
+P000090,White,White,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,2024-04-21 00:00:00+00:00,Spanish,English
+P000091,White,White,Not Hispanic,Non-Hispanic,Male,Male,1982-01-01,,Spanish,Chinese
+P000092,White,White,Not Hispanic,Non-Hispanic,Female,Female,1937-01-01,,English,English
+P000093,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1974-01-01,,English,English
+P000094,White,White,Not Hispanic,Non-Hispanic,Female,Female,1996-01-01,,English,English
+P000095,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1923-01-01,,English,English
+P000096,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Other
+P000097,White,White,Not Hispanic,Non-Hispanic,Female,Female,1928-01-01,2024-11-09 00:00:00+00:00,English,English
+P000098,White,White,Not Hispanic,Non-Hispanic,Female,Female,1980-01-01,,Other,English
+P000099,White,White,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,,English,English
+P000100,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1937-01-01,2024-02-19 00:00:00+00:00,English,English
+P000101,White,White,Not Hispanic,Non-Hispanic,Male,Male,1978-01-01,,English,Chinese
+P000102,White,White,Not Hispanic,Non-Hispanic,Male,Male,1976-01-01,,English,English
+P000103,White,White,Not Hispanic,Non-Hispanic,Male,Male,1975-01-01,,Spanish,Other
+P000104,White,White,Not Hispanic,Non-Hispanic,Female,Female,1990-01-01,,English,English
+P000105,White,White,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,Spanish,English
+P000106,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,English,English
+P000107,White,White,Not Hispanic,Non-Hispanic,Male,Male,1946-01-01,,English,English
+P000108,White,White,Not Hispanic,Non-Hispanic,Male,Male,1956-01-01,,English,English
+P000109,White,White,Not Hispanic,Non-Hispanic,Female,Female,1988-01-01,,English,Other
+P000110,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1975-01-01,,English,English
+P000111,White,White,Not Hispanic,Non-Hispanic,Female,Female,1954-01-01,,Other,English
+P000112,White,White,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,,English,English
+P000113,White,White,Not Hispanic,Non-Hispanic,Female,Female,1980-01-01,,Chinese,English
+P000114,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,English,English
+P000115,White,White,Not Hispanic,Non-Hispanic,Male,Male,1937-01-01,2024-10-19 00:00:00+00:00,English,Chinese
+P000116,White,White,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,,English,English
+P000117,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1923-01-01,,English,English
+P000118,White,White,Not Hispanic,Non-Hispanic,Male,Male,1988-01-01,,English,English
+P000119,White,White,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,2024-01-13 00:00:00+00:00,English,Other
+P000120,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1989-01-01,,English,Spanish
+P000121,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1969-01-01,,English,English
+P000122,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1943-01-01,,Other,English
+P000123,Asian,Asian,Hispanic or Latino,Hispanic,Female,Female,1960-01-01,,English,English
+P000124,White,White,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,2024-01-16 00:00:00+00:00,English,English
+P000125,White,White,Not Hispanic,Non-Hispanic,Female,Female,1930-01-01,,English,English
+P000126,White,White,Not Hispanic,Non-Hispanic,Male,Male,1948-01-01,2024-01-30 00:00:00+00:00,English,Chinese
+P000127,White,White,Not Hispanic,Non-Hispanic,Female,Female,1967-01-01,,English,English
+P000128,White,White,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,,English,English
+P000129,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1982-01-01,,English,Chinese
+P000130,White,White,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,English
+P000131,White,White,Not Hispanic,Non-Hispanic,Female,Female,1947-01-01,,Spanish,English
+P000132,White,White,Not Hispanic,Non-Hispanic,Male,Male,1925-01-01,2024-06-09 00:00:00+00:00,English,Chinese
+P000133,White,White,Not Hispanic,Non-Hispanic,Female,Female,1976-01-01,,English,Spanish
+P000134,White,White,Hispanic or Latino,Hispanic,Female,Female,1965-01-01,,English,English
+P000135,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1968-01-01,,English,Chinese
+P000136,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1941-01-01,,English,Spanish
+P000137,White,White,Not Hispanic,Non-Hispanic,Female,Female,1963-01-01,,Other,English
+P000138,American Indian,American Indian,Hispanic or Latino,Hispanic,Male,Male,1982-01-01,,Spanish,English
+P000139,White,White,Hispanic or Latino,Hispanic,Male,Male,1949-01-01,2024-09-15 00:00:00+00:00,English,English
+P000140,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1963-01-01,,Spanish,English
+P000141,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,,Other,English
+P000142,White,White,Not Hispanic,Non-Hispanic,Female,Female,1968-01-01,2024-07-12 00:00:00+00:00,Other,English
+P000143,White,White,Not Hispanic,Non-Hispanic,Male,Male,1972-01-01,,Spanish,English
+P000144,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1976-01-01,,Spanish,English
+P000145,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,,English,Spanish
+P000146,White,White,Not Hispanic,Non-Hispanic,Male,Male,1953-01-01,,English,English
+P000147,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1958-01-01,,English,English
+P000148,White,White,Hispanic or Latino,Hispanic,Male,Male,1973-01-01,,Spanish,English
+P000149,White,White,Hispanic or Latino,Hispanic,Female,Female,1974-01-01,,English,English
+P000150,White,White,Not Hispanic,Non-Hispanic,Male,Male,1955-01-01,,English,Other
+P000151,White,White,Not Hispanic,Non-Hispanic,Male,Male,1993-01-01,,English,English
+P000152,White,White,Hispanic or Latino,Hispanic,Female,Female,1958-01-01,,English,English
+P000153,White,White,Not Hispanic,Non-Hispanic,Male,Male,1952-01-01,,Chinese,English
+P000154,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1974-01-01,,English,English
+P000155,Other,Other,Hispanic or Latino,Hispanic,Female,Female,1936-01-01,2024-05-03 00:00:00+00:00,English,English
+P000156,White,White,Not Hispanic,Non-Hispanic,Male,Male,1954-01-01,,English,Spanish
+P000157,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,,English,English
+P000158,White,White,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,,English,Other
+P000159,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,,English,English
+P000160,White,White,Not Hispanic,Non-Hispanic,Female,Female,1935-01-01,,Other,English
+P000161,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1966-01-01,,Chinese,Chinese
+P000162,White,White,Not Hispanic,Non-Hispanic,Female,Female,1994-01-01,,English,English
+P000163,White,White,Not Hispanic,Non-Hispanic,Female,Female,1976-01-01,,English,Spanish
+P000164,White,White,Not Hispanic,Non-Hispanic,Male,Male,1994-01-01,,English,English
+P000165,White,White,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,Other
+P000166,White,White,Not Hispanic,Non-Hispanic,Male,Male,1993-01-01,,English,English
+P000167,White,White,Hispanic or Latino,Hispanic,Female,Female,1970-01-01,,English,English
+P000168,White,White,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,,English,English
+P000169,White,White,Not Hispanic,Non-Hispanic,Female,Female,1966-01-01,,Other,English
+P000170,White,White,Not Hispanic,Non-Hispanic,Male,Male,1976-01-01,,English,Spanish
+P000171,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1963-01-01,,English,English
+P000172,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1983-01-01,,Spanish,English
+P000173,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1948-01-01,,English,Spanish
+P000174,White,White,Not Hispanic,Non-Hispanic,Male,Male,1973-01-01,,English,English
+P000175,White,White,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,,English,Chinese
+P000176,White,White,Not Hispanic,Non-Hispanic,Female,Female,1955-01-01,,Spanish,Spanish
+P000177,White,White,Not Hispanic,Non-Hispanic,Male,Male,1925-01-01,,English,English
+P000178,White,White,Not Hispanic,Non-Hispanic,Female,Female,1988-01-01,,English,English
+P000179,White,White,Not Hispanic,Non-Hispanic,Male,Male,1994-01-01,,Spanish,English
+P000180,White,White,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,,English,Spanish
+P000181,White,White,Not Hispanic,Non-Hispanic,Male,Male,1964-01-01,,English,English
+P000182,White,White,Not Hispanic,Non-Hispanic,Male,Male,1969-01-01,2024-10-04 00:00:00+00:00,English,English
+P000183,White,White,Not Hispanic,Non-Hispanic,Male,Male,1954-01-01,,English,English
+P000184,White,White,Not Hispanic,Non-Hispanic,Female,Female,1985-01-01,,English,Chinese
+P000185,White,White,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,2024-11-06 00:00:00+00:00,Other,English
+P000186,White,White,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,,Chinese,English
+P000187,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1963-01-01,,English,English
+P000188,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1981-01-01,,English,English
+P000189,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000190,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,English,English
+P000191,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,English,English
+P000192,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1977-01-01,,English,Chinese
+P000193,White,White,Not Hispanic,Non-Hispanic,Female,Female,1987-01-01,,Other,English
+P000194,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,2024-10-27 00:00:00+00:00,Spanish,English
+P000195,White,White,Not Hispanic,Non-Hispanic,Male,Male,1954-01-01,,Other,English
+P000196,White,White,Not Hispanic,Non-Hispanic,Male,Male,1982-01-01,2024-12-26 00:00:00+00:00,English,English
+P000197,White,White,Not Hispanic,Non-Hispanic,Male,Male,1970-01-01,,English,English
+P000198,White,White,Not Hispanic,Non-Hispanic,Female,Female,1978-01-01,,English,Other
+P000199,White,White,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,English,English
+P000200,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1941-01-01,,English,Spanish
+P000201,White,White,Not Hispanic,Non-Hispanic,Male,Male,2002-01-01,2024-12-13 00:00:00+00:00,English,Spanish
+P000202,White,White,Not Hispanic,Non-Hispanic,Female,Female,1964-01-01,,English,English
+P000203,White,White,Not Hispanic,Non-Hispanic,Female,Female,1943-01-01,2024-01-26 00:00:00+00:00,English,English
+P000204,White,White,Not Hispanic,Non-Hispanic,Male,Male,1946-01-01,2024-05-10 00:00:00+00:00,Spanish,English
+P000205,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,,English,English
+P000206,White,White,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,Spanish,English
+P000207,White,White,Not Hispanic,Non-Hispanic,Male,Male,1978-01-01,,Chinese,English
+P000208,Black or African-American,Black or African-American,Hispanic or Latino,Hispanic,Male,Male,1974-01-01,,English,English
+P000209,White,White,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,English,English
+P000210,White,White,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,,English,English
+P000211,White,White,Not Hispanic,Non-Hispanic,Female,Female,1964-01-01,,Spanish,Chinese
+P000212,White,White,Not Hispanic,Non-Hispanic,Male,Male,1934-01-01,,English,English
+P000213,White,White,Not Hispanic,Non-Hispanic,Male,Male,1986-01-01,,English,English
+P000214,White,White,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,2024-03-28 00:00:00+00:00,English,Other
+P000215,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,English,English
+P000216,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,2024-08-08 00:00:00+00:00,Other,English
+P000217,White,White,Not Hispanic,Non-Hispanic,Female,Female,1946-01-01,,English,Chinese
+P000218,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,2024-09-26 00:00:00+00:00,English,English
+P000219,White,White,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,English,English
+P000220,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1968-01-01,,Spanish,Chinese
+P000221,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1970-01-01,,Spanish,English
+P000222,White,White,Not Hispanic,Non-Hispanic,Female,Female,1959-01-01,,English,Spanish
+P000223,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1989-01-01,,English,English
+P000224,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1950-01-01,,English,English
+P000225,White,White,Not Hispanic,Non-Hispanic,Male,Male,1996-01-01,,Spanish,English
+P000226,White,White,Hispanic or Latino,Hispanic,Male,Male,1919-01-01,2024-04-22 00:00:00+00:00,Spanish,English
+P000227,White,White,Not Hispanic,Non-Hispanic,Male,Male,1954-01-01,,English,English
+P000228,White,White,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,English,English
+P000229,White,White,Not Hispanic,Non-Hispanic,Male,Male,2000-01-01,,English,English
+P000230,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1961-01-01,,English,Spanish
+P000231,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1978-01-01,2024-06-01 00:00:00+00:00,Spanish,English
+P000232,White,White,Not Hispanic,Non-Hispanic,Female,Female,1986-01-01,,English,Other
+P000233,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1968-01-01,,English,English
+P000234,White,White,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,English,English
+P000235,White,White,Not Hispanic,Non-Hispanic,Male,Male,1935-01-01,,English,English
+P000236,White,White,Not Hispanic,Non-Hispanic,Female,Female,1951-01-01,,English,English
+P000237,White,White,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,,Spanish,English
+P000238,White,White,Not Hispanic,Non-Hispanic,Male,Male,1966-01-01,,Spanish,English
+P000239,White,White,Not Hispanic,Non-Hispanic,Male,Male,1968-01-01,2024-10-28 00:00:00+00:00,English,English
+P000240,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1936-01-01,2024-06-09 00:00:00+00:00,Other,English
+P000241,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1979-01-01,,English,English
+P000242,White,White,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,,English,English
+P000243,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000244,White,White,Not Hispanic,Non-Hispanic,Male,Male,1955-01-01,,Spanish,English
+P000245,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Spanish
+P000246,White,White,Not Hispanic,Non-Hispanic,Female,Female,1977-01-01,,Spanish,English
+P000247,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,Other
+P000248,White,White,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,Spanish,English
+P000249,White,White,Not Hispanic,Non-Hispanic,Female,Female,1979-01-01,,Spanish,English
+P000250,White,White,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,,Spanish,English
+P000251,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1951-01-01,,English,English
+P000252,White,White,Not Hispanic,Non-Hispanic,Male,Male,1957-01-01,,Spanish,English
+P000253,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,,English,Chinese
+P000254,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,English,English
+P000255,White,White,Not Hispanic,Non-Hispanic,Male,Male,1969-01-01,,English,English
+P000256,White,White,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,Spanish
+P000257,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1929-01-01,2024-06-29 00:00:00+00:00,English,English
+P000258,White,White,Not Hispanic,Non-Hispanic,Female,Female,1920-01-01,,English,English
+P000259,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1951-01-01,,English,English
+P000260,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1942-01-01,,Spanish,Chinese
+P000261,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,Chinese,English
+P000262,White,White,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,Spanish,English
+P000263,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1986-01-01,,English,Other
+P000264,White,White,Not Hispanic,Non-Hispanic,Male,Male,1950-01-01,,English,English
+P000265,White,White,Hispanic or Latino,Hispanic,Female,Female,1941-01-01,2024-11-13 00:00:00+00:00,English,English
+P000266,White,White,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,2024-09-21 00:00:00+00:00,Other,English
+P000267,White,White,Not Hispanic,Non-Hispanic,Female,Female,1982-01-01,,Spanish,English
+P000268,White,White,Hispanic or Latino,Hispanic,Male,Male,1987-01-01,,Spanish,English
+P000269,White,White,Not Hispanic,Non-Hispanic,Female,Female,1944-01-01,2024-12-09 00:00:00+00:00,Spanish,English
+P000270,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,English
+P000271,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1939-01-01,,English,English
+P000272,White,White,Not Hispanic,Non-Hispanic,Male,Male,1977-01-01,,English,Other
+P000273,White,White,Not Hispanic,Non-Hispanic,Female,Female,1959-01-01,,English,English
+P000274,White,White,Not Hispanic,Non-Hispanic,Male,Male,1970-01-01,,English,English
+P000275,White,White,Hispanic or Latino,Hispanic,Male,Male,1979-01-01,2024-11-03 00:00:00+00:00,English,English
+P000276,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,,English,English
+P000277,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1966-01-01,,English,English
+P000278,White,White,Not Hispanic,Non-Hispanic,Male,Male,1972-01-01,,English,Chinese
+P000279,White,White,Not Hispanic,Non-Hispanic,Male,Male,1950-01-01,,English,Chinese
+P000280,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,2024-02-09 00:00:00+00:00,Chinese,English
+P000281,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,2024-03-22 00:00:00+00:00,English,English
+P000282,White,White,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,2024-10-04 00:00:00+00:00,English,English
+P000283,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1992-01-01,,Chinese,English
+P000284,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1944-01-01,,English,English
+P000285,White,White,Hispanic or Latino,Hispanic,Female,Female,1995-01-01,,English,English
+P000286,White,White,Not Hispanic,Non-Hispanic,Male,Male,1976-01-01,,English,Other
+P000287,White,White,Hispanic or Latino,Hispanic,Female,Female,1968-01-01,,English,Other
+P000288,White,White,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,,English,English
+P000289,White,White,Not Hispanic,Non-Hispanic,Female,Female,1966-01-01,2024-06-19 00:00:00+00:00,Other,English
+P000290,White,White,Not Hispanic,Non-Hispanic,Female,Female,1959-01-01,2024-08-12 00:00:00+00:00,English,English
+P000291,White,White,Not Hispanic,Non-Hispanic,Female,Female,1980-01-01,,English,English
+P000292,White,White,Not Hispanic,Non-Hispanic,Female,Female,1988-01-01,,English,English
+P000293,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1981-01-01,,English,English
+P000294,White,White,Not Hispanic,Non-Hispanic,Male,Male,1973-01-01,,Chinese,English
+P000295,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1988-01-01,,Spanish,English
+P000296,White,White,Not Hispanic,Non-Hispanic,Male,Male,1966-01-01,,English,English
+P000297,White,White,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,Spanish,Other
+P000298,White,White,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,,Spanish,English
+P000299,American Indian,American Indian,Not Hispanic,Non-Hispanic,Female,Female,1971-01-01,,English,English
+P000300,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,Spanish,English
+P000301,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1969-01-01,,Spanish,English
+P000302,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1951-01-01,,Spanish,English
+P000303,White,White,Not Hispanic,Non-Hispanic,Female,Female,1946-01-01,,English,English
+P000304,American Indian,American Indian,Not Hispanic,Non-Hispanic,Female,Female,1961-01-01,2024-03-02 00:00:00+00:00,English,Spanish
+P000305,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1967-01-01,,English,Spanish
+P000306,White,White,Not Hispanic,Non-Hispanic,Female,Female,1993-01-01,,English,English
+P000307,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1979-01-01,,English,Spanish
+P000308,White,White,Not Hispanic,Non-Hispanic,Male,Male,1929-01-01,,English,English
+P000309,White,White,Not Hispanic,Non-Hispanic,Male,Male,1968-01-01,2024-02-29 00:00:00+00:00,English,English
+P000310,White,White,Hispanic or Latino,Hispanic,Female,Female,1975-01-01,,English,English
+P000311,White,White,Not Hispanic,Non-Hispanic,Female,Female,1960-01-01,,English,English
+P000312,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Male,Male,1989-01-01,,Chinese,English
+P000313,White,White,Not Hispanic,Non-Hispanic,Female,Female,1980-01-01,2024-07-05 00:00:00+00:00,Spanish,English
+P000314,White,White,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,,Other,English
+P000315,White,White,Not Hispanic,Non-Hispanic,Male,Male,1976-01-01,,English,Spanish
+P000316,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1984-01-01,,English,English
+P000317,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,Spanish,Spanish
+P000318,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1966-01-01,2024-01-04 00:00:00+00:00,English,English
+P000319,White,White,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,,English,English
+P000320,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1992-01-01,2024-05-18 00:00:00+00:00,Chinese,English
+P000321,White,White,Not Hispanic,Non-Hispanic,Female,Female,1986-01-01,,English,English
+P000322,White,White,Not Hispanic,Non-Hispanic,Female,Female,1973-01-01,,English,English
+P000323,White,White,Not Hispanic,Non-Hispanic,Male,Male,1971-01-01,,English,English
+P000324,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1949-01-01,,English,English
+P000325,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000326,White,White,Not Hispanic,Non-Hispanic,Male,Male,1942-01-01,2024-11-08 00:00:00+00:00,English,English
+P000327,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,2024-12-28 00:00:00+00:00,English,Other
+P000328,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1941-01-01,,English,English
+P000329,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,,English,English
+P000330,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1995-01-01,,Other,Spanish
+P000331,White,White,Not Hispanic,Non-Hispanic,Male,Male,1979-01-01,,English,Chinese
+P000332,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1981-01-01,,English,English
+P000333,White,White,Not Hispanic,Non-Hispanic,Male,Male,1954-01-01,,Chinese,English
+P000334,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,Spanish,Spanish
+P000335,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1928-01-01,2024-02-09 00:00:00+00:00,Spanish,English
+P000336,White,White,Not Hispanic,Non-Hispanic,Male,Male,1952-01-01,,English,English
+P000337,White,White,Not Hispanic,Non-Hispanic,Female,Female,1950-01-01,,English,Chinese
+P000338,White,White,Hispanic or Latino,Hispanic,Male,Male,1964-01-01,,English,English
+P000339,White,White,Not Hispanic,Non-Hispanic,Male,Male,1948-01-01,,English,Spanish
+P000340,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1952-01-01,,English,English
+P000341,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1947-01-01,,English,Chinese
+P000342,White,White,Not Hispanic,Non-Hispanic,Male,Male,1970-01-01,,English,English
+P000343,American Indian,American Indian,Not Hispanic,Non-Hispanic,Female,Female,1935-01-01,2024-11-20 00:00:00+00:00,English,Spanish
+P000344,White,White,Not Hispanic,Non-Hispanic,Male,Male,1977-01-01,,Other,English
+P000345,White,White,Not Hispanic,Non-Hispanic,Male,Male,1932-01-01,,English,English
+P000346,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1938-01-01,2024-11-28 00:00:00+00:00,Spanish,English
+P000347,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,Chinese
+P000348,White,White,Not Hispanic,Non-Hispanic,Female,Female,1976-01-01,,English,Spanish
+P000349,White,White,Not Hispanic,Non-Hispanic,Female,Female,1925-01-01,,English,English
+P000350,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,English,English
+P000351,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1958-01-01,,English,Spanish
+P000352,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1975-01-01,,English,Other
+P000353,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1985-01-01,,English,English
+P000354,Other,Other,Hispanic or Latino,Hispanic,Male,Male,1992-01-01,,English,English
+P000355,White,White,Not Hispanic,Non-Hispanic,Male,Male,1971-01-01,,English,Spanish
+P000356,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1974-01-01,,English,English
+P000357,Black or African-American,Black or African-American,Hispanic or Latino,Hispanic,Female,Female,1981-01-01,,English,English
+P000358,White,White,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,,Spanish,English
+P000359,White,White,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,,Other,English
+P000360,White,White,Not Hispanic,Non-Hispanic,Male,Male,1934-01-01,,English,English
+P000361,White,White,Not Hispanic,Non-Hispanic,Male,Male,1924-01-01,2024-06-06 00:00:00+00:00,Other,English
+P000362,White,White,Not Hispanic,Non-Hispanic,Female,Female,1955-01-01,,English,English
+P000363,White,White,Not Hispanic,Non-Hispanic,Female,Female,1988-01-01,,Other,English
+P000364,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,2024-11-18 00:00:00+00:00,English,English
+P000365,White,White,Not Hispanic,Non-Hispanic,Female,Female,1977-01-01,,Spanish,Other
+P000366,White,White,Hispanic or Latino,Hispanic,Male,Male,1968-01-01,,English,English
+P000367,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1957-01-01,,English,Other
+P000368,White,White,Not Hispanic,Non-Hispanic,Female,Female,1981-01-01,,English,English
+P000369,White,White,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,English
+P000370,White,White,Not Hispanic,Non-Hispanic,Female,Female,1955-01-01,,English,English
+P000371,White,White,Not Hispanic,Non-Hispanic,Male,Male,1950-01-01,,Spanish,Spanish
+P000372,White,White,Not Hispanic,Non-Hispanic,Male,Male,1990-01-01,,English,Other
+P000373,White,White,Not Hispanic,Non-Hispanic,Female,Female,1959-01-01,,English,Spanish
+P000374,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,Other,English
+P000375,White,White,Not Hispanic,Non-Hispanic,Female,Female,1979-01-01,,English,English
+P000376,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1944-01-01,,English,English
+P000377,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1964-01-01,,English,English
+P000378,White,White,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,,Spanish,Spanish
+P000379,White,White,Not Hispanic,Non-Hispanic,Male,Male,1986-01-01,,English,Other
+P000380,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Male,Male,1936-01-01,2024-04-28 00:00:00+00:00,English,English
+P000381,White,White,Not Hispanic,Non-Hispanic,Male,Male,2000-01-01,,English,English
+P000382,White,White,Not Hispanic,Non-Hispanic,Male,Male,1920-01-01,,English,English
+P000383,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1974-01-01,,English,English
+P000384,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1982-01-01,,Other,English
+P000385,White,White,Not Hispanic,Non-Hispanic,Male,Male,1974-01-01,,English,English
+P000386,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Other
+P000387,White,White,Not Hispanic,Non-Hispanic,Male,Male,1926-01-01,2024-10-09 00:00:00+00:00,English,English
+P000388,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,English,Spanish
+P000389,White,White,Not Hispanic,Non-Hispanic,Male,Male,1986-01-01,,English,English
+P000390,White,White,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,Chinese,English
+P000391,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1965-01-01,,English,Spanish
+P000392,White,White,Not Hispanic,Non-Hispanic,Female,Female,1997-01-01,,English,English
+P000393,White,White,Not Hispanic,Non-Hispanic,Female,Female,1948-01-01,,English,English
+P000394,White,White,Not Hispanic,Non-Hispanic,Female,Female,1949-01-01,2024-05-16 00:00:00+00:00,English,English
+P000395,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,2024-07-30 00:00:00+00:00,English,Chinese
+P000396,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Male,Male,1955-01-01,,English,English
+P000397,White,White,Not Hispanic,Non-Hispanic,Female,Female,1958-01-01,,English,English
+P000398,White,White,Not Hispanic,Non-Hispanic,Male,Male,1942-01-01,2024-03-22 00:00:00+00:00,English,Other
+P000399,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,English
+P000400,White,White,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,Spanish,English
+P000401,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1929-01-01,,English,English
+P000402,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1975-01-01,,English,English
+P000403,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1993-01-01,,English,Spanish
+P000404,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,English
+P000405,White,White,Not Hispanic,Non-Hispanic,Female,Female,1987-01-01,,English,English
+P000406,White,White,Not Hispanic,Non-Hispanic,Female,Female,1963-01-01,,English,English
+P000407,White,White,Not Hispanic,Non-Hispanic,Female,Female,1985-01-01,,Spanish,English
+P000408,White,White,Not Hispanic,Non-Hispanic,Female,Female,1926-01-01,,English,Other
+P000409,White,White,Not Hispanic,Non-Hispanic,Male,Male,1992-01-01,,English,Other
+P000410,White,White,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,,Spanish,English
+P000411,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1960-01-01,2024-08-30 00:00:00+00:00,English,Spanish
+P000412,White,White,Not Hispanic,Non-Hispanic,Male,Male,1921-01-01,,English,English
+P000413,White,White,Not Hispanic,Non-Hispanic,Male,Male,1942-01-01,,English,English
+P000414,American Indian,American Indian,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,Spanish
+P000415,White,White,Not Hispanic,Non-Hispanic,Male,Male,1973-01-01,,Other,English
+P000416,White,White,Not Hispanic,Non-Hispanic,Male,Male,1958-01-01,,English,Other
+P000417,White,White,Not Hispanic,Non-Hispanic,Male,Male,1943-01-01,,English,English
+P000418,White,White,Not Hispanic,Non-Hispanic,Female,Female,1968-01-01,2024-02-22 00:00:00+00:00,English,English
+P000419,White,White,Not Hispanic,Non-Hispanic,Female,Female,1992-01-01,,English,Spanish
+P000420,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1990-01-01,,English,Other
+P000421,White,White,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,2024-02-01 00:00:00+00:00,English,English
+P000422,White,White,Not Hispanic,Non-Hispanic,Male,Male,1986-01-01,,English,Spanish
+P000423,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1963-01-01,,English,Spanish
+P000424,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Male,Male,1973-01-01,,English,English
+P000425,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1943-01-01,,Spanish,English
+P000426,White,White,Not Hispanic,Non-Hispanic,Male,Male,1975-01-01,2024-12-03 00:00:00+00:00,English,Spanish
+P000427,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1998-01-01,,English,Spanish
+P000428,White,White,Not Hispanic,Non-Hispanic,Male,Male,1958-01-01,,English,English
+P000429,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Male,Male,1968-01-01,,English,English
+P000430,White,White,Hispanic or Latino,Hispanic,Male,Male,1919-01-01,,English,English
+P000431,White,White,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,Other,Other
+P000432,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1946-01-01,,English,Spanish
+P000433,White,White,Not Hispanic,Non-Hispanic,Male,Male,1959-01-01,,English,English
+P000434,White,White,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,English,Spanish
+P000435,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,,English,English
+P000436,White,White,Not Hispanic,Non-Hispanic,Male,Male,1961-01-01,,English,English
+P000437,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1962-01-01,,Other,English
+P000438,White,White,Not Hispanic,Non-Hispanic,Female,Female,1934-01-01,2024-08-15 00:00:00+00:00,English,English
+P000439,White,White,Not Hispanic,Non-Hispanic,Male,Male,1980-01-01,,English,English
+P000440,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,2001-01-01,,English,English
+P000441,White,White,Not Hispanic,Non-Hispanic,Female,Female,1961-01-01,,English,Other
+P000442,White,White,Not Hispanic,Non-Hispanic,Female,Female,1956-01-01,,English,English
+P000443,White,White,Hispanic or Latino,Hispanic,Male,Male,1963-01-01,,English,Chinese
+P000444,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1989-01-01,,English,Spanish
+P000445,White,White,Not Hispanic,Non-Hispanic,Male,Male,1942-01-01,,English,English
+P000446,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1967-01-01,,English,English
+P000447,White,White,Not Hispanic,Non-Hispanic,Male,Male,1983-01-01,,English,English
+P000448,White,White,Not Hispanic,Non-Hispanic,Female,Female,1993-01-01,,Chinese,English
+P000449,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1987-01-01,,English,Spanish
+P000450,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1979-01-01,,English,Spanish
+P000451,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1969-01-01,,English,English
+P000452,White,White,Not Hispanic,Non-Hispanic,Male,Male,1978-01-01,2024-12-11 00:00:00+00:00,English,English
+P000453,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1945-01-01,,English,English
+P000454,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1976-01-01,2024-12-03 00:00:00+00:00,English,English
+P000455,White,White,Not Hispanic,Non-Hispanic,Male,Male,1937-01-01,,English,English
+P000456,White,White,Not Hispanic,Non-Hispanic,Female,Female,1967-01-01,,English,English
+P000457,White,White,Not Hispanic,Non-Hispanic,Female,Female,1979-01-01,,Spanish,English
+P000458,White,White,Not Hispanic,Non-Hispanic,Male,Male,1937-01-01,,English,Chinese
+P000459,White,White,Not Hispanic,Non-Hispanic,Male,Male,1928-01-01,,English,English
+P000460,White,White,Not Hispanic,Non-Hispanic,Female,Female,1952-01-01,,English,English
+P000461,White,White,Not Hispanic,Non-Hispanic,Female,Female,1995-01-01,,English,English
+P000462,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1992-01-01,2024-08-18 00:00:00+00:00,English,Spanish
+P000463,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1984-01-01,,English,Chinese
+P000464,White,White,Not Hispanic,Non-Hispanic,Female,Female,1947-01-01,,English,English
+P000465,White,White,Not Hispanic,Non-Hispanic,Male,Male,1974-01-01,,English,English
+P000466,White,White,Not Hispanic,Non-Hispanic,Female,Female,1928-01-01,,English,English
+P000467,White,White,Not Hispanic,Non-Hispanic,Male,Male,1974-01-01,,English,English
+P000468,White,White,Not Hispanic,Non-Hispanic,Male,Male,1971-01-01,,English,English
+P000469,White,White,Hispanic or Latino,Hispanic,Female,Female,1971-01-01,,Spanish,Other
+P000470,White,White,Hispanic or Latino,Hispanic,Female,Female,1972-01-01,,English,English
+P000471,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1974-01-01,,English,English
+P000472,White,White,Not Hispanic,Non-Hispanic,Male,Male,1955-01-01,,English,English
+P000473,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,Spanish
+P000474,White,White,Not Hispanic,Non-Hispanic,Male,Male,1999-01-01,2024-09-27 00:00:00+00:00,English,English
+P000475,White,White,Not Hispanic,Non-Hispanic,Female,Female,1976-01-01,,Spanish,English
+P000476,White,White,Hispanic or Latino,Hispanic,Male,Male,1973-01-01,,English,English
+P000477,Pacific Islander,Pacific Islander,Not Hispanic,Non-Hispanic,Female,Female,1978-01-01,,English,English
+P000478,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1991-01-01,,English,English
+P000479,White,White,Not Hispanic,Non-Hispanic,Female,Female,1974-01-01,,English,Other
+P000480,White,White,Not Hispanic,Non-Hispanic,Male,Male,1941-01-01,,English,English
+P000481,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1919-01-01,,Spanish,English
+P000482,White,White,Not Hispanic,Non-Hispanic,Male,Male,1983-01-01,,Other,English
+P000483,White,White,Not Hispanic,Non-Hispanic,Male,Male,1978-01-01,,English,English
+P000484,White,White,Not Hispanic,Non-Hispanic,Male,Male,1994-01-01,,English,English
+P000485,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Female,Female,1975-01-01,2024-01-23 00:00:00+00:00,Other,English
+P000486,White,White,Hispanic or Latino,Hispanic,Female,Female,1993-01-01,2024-01-11 00:00:00+00:00,English,English
+P000487,White,White,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,2024-06-08 00:00:00+00:00,English,English
+P000488,Asian,Asian,Not Hispanic,Non-Hispanic,Female,Female,1965-01-01,,English,Spanish
+P000489,Other,Other,Not Hispanic,Non-Hispanic,Male,Male,1968-01-01,,English,Spanish
+P000490,Other,Other,Not Hispanic,Non-Hispanic,Female,Female,1929-01-01,,English,English
+P000491,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1919-01-01,,English,Spanish
+P000492,Black or African-American,Black or African-American,Not Hispanic,Non-Hispanic,Male,Male,1965-01-01,,English,Chinese
+P000493,White,White,Not Hispanic,Non-Hispanic,Male,Male,1944-01-01,,Spanish,Chinese
+P000494,White,White,Not Hispanic,Non-Hispanic,Male,Male,1928-01-01,,English,English
+P000495,White,White,Not Hispanic,Non-Hispanic,Male,Male,1958-01-01,,English,Chinese
+P000496,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1998-01-01,,English,English
+P000497,White,White,Not Hispanic,Non-Hispanic,Female,Female,1972-01-01,,Spanish,English
+P000498,Asian,Asian,Not Hispanic,Non-Hispanic,Male,Male,1947-01-01,,English,English
+P000499,White,White,Not Hispanic,Non-Hispanic,Female,Female,1935-01-01,,English,Spanish
+P000500,White,White,Not Hispanic,Non-Hispanic,Male,Male,1964-01-01,2024-02-12 00:00:00+00:00,English,English

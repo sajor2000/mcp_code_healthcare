@@ -1,0 +1,1000 @@
+hospitalization_id,assessment_id,assessment_dttm,assessment_name,assessment_category,assessment_value,assessment_units
+H001000,PA000001,2024-04-08 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001000,PA000002,2024-04-08 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001000,PA000003,2024-04-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001000,PA000004,2024-04-09 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001000,PA000005,2024-04-09 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001000,PA000006,2024-04-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001000,PA000007,2024-04-10 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001000,PA000008,2024-04-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001000,PA000009,2024-04-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001000,PA000010,2024-04-11 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001000,PA000011,2024-04-11 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001000,PA000012,2024-04-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001000,PA000013,2024-04-11 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001000,PA000014,2024-04-12 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001000,PA000015,2024-04-12 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001000,PA000016,2024-04-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001000,PA000017,2024-04-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001000,PA000018,2024-04-13 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001000,PA000019,2024-04-13 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001000,PA000020,2024-04-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001000,PA000021,2024-04-13 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001000,PA000022,2024-04-14 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001000,PA000023,2024-04-14 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001000,PA000024,2024-04-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001000,PA000025,2024-04-14 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001000,PA000026,2024-04-15 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001000,PA000027,2024-04-15 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001000,PA000028,2024-04-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001000,PA000029,2024-04-15 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001000,PA000030,2024-04-16 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001000,PA000031,2024-04-16 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001000,PA000032,2024-04-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001000,PA000033,2024-04-16 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001001,PA000034,2024-02-22 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001001,PA000035,2024-02-22 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001001,PA000036,2024-02-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001001,PA000037,2024-02-23 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001001,PA000038,2024-02-23 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001001,PA000039,2024-02-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001001,PA000040,2024-02-24 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001001,PA000041,2024-02-24 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001001,PA000042,2024-02-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001001,PA000043,2024-02-25 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001001,PA000044,2024-02-25 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001001,PA000045,2024-02-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001001,PA000046,2024-02-26 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001001,PA000047,2024-02-26 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001001,PA000048,2024-02-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001001,PA000049,2024-02-26 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001002,PA000050,2024-03-20 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001002,PA000051,2024-03-20 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001002,PA000052,2024-03-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001002,PA000053,2024-03-21 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001002,PA000054,2024-03-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001002,PA000055,2024-03-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001002,PA000056,2024-03-22 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001002,PA000057,2024-03-22 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001002,PA000058,2024-03-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001002,PA000059,2024-03-22 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001002,PA000060,2024-03-23 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001002,PA000061,2024-03-23 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001002,PA000062,2024-03-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001002,PA000063,2024-03-23 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001002,PA000064,2024-03-24 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001002,PA000065,2024-03-24 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001002,PA000066,2024-03-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001002,PA000067,2024-03-24 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001002,PA000068,2024-03-25 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001002,PA000069,2024-03-25 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001002,PA000070,2024-03-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001002,PA000071,2024-03-25 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001003,PA000072,2024-06-21 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001003,PA000073,2024-06-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001003,PA000074,2024-06-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001004,PA000075,2024-02-19 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001004,PA000076,2024-02-19 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001004,PA000077,2024-02-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001004,PA000078,2024-02-20 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001004,PA000079,2024-02-20 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001004,PA000080,2024-02-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001005,PA000081,2024-01-08 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001005,PA000082,2024-01-08 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001005,PA000083,2024-01-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001005,PA000084,2024-01-09 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001005,PA000085,2024-01-09 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001005,PA000086,2024-01-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001005,PA000087,2024-01-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001005,PA000088,2024-01-10 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001005,PA000089,2024-01-10 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001005,PA000090,2024-01-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001005,PA000091,2024-01-10 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001005,PA000092,2024-01-11 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001005,PA000093,2024-01-11 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001005,PA000094,2024-01-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001005,PA000095,2024-01-11 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001005,PA000096,2024-01-12 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001005,PA000097,2024-01-12 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000098,2024-01-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001005,PA000099,2024-01-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001005,PA000100,2024-01-13 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001005,PA000101,2024-01-13 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000102,2024-01-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001005,PA000103,2024-01-14 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001005,PA000104,2024-01-14 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000105,2024-01-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001005,PA000106,2024-01-14 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001005,PA000107,2024-01-15 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001005,PA000108,2024-01-15 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001005,PA000109,2024-01-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001005,PA000110,2024-01-15 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001005,PA000111,2024-01-16 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001005,PA000112,2024-01-16 08:00:00+00:00,Glasgow Coma Scale,neurological,7,points
+H001005,PA000113,2024-01-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001005,PA000114,2024-01-16 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001005,PA000115,2024-01-17 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001005,PA000116,2024-01-17 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000117,2024-01-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001005,PA000118,2024-01-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001005,PA000119,2024-01-18 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001005,PA000120,2024-01-18 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000121,2024-01-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001005,PA000122,2024-01-19 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001005,PA000123,2024-01-19 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000124,2024-01-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001005,PA000125,2024-01-20 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001005,PA000126,2024-01-20 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001005,PA000127,2024-01-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001005,PA000128,2024-01-21 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001005,PA000129,2024-01-21 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001005,PA000130,2024-01-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001005,PA000131,2024-01-22 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001005,PA000132,2024-01-22 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000133,2024-01-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001005,PA000134,2024-01-23 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001005,PA000135,2024-01-23 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001005,PA000136,2024-01-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001005,PA000137,2024-01-23 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001006,PA000138,2024-02-17 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001006,PA000139,2024-02-17 08:00:00+00:00,Glasgow Coma Scale,neurological,7,points
+H001006,PA000140,2024-02-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001006,PA000141,2024-02-18 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001006,PA000142,2024-02-18 08:00:00+00:00,Glasgow Coma Scale,neurological,6,points
+H001006,PA000143,2024-02-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001006,PA000144,2024-02-18 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001006,PA000145,2024-02-19 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001006,PA000146,2024-02-19 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001006,PA000147,2024-02-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001006,PA000148,2024-02-19 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001006,PA000149,2024-02-20 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001006,PA000150,2024-02-20 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001006,PA000151,2024-02-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001006,PA000152,2024-02-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001007,PA000153,2024-05-06 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001007,PA000154,2024-05-06 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001007,PA000155,2024-05-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001007,PA000156,2024-05-06 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001007,PA000157,2024-05-07 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001007,PA000158,2024-05-07 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001007,PA000159,2024-05-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001007,PA000160,2024-05-08 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001007,PA000161,2024-05-08 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001007,PA000162,2024-05-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001007,PA000163,2024-05-08 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001007,PA000164,2024-05-09 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001007,PA000165,2024-05-09 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001007,PA000166,2024-05-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001007,PA000167,2024-05-10 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001007,PA000168,2024-05-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001007,PA000169,2024-05-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001007,PA000170,2024-05-10 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001007,PA000171,2024-05-11 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001007,PA000172,2024-05-11 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001007,PA000173,2024-05-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001007,PA000174,2024-05-11 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001007,PA000175,2024-05-12 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001007,PA000176,2024-05-12 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001007,PA000177,2024-05-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001007,PA000178,2024-05-13 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001007,PA000179,2024-05-13 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001007,PA000180,2024-05-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001007,PA000181,2024-05-14 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001007,PA000182,2024-05-14 08:00:00+00:00,Glasgow Coma Scale,neurological,4,points
+H001007,PA000183,2024-05-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001007,PA000184,2024-05-15 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001007,PA000185,2024-05-15 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001007,PA000186,2024-05-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001007,PA000187,2024-05-15 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001008,PA000188,2024-11-10 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001008,PA000189,2024-11-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001008,PA000190,2024-11-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001008,PA000191,2024-11-11 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001008,PA000192,2024-11-11 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001008,PA000193,2024-11-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001008,PA000194,2024-11-12 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001008,PA000195,2024-11-12 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001008,PA000196,2024-11-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001008,PA000197,2024-11-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001009,PA000198,2024-07-05 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001009,PA000199,2024-07-05 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001009,PA000200,2024-07-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001009,PA000201,2024-07-06 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001009,PA000202,2024-07-06 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001009,PA000203,2024-07-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001009,PA000204,2024-07-07 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001009,PA000205,2024-07-07 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001009,PA000206,2024-07-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001009,PA000207,2024-07-08 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001009,PA000208,2024-07-08 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001009,PA000209,2024-07-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001009,PA000210,2024-07-09 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001009,PA000211,2024-07-09 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001009,PA000212,2024-07-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001009,PA000213,2024-07-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001010,PA000214,2024-06-25 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001010,PA000215,2024-06-25 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001010,PA000216,2024-06-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001010,PA000217,2024-06-25 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001010,PA000218,2024-06-26 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001010,PA000219,2024-06-26 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001010,PA000220,2024-06-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001011,PA000221,2024-09-27 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001011,PA000222,2024-09-27 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001011,PA000223,2024-09-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001011,PA000224,2024-09-28 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001011,PA000225,2024-09-28 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001011,PA000226,2024-09-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001011,PA000227,2024-09-28 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001011,PA000228,2024-09-29 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001011,PA000229,2024-09-29 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001011,PA000230,2024-09-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001011,PA000231,2024-09-30 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001011,PA000232,2024-09-30 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001011,PA000233,2024-09-30 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001012,PA000234,2024-01-16 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001012,PA000235,2024-01-16 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001012,PA000236,2024-01-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001012,PA000237,2024-01-17 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001012,PA000238,2024-01-17 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001012,PA000239,2024-01-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001012,PA000240,2024-01-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001012,PA000241,2024-01-18 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001012,PA000242,2024-01-18 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001012,PA000243,2024-01-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001012,PA000244,2024-01-18 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001012,PA000245,2024-01-19 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001012,PA000246,2024-01-19 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001012,PA000247,2024-01-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001012,PA000248,2024-01-19 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001013,PA000249,2024-07-18 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001013,PA000250,2024-07-18 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001013,PA000251,2024-07-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001013,PA000252,2024-07-18 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001013,PA000253,2024-07-19 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001013,PA000254,2024-07-19 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001013,PA000255,2024-07-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001013,PA000256,2024-07-19 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001013,PA000257,2024-07-20 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001013,PA000258,2024-07-20 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001013,PA000259,2024-07-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001013,PA000260,2024-07-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001013,PA000261,2024-07-21 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001013,PA000262,2024-07-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001013,PA000263,2024-07-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001013,PA000264,2024-07-21 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001014,PA000265,2024-03-18 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001014,PA000266,2024-03-18 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001014,PA000267,2024-03-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001014,PA000268,2024-03-19 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001014,PA000269,2024-03-19 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001014,PA000270,2024-03-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001014,PA000271,2024-03-20 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001014,PA000272,2024-03-20 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001014,PA000273,2024-03-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001014,PA000274,2024-03-21 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001014,PA000275,2024-03-21 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001014,PA000276,2024-03-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001014,PA000277,2024-03-22 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001014,PA000278,2024-03-22 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001014,PA000279,2024-03-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001015,PA000280,2024-09-06 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001015,PA000281,2024-09-06 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001015,PA000282,2024-09-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001015,PA000283,2024-09-07 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001015,PA000284,2024-09-07 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001015,PA000285,2024-09-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001015,PA000286,2024-09-08 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001015,PA000287,2024-09-08 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001015,PA000288,2024-09-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001015,PA000289,2024-09-09 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001015,PA000290,2024-09-09 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001015,PA000291,2024-09-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001015,PA000292,2024-09-10 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001015,PA000293,2024-09-10 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001015,PA000294,2024-09-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001015,PA000295,2024-09-10 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001015,PA000296,2024-09-11 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001015,PA000297,2024-09-11 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001015,PA000298,2024-09-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001015,PA000299,2024-09-12 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001015,PA000300,2024-09-12 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001015,PA000301,2024-09-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001015,PA000302,2024-09-13 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001015,PA000303,2024-09-13 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001015,PA000304,2024-09-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001015,PA000305,2024-09-14 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001015,PA000306,2024-09-14 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001015,PA000307,2024-09-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001015,PA000308,2024-09-15 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001015,PA000309,2024-09-15 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001015,PA000310,2024-09-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001015,PA000311,2024-09-16 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001015,PA000312,2024-09-16 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001015,PA000313,2024-09-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001015,PA000314,2024-09-17 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001015,PA000315,2024-09-17 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001015,PA000316,2024-09-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001015,PA000317,2024-09-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001015,PA000318,2024-09-18 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001015,PA000319,2024-09-18 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001015,PA000320,2024-09-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001015,PA000321,2024-09-19 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001015,PA000322,2024-09-19 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001015,PA000323,2024-09-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001015,PA000324,2024-09-19 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001015,PA000325,2024-09-20 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001015,PA000326,2024-09-20 08:00:00+00:00,Glasgow Coma Scale,neurological,7,points
+H001015,PA000327,2024-09-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001015,PA000328,2024-09-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001015,PA000329,2024-09-21 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001015,PA000330,2024-09-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001015,PA000331,2024-09-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001015,PA000332,2024-09-21 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001015,PA000333,2024-09-22 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001015,PA000334,2024-09-22 08:00:00+00:00,Glasgow Coma Scale,neurological,7,points
+H001015,PA000335,2024-09-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001015,PA000336,2024-09-22 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001015,PA000337,2024-09-23 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001015,PA000338,2024-09-23 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001015,PA000339,2024-09-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001015,PA000340,2024-09-23 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001015,PA000341,2024-09-24 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001015,PA000342,2024-09-24 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001015,PA000343,2024-09-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001015,PA000344,2024-09-25 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001015,PA000345,2024-09-25 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001015,PA000346,2024-09-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001015,PA000347,2024-09-26 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001015,PA000348,2024-09-26 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001015,PA000349,2024-09-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001015,PA000350,2024-09-27 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001015,PA000351,2024-09-27 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001015,PA000352,2024-09-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001015,PA000353,2024-09-28 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001015,PA000354,2024-09-28 08:00:00+00:00,Glasgow Coma Scale,neurological,7,points
+H001015,PA000355,2024-09-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001016,PA000356,2024-04-20 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001016,PA000357,2024-04-20 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001016,PA000358,2024-04-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001016,PA000359,2024-04-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001016,PA000360,2024-04-21 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001016,PA000361,2024-04-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001016,PA000362,2024-04-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001016,PA000363,2024-04-22 08:00:00+00:00,SOFA Score,severity_score,1,points
+H001016,PA000364,2024-04-22 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001016,PA000365,2024-04-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001016,PA000366,2024-04-22 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001016,PA000367,2024-04-23 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001016,PA000368,2024-04-23 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001016,PA000369,2024-04-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001016,PA000370,2024-04-23 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001016,PA000371,2024-04-24 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001016,PA000372,2024-04-24 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001016,PA000373,2024-04-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001016,PA000374,2024-04-25 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001016,PA000375,2024-04-25 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001016,PA000376,2024-04-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001016,PA000377,2024-04-26 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001016,PA000378,2024-04-26 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001016,PA000379,2024-04-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001016,PA000380,2024-04-27 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001016,PA000381,2024-04-27 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001016,PA000382,2024-04-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001016,PA000383,2024-04-28 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001016,PA000384,2024-04-28 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001016,PA000385,2024-04-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001016,PA000386,2024-04-29 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001016,PA000387,2024-04-29 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001016,PA000388,2024-04-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001016,PA000389,2024-04-30 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001016,PA000390,2024-04-30 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001016,PA000391,2024-04-30 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001017,PA000392,2024-05-09 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001017,PA000393,2024-05-09 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001017,PA000394,2024-05-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001017,PA000395,2024-05-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001017,PA000396,2024-05-10 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001017,PA000397,2024-05-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001017,PA000398,2024-05-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001017,PA000399,2024-05-11 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001017,PA000400,2024-05-11 08:00:00+00:00,Glasgow Coma Scale,neurological,6,points
+H001017,PA000401,2024-05-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001017,PA000402,2024-05-11 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001017,PA000403,2024-05-12 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001017,PA000404,2024-05-12 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001017,PA000405,2024-05-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000406,2024-02-23 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001018,PA000407,2024-02-23 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001018,PA000408,2024-02-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001018,PA000409,2024-02-23 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001018,PA000410,2024-02-24 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001018,PA000411,2024-02-24 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001018,PA000412,2024-02-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000413,2024-02-25 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001018,PA000414,2024-02-25 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001018,PA000415,2024-02-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001018,PA000416,2024-02-25 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001018,PA000417,2024-02-26 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001018,PA000418,2024-02-26 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001018,PA000419,2024-02-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001018,PA000420,2024-02-27 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001018,PA000421,2024-02-27 08:00:00+00:00,Glasgow Coma Scale,neurological,6,points
+H001018,PA000422,2024-02-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001018,PA000423,2024-02-27 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001018,PA000424,2024-02-28 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001018,PA000425,2024-02-28 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001018,PA000426,2024-02-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000427,2024-02-29 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001018,PA000428,2024-02-29 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001018,PA000429,2024-02-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001018,PA000430,2024-02-29 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001018,PA000431,2024-03-01 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001018,PA000432,2024-03-01 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001018,PA000433,2024-03-01 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000434,2024-03-01 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001018,PA000435,2024-03-02 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001018,PA000436,2024-03-02 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001018,PA000437,2024-03-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000438,2024-03-02 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001018,PA000439,2024-03-03 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001018,PA000440,2024-03-03 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001018,PA000441,2024-03-03 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000442,2024-03-04 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001018,PA000443,2024-03-04 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001018,PA000444,2024-03-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001018,PA000445,2024-03-04 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001018,PA000446,2024-03-05 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001018,PA000447,2024-03-05 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001018,PA000448,2024-03-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001018,PA000449,2024-03-06 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001018,PA000450,2024-03-06 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001018,PA000451,2024-03-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001019,PA000452,2024-03-04 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001019,PA000453,2024-03-04 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001019,PA000454,2024-03-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001019,PA000455,2024-03-04 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001019,PA000456,2024-03-05 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001019,PA000457,2024-03-05 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001019,PA000458,2024-03-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001019,PA000459,2024-03-05 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001019,PA000460,2024-03-06 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001019,PA000461,2024-03-06 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001019,PA000462,2024-03-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001019,PA000463,2024-03-06 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001019,PA000464,2024-03-07 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001019,PA000465,2024-03-07 08:00:00+00:00,Glasgow Coma Scale,neurological,3,points
+H001019,PA000466,2024-03-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001019,PA000467,2024-03-07 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001019,PA000468,2024-03-08 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001019,PA000469,2024-03-08 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001019,PA000470,2024-03-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001019,PA000471,2024-03-08 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001019,PA000472,2024-03-09 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001019,PA000473,2024-03-09 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001019,PA000474,2024-03-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001019,PA000475,2024-03-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001019,PA000476,2024-03-10 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001019,PA000477,2024-03-10 08:00:00+00:00,Glasgow Coma Scale,neurological,7,points
+H001019,PA000478,2024-03-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001019,PA000479,2024-03-11 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001019,PA000480,2024-03-11 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001019,PA000481,2024-03-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001019,PA000482,2024-03-11 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001019,PA000483,2024-03-12 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001019,PA000484,2024-03-12 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001019,PA000485,2024-03-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001019,PA000486,2024-03-13 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001019,PA000487,2024-03-13 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001019,PA000488,2024-03-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001019,PA000489,2024-03-13 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001019,PA000490,2024-03-14 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001019,PA000491,2024-03-14 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001019,PA000492,2024-03-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001019,PA000493,2024-03-15 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001019,PA000494,2024-03-15 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001019,PA000495,2024-03-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001019,PA000496,2024-03-15 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001019,PA000497,2024-03-16 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001019,PA000498,2024-03-16 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001019,PA000499,2024-03-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001019,PA000500,2024-03-17 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001019,PA000501,2024-03-17 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001019,PA000502,2024-03-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001020,PA000503,2024-02-19 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001020,PA000504,2024-02-19 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001020,PA000505,2024-02-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001020,PA000506,2024-02-19 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001020,PA000507,2024-02-20 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001020,PA000508,2024-02-20 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001020,PA000509,2024-02-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001020,PA000510,2024-02-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001020,PA000511,2024-02-21 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001020,PA000512,2024-02-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000513,2024-02-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001020,PA000514,2024-02-22 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001020,PA000515,2024-02-22 08:00:00+00:00,Glasgow Coma Scale,neurological,4,points
+H001020,PA000516,2024-02-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001020,PA000517,2024-02-23 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001020,PA000518,2024-02-23 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001020,PA000519,2024-02-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001020,PA000520,2024-02-24 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001020,PA000521,2024-02-24 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000522,2024-02-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001020,PA000523,2024-02-24 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001020,PA000524,2024-02-25 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001020,PA000525,2024-02-25 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000526,2024-02-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001020,PA000527,2024-02-26 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001020,PA000528,2024-02-26 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001020,PA000529,2024-02-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001020,PA000530,2024-02-26 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001020,PA000531,2024-02-27 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001020,PA000532,2024-02-27 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000533,2024-02-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001020,PA000534,2024-02-27 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001020,PA000535,2024-02-28 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001020,PA000536,2024-02-28 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000537,2024-02-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001020,PA000538,2024-02-29 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001020,PA000539,2024-02-29 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000540,2024-02-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001020,PA000541,2024-03-01 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001020,PA000542,2024-03-01 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001020,PA000543,2024-03-01 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001020,PA000544,2024-03-01 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001020,PA000545,2024-03-02 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001020,PA000546,2024-03-02 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000547,2024-03-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001020,PA000548,2024-03-03 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001020,PA000549,2024-03-03 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000550,2024-03-03 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001020,PA000551,2024-03-03 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001020,PA000552,2024-03-04 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001020,PA000553,2024-03-04 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001020,PA000554,2024-03-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001020,PA000555,2024-03-05 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001020,PA000556,2024-03-05 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001020,PA000557,2024-03-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001021,PA000558,2024-05-24 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001021,PA000559,2024-05-24 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001021,PA000560,2024-05-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001021,PA000561,2024-05-25 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001021,PA000562,2024-05-25 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001021,PA000563,2024-05-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001021,PA000564,2024-05-25 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001021,PA000565,2024-05-26 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001021,PA000566,2024-05-26 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001021,PA000567,2024-05-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001022,PA000568,2024-07-12 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001022,PA000569,2024-07-12 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001022,PA000570,2024-07-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001022,PA000571,2024-07-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001022,PA000572,2024-07-13 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001022,PA000573,2024-07-13 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001022,PA000574,2024-07-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001022,PA000575,2024-07-14 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001022,PA000576,2024-07-14 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001022,PA000577,2024-07-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001022,PA000578,2024-07-14 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001022,PA000579,2024-07-15 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001022,PA000580,2024-07-15 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001022,PA000581,2024-07-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001022,PA000582,2024-07-16 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001022,PA000583,2024-07-16 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001022,PA000584,2024-07-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001022,PA000585,2024-07-16 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001022,PA000586,2024-07-17 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001022,PA000587,2024-07-17 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001022,PA000588,2024-07-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001022,PA000589,2024-07-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001022,PA000590,2024-07-18 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001022,PA000591,2024-07-18 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001022,PA000592,2024-07-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001022,PA000593,2024-07-18 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001022,PA000594,2024-07-19 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001022,PA000595,2024-07-19 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001022,PA000596,2024-07-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001022,PA000597,2024-07-20 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001022,PA000598,2024-07-20 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001022,PA000599,2024-07-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001022,PA000600,2024-07-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001022,PA000601,2024-07-21 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001022,PA000602,2024-07-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001022,PA000603,2024-07-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001023,PA000604,2024-01-16 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001023,PA000605,2024-01-16 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001023,PA000606,2024-01-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001023,PA000607,2024-01-16 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001023,PA000608,2024-01-17 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001023,PA000609,2024-01-17 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001023,PA000610,2024-01-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001023,PA000611,2024-01-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001023,PA000612,2024-01-18 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001023,PA000613,2024-01-18 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001023,PA000614,2024-01-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001024,PA000615,2024-01-10 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001024,PA000616,2024-01-10 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001024,PA000617,2024-01-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001024,PA000618,2024-01-11 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001024,PA000619,2024-01-11 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001024,PA000620,2024-01-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001024,PA000621,2024-01-12 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001024,PA000622,2024-01-12 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001024,PA000623,2024-01-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001024,PA000624,2024-01-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000625,2024-04-08 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000626,2024-04-08 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001025,PA000627,2024-04-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001025,PA000628,2024-04-09 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001025,PA000629,2024-04-09 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000630,2024-04-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000631,2024-04-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000632,2024-04-10 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000633,2024-04-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000634,2024-04-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001025,PA000635,2024-04-10 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000636,2024-04-11 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001025,PA000637,2024-04-11 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001025,PA000638,2024-04-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001025,PA000639,2024-04-12 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000640,2024-04-12 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000641,2024-04-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001025,PA000642,2024-04-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000643,2024-04-13 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001025,PA000644,2024-04-13 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001025,PA000645,2024-04-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000646,2024-04-13 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000647,2024-04-14 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001025,PA000648,2024-04-14 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000649,2024-04-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000650,2024-04-14 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000651,2024-04-15 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001025,PA000652,2024-04-15 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001025,PA000653,2024-04-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001025,PA000654,2024-04-15 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000655,2024-04-16 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001025,PA000656,2024-04-16 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000657,2024-04-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001025,PA000658,2024-04-17 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001025,PA000659,2024-04-17 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000660,2024-04-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001025,PA000661,2024-04-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000662,2024-04-18 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001025,PA000663,2024-04-18 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001025,PA000664,2024-04-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001025,PA000665,2024-04-18 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000666,2024-04-19 08:00:00+00:00,SOFA Score,severity_score,2,points
+H001025,PA000667,2024-04-19 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001025,PA000668,2024-04-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,3,score
+H001025,PA000669,2024-04-19 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000670,2024-04-20 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000671,2024-04-20 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001025,PA000672,2024-04-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000673,2024-04-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000674,2024-04-21 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001025,PA000675,2024-04-21 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000676,2024-04-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001025,PA000677,2024-04-22 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001025,PA000678,2024-04-22 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000679,2024-04-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001025,PA000680,2024-04-22 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000681,2024-04-23 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001025,PA000682,2024-04-23 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001025,PA000683,2024-04-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001025,PA000684,2024-04-24 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000685,2024-04-24 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000686,2024-04-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001025,PA000687,2024-04-25 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001025,PA000688,2024-04-25 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000689,2024-04-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001025,PA000690,2024-04-26 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001025,PA000691,2024-04-26 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000692,2024-04-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001025,PA000693,2024-04-27 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001025,PA000694,2024-04-27 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000695,2024-04-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001025,PA000696,2024-04-28 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001025,PA000697,2024-04-28 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000698,2024-04-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000699,2024-04-29 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001025,PA000700,2024-04-29 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001025,PA000701,2024-04-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001025,PA000702,2024-04-29 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000703,2024-04-30 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001025,PA000704,2024-04-30 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001025,PA000705,2024-04-30 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001025,PA000706,2024-04-30 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000707,2024-05-01 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000708,2024-05-01 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000709,2024-05-01 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001025,PA000710,2024-05-01 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000711,2024-05-02 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001025,PA000712,2024-05-02 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001025,PA000713,2024-05-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000714,2024-05-02 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001025,PA000715,2024-05-03 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001025,PA000716,2024-05-03 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001025,PA000717,2024-05-03 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001025,PA000718,2024-05-04 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000719,2024-05-04 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001025,PA000720,2024-05-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001025,PA000721,2024-05-04 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001025,PA000722,2024-05-05 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001025,PA000723,2024-05-05 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001025,PA000724,2024-05-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001025,PA000725,2024-05-05 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001026,PA000726,2024-01-11 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001026,PA000727,2024-01-11 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001026,PA000728,2024-01-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001026,PA000729,2024-01-12 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001026,PA000730,2024-01-12 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001026,PA000731,2024-01-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001026,PA000732,2024-01-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001026,PA000733,2024-01-13 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001026,PA000734,2024-01-13 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001026,PA000735,2024-01-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001026,PA000736,2024-01-14 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001026,PA000737,2024-01-14 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001026,PA000738,2024-01-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001026,PA000739,2024-01-14 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001026,PA000740,2024-01-15 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001026,PA000741,2024-01-15 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001026,PA000742,2024-01-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001026,PA000743,2024-01-16 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001026,PA000744,2024-01-16 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001026,PA000745,2024-01-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001026,PA000746,2024-01-17 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001026,PA000747,2024-01-17 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001026,PA000748,2024-01-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001026,PA000749,2024-01-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001026,PA000750,2024-01-18 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001026,PA000751,2024-01-18 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001026,PA000752,2024-01-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001026,PA000753,2024-01-19 08:00:00+00:00,SOFA Score,severity_score,2,points
+H001026,PA000754,2024-01-19 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001026,PA000755,2024-01-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001026,PA000756,2024-01-20 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001026,PA000757,2024-01-20 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001026,PA000758,2024-01-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001026,PA000759,2024-01-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001027,PA000760,2024-02-09 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001027,PA000761,2024-02-09 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001027,PA000762,2024-02-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001027,PA000763,2024-02-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001027,PA000764,2024-02-10 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001027,PA000765,2024-02-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001027,PA000766,2024-02-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001028,PA000767,2024-07-28 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001028,PA000768,2024-07-28 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001028,PA000769,2024-07-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001028,PA000770,2024-07-28 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001028,PA000771,2024-07-29 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001028,PA000772,2024-07-29 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001028,PA000773,2024-07-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001029,PA000774,2024-07-01 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001029,PA000775,2024-07-01 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001029,PA000776,2024-07-01 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001029,PA000777,2024-07-02 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001029,PA000778,2024-07-02 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001029,PA000779,2024-07-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001029,PA000780,2024-07-02 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001029,PA000781,2024-07-03 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001029,PA000782,2024-07-03 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001029,PA000783,2024-07-03 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001029,PA000784,2024-07-03 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001029,PA000785,2024-07-04 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001029,PA000786,2024-07-04 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001029,PA000787,2024-07-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001029,PA000788,2024-07-05 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001029,PA000789,2024-07-05 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001029,PA000790,2024-07-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001029,PA000791,2024-07-06 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001029,PA000792,2024-07-06 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001029,PA000793,2024-07-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001029,PA000794,2024-07-06 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001029,PA000795,2024-07-07 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001029,PA000796,2024-07-07 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001029,PA000797,2024-07-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001029,PA000798,2024-07-08 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001029,PA000799,2024-07-08 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001029,PA000800,2024-07-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001029,PA000801,2024-07-09 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001029,PA000802,2024-07-09 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001029,PA000803,2024-07-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001030,PA000804,2024-07-09 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001030,PA000805,2024-07-09 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001030,PA000806,2024-07-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001030,PA000807,2024-07-10 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001030,PA000808,2024-07-10 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001030,PA000809,2024-07-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001030,PA000810,2024-07-11 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001030,PA000811,2024-07-11 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001030,PA000812,2024-07-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,4,score
+H001031,PA000813,2024-05-10 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001031,PA000814,2024-05-10 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001031,PA000815,2024-05-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001031,PA000816,2024-05-10 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001031,PA000817,2024-05-11 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001031,PA000818,2024-05-11 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001031,PA000819,2024-05-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001031,PA000820,2024-05-12 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001031,PA000821,2024-05-12 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001031,PA000822,2024-05-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001031,PA000823,2024-05-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001032,PA000824,2024-05-02 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001032,PA000825,2024-05-02 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001032,PA000826,2024-05-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001032,PA000827,2024-05-02 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001032,PA000828,2024-05-03 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001032,PA000829,2024-05-03 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001032,PA000830,2024-05-03 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001032,PA000831,2024-05-04 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001032,PA000832,2024-05-04 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001032,PA000833,2024-05-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001032,PA000834,2024-05-04 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001032,PA000835,2024-05-05 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001032,PA000836,2024-05-05 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001032,PA000837,2024-05-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001032,PA000838,2024-05-05 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001032,PA000839,2024-05-06 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001032,PA000840,2024-05-06 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001032,PA000841,2024-05-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001032,PA000842,2024-05-07 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001032,PA000843,2024-05-07 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001032,PA000844,2024-05-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001033,PA000845,2024-06-24 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001033,PA000846,2024-06-24 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001033,PA000847,2024-06-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001033,PA000848,2024-06-25 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001033,PA000849,2024-06-25 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001033,PA000850,2024-06-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001033,PA000851,2024-06-26 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001033,PA000852,2024-06-26 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001033,PA000853,2024-06-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-4,score
+H001033,PA000854,2024-06-27 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001033,PA000855,2024-06-27 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001033,PA000856,2024-06-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001033,PA000857,2024-06-28 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001033,PA000858,2024-06-28 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001033,PA000859,2024-06-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001033,PA000860,2024-06-28 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001033,PA000861,2024-06-29 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001033,PA000862,2024-06-29 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001033,PA000863,2024-06-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001033,PA000864,2024-06-30 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001033,PA000865,2024-06-30 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001033,PA000866,2024-06-30 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001033,PA000867,2024-06-30 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001033,PA000868,2024-07-01 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001033,PA000869,2024-07-01 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001033,PA000870,2024-07-01 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001033,PA000871,2024-07-02 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001033,PA000872,2024-07-02 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001033,PA000873,2024-07-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001034,PA000874,2024-03-19 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001034,PA000875,2024-03-19 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001034,PA000876,2024-03-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001034,PA000877,2024-03-20 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001034,PA000878,2024-03-20 08:00:00+00:00,Glasgow Coma Scale,neurological,9,points
+H001034,PA000879,2024-03-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001034,PA000880,2024-03-20 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001034,PA000881,2024-03-21 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001034,PA000882,2024-03-21 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001034,PA000883,2024-03-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001034,PA000884,2024-03-21 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001034,PA000885,2024-03-22 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001034,PA000886,2024-03-22 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001034,PA000887,2024-03-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001034,PA000888,2024-03-23 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001034,PA000889,2024-03-23 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001034,PA000890,2024-03-23 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001034,PA000891,2024-03-23 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001034,PA000892,2024-03-24 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001034,PA000893,2024-03-24 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001034,PA000894,2024-03-24 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001034,PA000895,2024-03-24 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001034,PA000896,2024-03-25 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001034,PA000897,2024-03-25 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001034,PA000898,2024-03-25 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001034,PA000899,2024-03-25 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Positive,
+H001034,PA000900,2024-03-26 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001034,PA000901,2024-03-26 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001034,PA000902,2024-03-26 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001034,PA000903,2024-03-26 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001034,PA000904,2024-03-27 08:00:00+00:00,SOFA Score,severity_score,1,points
+H001034,PA000905,2024-03-27 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001034,PA000906,2024-03-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001034,PA000907,2024-03-27 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001035,PA000908,2024-01-01 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001035,PA000909,2024-01-01 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001035,PA000910,2024-01-01 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001035,PA000911,2024-01-02 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001035,PA000912,2024-01-02 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001035,PA000913,2024-01-02 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001035,PA000914,2024-01-02 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001036,PA000915,2024-02-04 08:00:00+00:00,SOFA Score,severity_score,3,points
+H001036,PA000916,2024-02-04 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001036,PA000917,2024-02-04 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001036,PA000918,2024-02-04 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001036,PA000919,2024-02-05 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001036,PA000920,2024-02-05 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001036,PA000921,2024-02-05 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-5,score
+H001036,PA000922,2024-02-06 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001036,PA000923,2024-02-06 08:00:00+00:00,Glasgow Coma Scale,neurological,10,points
+H001036,PA000924,2024-02-06 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001036,PA000925,2024-02-06 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001036,PA000926,2024-02-07 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001036,PA000927,2024-02-07 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001036,PA000928,2024-02-07 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001036,PA000929,2024-02-08 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001036,PA000930,2024-02-08 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001036,PA000931,2024-02-08 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001036,PA000932,2024-02-08 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001036,PA000933,2024-02-09 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001036,PA000934,2024-02-09 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001036,PA000935,2024-02-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001036,PA000936,2024-02-09 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001036,PA000937,2024-02-10 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001036,PA000938,2024-02-10 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001036,PA000939,2024-02-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001037,PA000940,2024-05-27 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001037,PA000941,2024-05-27 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001037,PA000942,2024-05-27 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001037,PA000943,2024-05-27 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001037,PA000944,2024-05-28 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001037,PA000945,2024-05-28 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001037,PA000946,2024-05-28 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,1,score
+H001037,PA000947,2024-05-29 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001037,PA000948,2024-05-29 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001037,PA000949,2024-05-29 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001037,PA000950,2024-05-29 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001038,PA000951,2024-09-09 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001038,PA000952,2024-09-09 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000953,2024-09-09 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001038,PA000954,2024-09-10 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001038,PA000955,2024-09-10 08:00:00+00:00,Glasgow Coma Scale,neurological,11,points
+H001038,PA000956,2024-09-10 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-2,score
+H001038,PA000957,2024-09-11 08:00:00+00:00,SOFA Score,severity_score,5,points
+H001038,PA000958,2024-09-11 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000959,2024-09-11 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001038,PA000960,2024-09-11 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001038,PA000961,2024-09-12 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001038,PA000962,2024-09-12 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000963,2024-09-12 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001038,PA000964,2024-09-12 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001038,PA000965,2024-09-13 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001038,PA000966,2024-09-13 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000967,2024-09-13 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001038,PA000968,2024-09-14 08:00:00+00:00,SOFA Score,severity_score,8,points
+H001038,PA000969,2024-09-14 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000970,2024-09-14 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,2,score
+H001038,PA000971,2024-09-14 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001038,PA000972,2024-09-15 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001038,PA000973,2024-09-15 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000974,2024-09-15 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001038,PA000975,2024-09-16 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001038,PA000976,2024-09-16 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000977,2024-09-16 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001038,PA000978,2024-09-16 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001038,PA000979,2024-09-17 08:00:00+00:00,SOFA Score,severity_score,4,points
+H001038,PA000980,2024-09-17 08:00:00+00:00,Glasgow Coma Scale,neurological,8,points
+H001038,PA000981,2024-09-17 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-1,score
+H001038,PA000982,2024-09-17 08:00:00+00:00,Confusion Assessment Method for ICU,delirium,Negative,
+H001038,PA000983,2024-09-18 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001038,PA000984,2024-09-18 08:00:00+00:00,Glasgow Coma Scale,neurological,5,points
+H001038,PA000985,2024-09-18 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001038,PA000986,2024-09-19 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001038,PA000987,2024-09-19 08:00:00+00:00,Glasgow Coma Scale,neurological,15,points
+H001038,PA000988,2024-09-19 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001038,PA000989,2024-09-20 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001038,PA000990,2024-09-20 08:00:00+00:00,Glasgow Coma Scale,neurological,12,points
+H001038,PA000991,2024-09-20 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,-3,score
+H001038,PA000992,2024-09-21 08:00:00+00:00,SOFA Score,severity_score,6,points
+H001038,PA000993,2024-09-21 08:00:00+00:00,Glasgow Coma Scale,neurological,13,points
+H001038,PA000994,2024-09-21 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001038,PA000995,2024-09-22 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001038,PA000996,2024-09-22 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
+H001038,PA000997,2024-09-22 08:00:00+00:00,Richmond Agitation-Sedation Scale,sedation,0,score
+H001038,PA000998,2024-09-23 08:00:00+00:00,SOFA Score,severity_score,7,points
+H001038,PA000999,2024-09-23 08:00:00+00:00,Glasgow Coma Scale,neurological,14,points
