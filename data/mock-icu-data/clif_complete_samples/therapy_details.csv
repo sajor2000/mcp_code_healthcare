@@ -1,0 +1,1000 @@
+session_id,hospitalization_id,activity_name,activity_duration_minutes,patient_response,notes
+TS00000001,H00001236,Communication exercises,24,Poor,Patient participated in Communication exercises
+TS00000001,H00001236,Cognitive-linguistic tasks,24,Good,Patient participated in Cognitive-linguistic tasks
+TS00000002,H00001236,Cognitive-linguistic tasks,25,Good,Patient participated in Cognitive-linguistic tasks
+TS00000002,H00001236,Communication exercises,25,Fair,Patient participated in Communication exercises
+TS00000003,H00001236,Cognitive-linguistic tasks,17,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000003,H00001236,Communication exercises,17,Fair,Patient participated in Communication exercises
+TS00000004,H00001236,Swallow evaluation,17,Poor,Patient participated in Swallow evaluation
+TS00000004,H00001236,Communication exercises,17,Good,Patient participated in Communication exercises
+TS00000005,H00001236,Communication exercises,25,Poor,Patient participated in Communication exercises
+TS00000005,H00001236,Swallow evaluation,25,Fair,Patient participated in Swallow evaluation
+TS00000006,H00001236,Swallow evaluation,24,Poor,Patient participated in Swallow evaluation
+TS00000006,H00001236,Cognitive-linguistic tasks,24,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000007,H00001236,Swallow evaluation,17,Poor,Patient participated in Swallow evaluation
+TS00000007,H00001236,Communication exercises,17,Fair,Patient participated in Communication exercises
+TS00000008,H00001236,Communication exercises,17,Poor,Patient participated in Communication exercises
+TS00000008,H00001236,Swallow evaluation,17,Fair,Patient participated in Swallow evaluation
+TS00000009,H00001236,Cognitive-linguistic tasks,23,Good,Patient participated in Cognitive-linguistic tasks
+TS00000009,H00001236,Communication exercises,23,Good,Patient participated in Communication exercises
+TS00000010,H00001236,Communication exercises,29,Poor,Patient participated in Communication exercises
+TS00000010,H00001236,Swallow evaluation,29,Good,Patient participated in Swallow evaluation
+TS00000011,H00001236,Swallow evaluation,25,Good,Patient participated in Swallow evaluation
+TS00000011,H00001236,Communication exercises,25,Good,Patient participated in Communication exercises
+TS00000012,H00001302,Breathing exercises,23,Poor,Patient participated in Breathing exercises
+TS00000012,H00001302,Airway clearance,23,Fair,Patient participated in Airway clearance
+TS00000013,H00001302,Oxygen titration,29,Poor,Patient participated in Oxygen titration
+TS00000013,H00001302,Ventilator weaning,29,Poor,Patient participated in Ventilator weaning
+TS00000014,H00001302,Oxygen titration,26,Poor,Patient participated in Oxygen titration
+TS00000014,H00001302,Airway clearance,26,Poor,Patient participated in Airway clearance
+TS00000015,H00001302,Breathing exercises,20,Poor,Patient participated in Breathing exercises
+TS00000015,H00001302,Oxygen titration,20,Fair,Patient participated in Oxygen titration
+TS00000016,H00001302,Breathing exercises,19,Good,Patient participated in Breathing exercises
+TS00000016,H00001302,Airway clearance,19,Poor,Patient participated in Airway clearance
+TS00000017,H00001302,Breathing exercises,20,Fair,Patient participated in Breathing exercises
+TS00000017,H00001302,Oxygen titration,20,Good,Patient participated in Oxygen titration
+TS00000018,H00001302,Ventilator weaning,20,Poor,Patient participated in Ventilator weaning
+TS00000018,H00001302,Airway clearance,20,Good,Patient participated in Airway clearance
+TS00000019,H00001302,Breathing exercises,17,Good,Patient participated in Breathing exercises
+TS00000019,H00001302,Ventilator weaning,17,Poor,Patient participated in Ventilator weaning
+TS00000020,H00001302,Breathing exercises,20,Good,Patient participated in Breathing exercises
+TS00000020,H00001302,Ventilator weaning,20,Poor,Patient participated in Ventilator weaning
+TS00000021,H00001548,Cognitive-linguistic tasks,25,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000021,H00001548,Communication exercises,25,Fair,Patient participated in Communication exercises
+TS00000022,H00001548,Cognitive-linguistic tasks,22,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000022,H00001548,Swallow evaluation,22,Fair,Patient participated in Swallow evaluation
+TS00000023,H00001548,Cognitive-linguistic tasks,17,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000023,H00001548,Swallow evaluation,17,Fair,Patient participated in Swallow evaluation
+TS00000024,H00001548,Ventilator weaning,20,Poor,Patient participated in Ventilator weaning
+TS00000024,H00001548,Oxygen titration,20,Good,Patient participated in Oxygen titration
+TS00000025,H00001548,Breathing exercises,25,Poor,Patient participated in Breathing exercises
+TS00000025,H00001548,Airway clearance,25,Fair,Patient participated in Airway clearance
+TS00000026,H00001548,Breathing exercises,29,Good,Patient participated in Breathing exercises
+TS00000026,H00001548,Ventilator weaning,29,Good,Patient participated in Ventilator weaning
+TS00000027,H00001548,Oxygen titration,27,Good,Patient participated in Oxygen titration
+TS00000027,H00001548,Airway clearance,27,Poor,Patient participated in Airway clearance
+TS00000028,H00001183,Cognitive tasks,23,Good,Patient participated in Cognitive tasks
+TS00000028,H00001183,Upper extremity exercises,23,Poor,Patient participated in Upper extremity exercises
+TS00000029,H00001183,Fine motor skills,25,Good,Patient participated in Fine motor skills
+TS00000029,H00001183,ADL training,25,Fair,Patient participated in ADL training
+TS00000030,H00001183,Upper extremity exercises,28,Fair,Patient participated in Upper extremity exercises
+TS00000030,H00001183,Fine motor skills,28,Fair,Patient participated in Fine motor skills
+TS00000031,H00001183,ADL training,26,Good,Patient participated in ADL training
+TS00000031,H00001183,Cognitive tasks,26,Fair,Patient participated in Cognitive tasks
+TS00000032,H00001183,Fine motor skills,24,Good,Patient participated in Fine motor skills
+TS00000032,H00001183,Cognitive tasks,24,Fair,Patient participated in Cognitive tasks
+TS00000033,H00001727,Cognitive-linguistic tasks,18,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000033,H00001727,Swallow evaluation,18,Fair,Patient participated in Swallow evaluation
+TS00000034,H00001727,Swallow evaluation,20,Fair,Patient participated in Swallow evaluation
+TS00000034,H00001727,Cognitive-linguistic tasks,20,Good,Patient participated in Cognitive-linguistic tasks
+TS00000035,H00001727,Swallow evaluation,18,Fair,Patient participated in Swallow evaluation
+TS00000035,H00001727,Communication exercises,18,Fair,Patient participated in Communication exercises
+TS00000036,H00001727,Cognitive-linguistic tasks,29,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000036,H00001727,Swallow evaluation,29,Poor,Patient participated in Swallow evaluation
+TS00000037,H00001727,Swallow evaluation,28,Good,Patient participated in Swallow evaluation
+TS00000037,H00001727,Cognitive-linguistic tasks,28,Good,Patient participated in Cognitive-linguistic tasks
+TS00000038,H00001727,Swallow evaluation,27,Good,Patient participated in Swallow evaluation
+TS00000038,H00001727,Communication exercises,27,Poor,Patient participated in Communication exercises
+TS00000039,H00001727,Cognitive-linguistic tasks,23,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000039,H00001727,Communication exercises,23,Poor,Patient participated in Communication exercises
+TS00000040,H00001727,Cognitive-linguistic tasks,20,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000040,H00001727,Swallow evaluation,20,Good,Patient participated in Swallow evaluation
+TS00000041,H00001727,Communication exercises,26,Good,Patient participated in Communication exercises
+TS00000041,H00001727,Swallow evaluation,26,Fair,Patient participated in Swallow evaluation
+TS00000042,H00001727,Swallow evaluation,27,Poor,Patient participated in Swallow evaluation
+TS00000042,H00001727,Communication exercises,27,Good,Patient participated in Communication exercises
+TS00000043,H00001727,Swallow evaluation,23,Fair,Patient participated in Swallow evaluation
+TS00000043,H00001727,Communication exercises,23,Good,Patient participated in Communication exercises
+TS00000044,H00001727,Cognitive-linguistic tasks,21,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000044,H00001727,Communication exercises,21,Fair,Patient participated in Communication exercises
+TS00000045,H00001727,Swallow evaluation,25,Good,Patient participated in Swallow evaluation
+TS00000045,H00001727,Communication exercises,25,Good,Patient participated in Communication exercises
+TS00000046,H00001727,Fine motor skills,23,Good,Patient participated in Fine motor skills
+TS00000046,H00001727,Cognitive tasks,23,Good,Patient participated in Cognitive tasks
+TS00000047,H00001727,Fine motor skills,25,Good,Patient participated in Fine motor skills
+TS00000047,H00001727,ADL training,25,Fair,Patient participated in ADL training
+TS00000048,H00001727,Fine motor skills,21,Fair,Patient participated in Fine motor skills
+TS00000048,H00001727,Upper extremity exercises,21,Good,Patient participated in Upper extremity exercises
+TS00000049,H00001727,ADL training,28,Fair,Patient participated in ADL training
+TS00000049,H00001727,Cognitive tasks,28,Poor,Patient participated in Cognitive tasks
+TS00000050,H00001727,ADL training,27,Poor,Patient participated in ADL training
+TS00000050,H00001727,Fine motor skills,27,Poor,Patient participated in Fine motor skills
+TS00000051,H00001727,ADL training,28,Poor,Patient participated in ADL training
+TS00000051,H00001727,Upper extremity exercises,28,Poor,Patient participated in Upper extremity exercises
+TS00000052,H00001727,Fine motor skills,24,Fair,Patient participated in Fine motor skills
+TS00000052,H00001727,ADL training,24,Poor,Patient participated in ADL training
+TS00000053,H00001727,Upper extremity exercises,24,Poor,Patient participated in Upper extremity exercises
+TS00000053,H00001727,Fine motor skills,24,Good,Patient participated in Fine motor skills
+TS00000054,H00001727,Fine motor skills,25,Good,Patient participated in Fine motor skills
+TS00000054,H00001727,ADL training,25,Fair,Patient participated in ADL training
+TS00000055,H00001727,Cognitive tasks,17,Good,Patient participated in Cognitive tasks
+TS00000055,H00001727,ADL training,17,Good,Patient participated in ADL training
+TS00000056,H00001727,Fine motor skills,24,Poor,Patient participated in Fine motor skills
+TS00000056,H00001727,Upper extremity exercises,24,Good,Patient participated in Upper extremity exercises
+TS00000057,H00001727,Fine motor skills,15,Poor,Patient participated in Fine motor skills
+TS00000057,H00001727,Upper extremity exercises,15,Poor,Patient participated in Upper extremity exercises
+TS00000058,H00001727,Fine motor skills,15,Good,Patient participated in Fine motor skills
+TS00000058,H00001727,ADL training,15,Fair,Patient participated in ADL training
+TS00000059,H00001706,Swallow evaluation,22,Good,Patient participated in Swallow evaluation
+TS00000059,H00001706,Cognitive-linguistic tasks,22,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000060,H00001706,Communication exercises,16,Poor,Patient participated in Communication exercises
+TS00000060,H00001706,Swallow evaluation,16,Fair,Patient participated in Swallow evaluation
+TS00000061,H00001706,Swallow evaluation,20,Poor,Patient participated in Swallow evaluation
+TS00000061,H00001706,Communication exercises,20,Poor,Patient participated in Communication exercises
+TS00000062,H00001706,Cognitive-linguistic tasks,22,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000062,H00001706,Swallow evaluation,22,Fair,Patient participated in Swallow evaluation
+TS00000063,H00001706,Swallow evaluation,26,Poor,Patient participated in Swallow evaluation
+TS00000063,H00001706,Cognitive-linguistic tasks,26,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000064,H00001706,Communication exercises,17,Poor,Patient participated in Communication exercises
+TS00000064,H00001706,Cognitive-linguistic tasks,17,Good,Patient participated in Cognitive-linguistic tasks
+TS00000065,H00001706,Cognitive-linguistic tasks,20,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000065,H00001706,Communication exercises,20,Fair,Patient participated in Communication exercises
+TS00000066,H00001706,Cognitive-linguistic tasks,21,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000066,H00001706,Swallow evaluation,21,Fair,Patient participated in Swallow evaluation
+TS00000067,H00001706,Communication exercises,28,Fair,Patient participated in Communication exercises
+TS00000067,H00001706,Swallow evaluation,28,Fair,Patient participated in Swallow evaluation
+TS00000068,H00001706,Cognitive-linguistic tasks,16,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000068,H00001706,Swallow evaluation,16,Poor,Patient participated in Swallow evaluation
+TS00000069,H00001706,Swallow evaluation,16,Fair,Patient participated in Swallow evaluation
+TS00000069,H00001706,Communication exercises,16,Good,Patient participated in Communication exercises
+TS00000070,H00001669,Oxygen titration,16,Good,Patient participated in Oxygen titration
+TS00000070,H00001669,Ventilator weaning,16,Good,Patient participated in Ventilator weaning
+TS00000071,H00001669,Airway clearance,24,Good,Patient participated in Airway clearance
+TS00000071,H00001669,Breathing exercises,24,Fair,Patient participated in Breathing exercises
+TS00000072,H00001316,Gait training,27,Good,Patient participated in Gait training
+TS00000072,H00001316,Strengthening exercises,27,Good,Patient participated in Strengthening exercises
+TS00000073,H00001316,Bed mobility,21,Poor,Patient participated in Bed mobility
+TS00000073,H00001316,Transfer training,21,Good,Patient participated in Transfer training
+TS00000074,H00001316,Upper extremity exercises,15,Good,Patient participated in Upper extremity exercises
+TS00000074,H00001316,Cognitive tasks,15,Good,Patient participated in Cognitive tasks
+TS00000075,H00001316,Upper extremity exercises,25,Fair,Patient participated in Upper extremity exercises
+TS00000075,H00001316,Fine motor skills,25,Good,Patient participated in Fine motor skills
+TS00000076,H00001223,ADL training,21,Good,Patient participated in ADL training
+TS00000076,H00001223,Upper extremity exercises,21,Fair,Patient participated in Upper extremity exercises
+TS00000077,H00001223,Fine motor skills,15,Poor,Patient participated in Fine motor skills
+TS00000077,H00001223,Upper extremity exercises,15,Poor,Patient participated in Upper extremity exercises
+TS00000078,H00001223,ADL training,17,Fair,Patient participated in ADL training
+TS00000078,H00001223,Fine motor skills,17,Poor,Patient participated in Fine motor skills
+TS00000079,H00001223,Upper extremity exercises,17,Fair,Patient participated in Upper extremity exercises
+TS00000079,H00001223,Cognitive tasks,17,Poor,Patient participated in Cognitive tasks
+TS00000080,H00001223,Fine motor skills,19,Good,Patient participated in Fine motor skills
+TS00000080,H00001223,Cognitive tasks,19,Good,Patient participated in Cognitive tasks
+TS00000081,H00001223,Upper extremity exercises,25,Poor,Patient participated in Upper extremity exercises
+TS00000081,H00001223,ADL training,25,Fair,Patient participated in ADL training
+TS00000082,H00001223,Upper extremity exercises,28,Fair,Patient participated in Upper extremity exercises
+TS00000082,H00001223,Cognitive tasks,28,Fair,Patient participated in Cognitive tasks
+TS00000083,H00001223,Cognitive tasks,19,Good,Patient participated in Cognitive tasks
+TS00000083,H00001223,Upper extremity exercises,19,Poor,Patient participated in Upper extremity exercises
+TS00000084,H00001223,Fine motor skills,25,Fair,Patient participated in Fine motor skills
+TS00000084,H00001223,ADL training,25,Poor,Patient participated in ADL training
+TS00000085,H00001223,Fine motor skills,18,Poor,Patient participated in Fine motor skills
+TS00000085,H00001223,Upper extremity exercises,18,Poor,Patient participated in Upper extremity exercises
+TS00000086,H00001223,Strengthening exercises,17,Good,Patient participated in Strengthening exercises
+TS00000086,H00001223,Bed mobility,17,Poor,Patient participated in Bed mobility
+TS00000087,H00001223,Transfer training,28,Good,Patient participated in Transfer training
+TS00000087,H00001223,Bed mobility,28,Good,Patient participated in Bed mobility
+TS00000088,H00001223,Strengthening exercises,20,Fair,Patient participated in Strengthening exercises
+TS00000088,H00001223,Transfer training,20,Good,Patient participated in Transfer training
+TS00000089,H00001223,Strengthening exercises,17,Poor,Patient participated in Strengthening exercises
+TS00000089,H00001223,Gait training,17,Good,Patient participated in Gait training
+TS00000090,H00001223,Bed mobility,23,Poor,Patient participated in Bed mobility
+TS00000090,H00001223,Transfer training,23,Good,Patient participated in Transfer training
+TS00000091,H00001223,Bed mobility,29,Poor,Patient participated in Bed mobility
+TS00000091,H00001223,Strengthening exercises,29,Fair,Patient participated in Strengthening exercises
+TS00000092,H00001223,Bed mobility,24,Fair,Patient participated in Bed mobility
+TS00000092,H00001223,Gait training,24,Fair,Patient participated in Gait training
+TS00000093,H00001223,Strengthening exercises,19,Good,Patient participated in Strengthening exercises
+TS00000093,H00001223,Transfer training,19,Poor,Patient participated in Transfer training
+TS00000094,H00001223,Gait training,28,Poor,Patient participated in Gait training
+TS00000094,H00001223,Bed mobility,28,Good,Patient participated in Bed mobility
+TS00000095,H00001223,Transfer training,26,Poor,Patient participated in Transfer training
+TS00000095,H00001223,Gait training,26,Poor,Patient participated in Gait training
+TS00000096,H00001181,Upper extremity exercises,16,Fair,Patient participated in Upper extremity exercises
+TS00000096,H00001181,ADL training,16,Good,Patient participated in ADL training
+TS00000097,H00001181,Fine motor skills,22,Poor,Patient participated in Fine motor skills
+TS00000097,H00001181,Upper extremity exercises,22,Good,Patient participated in Upper extremity exercises
+TS00000098,H00001181,Cognitive tasks,22,Poor,Patient participated in Cognitive tasks
+TS00000098,H00001181,ADL training,22,Fair,Patient participated in ADL training
+TS00000099,H00001181,Cognitive tasks,23,Fair,Patient participated in Cognitive tasks
+TS00000099,H00001181,ADL training,23,Poor,Patient participated in ADL training
+TS00000100,H00001181,Fine motor skills,21,Good,Patient participated in Fine motor skills
+TS00000100,H00001181,Cognitive tasks,21,Fair,Patient participated in Cognitive tasks
+TS00000101,H00001181,Fine motor skills,22,Poor,Patient participated in Fine motor skills
+TS00000101,H00001181,Cognitive tasks,22,Fair,Patient participated in Cognitive tasks
+TS00000102,H00001181,Cognitive tasks,21,Poor,Patient participated in Cognitive tasks
+TS00000102,H00001181,ADL training,21,Poor,Patient participated in ADL training
+TS00000103,H00001181,Bed mobility,20,Good,Patient participated in Bed mobility
+TS00000103,H00001181,Gait training,20,Poor,Patient participated in Gait training
+TS00000104,H00001181,Transfer training,23,Poor,Patient participated in Transfer training
+TS00000104,H00001181,Gait training,23,Fair,Patient participated in Gait training
+TS00000105,H00001181,Gait training,22,Poor,Patient participated in Gait training
+TS00000105,H00001181,Transfer training,22,Poor,Patient participated in Transfer training
+TS00000106,H00001181,Strengthening exercises,16,Poor,Patient participated in Strengthening exercises
+TS00000106,H00001181,Gait training,16,Poor,Patient participated in Gait training
+TS00000107,H00001181,Strengthening exercises,28,Fair,Patient participated in Strengthening exercises
+TS00000107,H00001181,Transfer training,28,Good,Patient participated in Transfer training
+TS00000108,H00001181,Strengthening exercises,18,Poor,Patient participated in Strengthening exercises
+TS00000108,H00001181,Gait training,18,Good,Patient participated in Gait training
+TS00000109,H00001329,Swallow evaluation,23,Good,Patient participated in Swallow evaluation
+TS00000109,H00001329,Communication exercises,23,Poor,Patient participated in Communication exercises
+TS00000110,H00001329,Swallow evaluation,15,Poor,Patient participated in Swallow evaluation
+TS00000110,H00001329,Cognitive-linguistic tasks,15,Good,Patient participated in Cognitive-linguistic tasks
+TS00000111,H00001329,Communication exercises,18,Poor,Patient participated in Communication exercises
+TS00000111,H00001329,Swallow evaluation,18,Fair,Patient participated in Swallow evaluation
+TS00000112,H00001329,Swallow evaluation,16,Good,Patient participated in Swallow evaluation
+TS00000112,H00001329,Communication exercises,16,Good,Patient participated in Communication exercises
+TS00000113,H00001329,Communication exercises,15,Good,Patient participated in Communication exercises
+TS00000113,H00001329,Cognitive-linguistic tasks,15,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000114,H00001329,Gait training,21,Fair,Patient participated in Gait training
+TS00000114,H00001329,Strengthening exercises,21,Fair,Patient participated in Strengthening exercises
+TS00000115,H00001329,Gait training,22,Good,Patient participated in Gait training
+TS00000115,H00001329,Transfer training,22,Good,Patient participated in Transfer training
+TS00000116,H00001329,Bed mobility,29,Fair,Patient participated in Bed mobility
+TS00000116,H00001329,Transfer training,29,Fair,Patient participated in Transfer training
+TS00000117,H00001329,Strengthening exercises,16,Good,Patient participated in Strengthening exercises
+TS00000117,H00001329,Transfer training,16,Good,Patient participated in Transfer training
+TS00000118,H00001055,Cognitive tasks,24,Good,Patient participated in Cognitive tasks
+TS00000118,H00001055,Upper extremity exercises,24,Poor,Patient participated in Upper extremity exercises
+TS00000119,H00001055,Cognitive tasks,26,Fair,Patient participated in Cognitive tasks
+TS00000119,H00001055,ADL training,26,Fair,Patient participated in ADL training
+TS00000120,H00001055,Cognitive tasks,20,Good,Patient participated in Cognitive tasks
+TS00000120,H00001055,ADL training,20,Good,Patient participated in ADL training
+TS00000121,H00001055,Cognitive tasks,15,Poor,Patient participated in Cognitive tasks
+TS00000121,H00001055,Upper extremity exercises,15,Fair,Patient participated in Upper extremity exercises
+TS00000122,H00001055,ADL training,20,Fair,Patient participated in ADL training
+TS00000122,H00001055,Fine motor skills,20,Fair,Patient participated in Fine motor skills
+TS00000123,H00001055,Upper extremity exercises,17,Poor,Patient participated in Upper extremity exercises
+TS00000123,H00001055,ADL training,17,Fair,Patient participated in ADL training
+TS00000124,H00001055,Oxygen titration,27,Poor,Patient participated in Oxygen titration
+TS00000124,H00001055,Ventilator weaning,27,Poor,Patient participated in Ventilator weaning
+TS00000125,H00001055,Breathing exercises,19,Fair,Patient participated in Breathing exercises
+TS00000125,H00001055,Airway clearance,19,Fair,Patient participated in Airway clearance
+TS00000126,H00001055,Ventilator weaning,16,Fair,Patient participated in Ventilator weaning
+TS00000126,H00001055,Airway clearance,16,Fair,Patient participated in Airway clearance
+TS00000127,H00001055,Oxygen titration,24,Poor,Patient participated in Oxygen titration
+TS00000127,H00001055,Ventilator weaning,24,Poor,Patient participated in Ventilator weaning
+TS00000128,H00001055,Breathing exercises,16,Poor,Patient participated in Breathing exercises
+TS00000128,H00001055,Airway clearance,16,Poor,Patient participated in Airway clearance
+TS00000129,H00001055,Oxygen titration,21,Poor,Patient participated in Oxygen titration
+TS00000129,H00001055,Airway clearance,21,Poor,Patient participated in Airway clearance
+TS00000130,H00001060,ADL training,18,Good,Patient participated in ADL training
+TS00000130,H00001060,Upper extremity exercises,18,Fair,Patient participated in Upper extremity exercises
+TS00000131,H00001060,ADL training,29,Poor,Patient participated in ADL training
+TS00000131,H00001060,Fine motor skills,29,Poor,Patient participated in Fine motor skills
+TS00000132,H00001060,Cognitive tasks,20,Fair,Patient participated in Cognitive tasks
+TS00000132,H00001060,Fine motor skills,20,Fair,Patient participated in Fine motor skills
+TS00000133,H00001060,Upper extremity exercises,27,Fair,Patient participated in Upper extremity exercises
+TS00000133,H00001060,ADL training,27,Fair,Patient participated in ADL training
+TS00000134,H00001060,Cognitive tasks,29,Poor,Patient participated in Cognitive tasks
+TS00000134,H00001060,Fine motor skills,29,Poor,Patient participated in Fine motor skills
+TS00000135,H00001060,Gait training,17,Good,Patient participated in Gait training
+TS00000135,H00001060,Bed mobility,17,Fair,Patient participated in Bed mobility
+TS00000136,H00001060,Bed mobility,26,Poor,Patient participated in Bed mobility
+TS00000136,H00001060,Gait training,26,Good,Patient participated in Gait training
+TS00000137,H00001060,Transfer training,19,Good,Patient participated in Transfer training
+TS00000137,H00001060,Strengthening exercises,19,Poor,Patient participated in Strengthening exercises
+TS00000138,H00001060,Gait training,22,Fair,Patient participated in Gait training
+TS00000138,H00001060,Bed mobility,22,Fair,Patient participated in Bed mobility
+TS00000139,H00001060,Gait training,29,Fair,Patient participated in Gait training
+TS00000139,H00001060,Strengthening exercises,29,Fair,Patient participated in Strengthening exercises
+TS00000140,H00001060,Transfer training,24,Poor,Patient participated in Transfer training
+TS00000140,H00001060,Gait training,24,Poor,Patient participated in Gait training
+TS00000141,H00001164,Airway clearance,18,Poor,Patient participated in Airway clearance
+TS00000141,H00001164,Oxygen titration,18,Poor,Patient participated in Oxygen titration
+TS00000142,H00001164,Ventilator weaning,20,Fair,Patient participated in Ventilator weaning
+TS00000142,H00001164,Oxygen titration,20,Fair,Patient participated in Oxygen titration
+TS00000143,H00001164,Airway clearance,17,Good,Patient participated in Airway clearance
+TS00000143,H00001164,Oxygen titration,17,Good,Patient participated in Oxygen titration
+TS00000144,H00001164,Airway clearance,23,Poor,Patient participated in Airway clearance
+TS00000144,H00001164,Oxygen titration,23,Poor,Patient participated in Oxygen titration
+TS00000145,H00001164,Breathing exercises,19,Good,Patient participated in Breathing exercises
+TS00000145,H00001164,Airway clearance,19,Poor,Patient participated in Airway clearance
+TS00000146,H00001164,Breathing exercises,15,Poor,Patient participated in Breathing exercises
+TS00000146,H00001164,Oxygen titration,15,Fair,Patient participated in Oxygen titration
+TS00000147,H00001164,Oxygen titration,23,Fair,Patient participated in Oxygen titration
+TS00000147,H00001164,Breathing exercises,23,Poor,Patient participated in Breathing exercises
+TS00000148,H00001164,Upper extremity exercises,22,Poor,Patient participated in Upper extremity exercises
+TS00000148,H00001164,Fine motor skills,22,Poor,Patient participated in Fine motor skills
+TS00000149,H00001164,ADL training,19,Poor,Patient participated in ADL training
+TS00000149,H00001164,Cognitive tasks,19,Good,Patient participated in Cognitive tasks
+TS00000150,H00001164,Upper extremity exercises,16,Poor,Patient participated in Upper extremity exercises
+TS00000150,H00001164,Cognitive tasks,16,Poor,Patient participated in Cognitive tasks
+TS00000151,H00001164,ADL training,27,Poor,Patient participated in ADL training
+TS00000151,H00001164,Cognitive tasks,27,Good,Patient participated in Cognitive tasks
+TS00000152,H00001164,Fine motor skills,25,Poor,Patient participated in Fine motor skills
+TS00000152,H00001164,ADL training,25,Poor,Patient participated in ADL training
+TS00000153,H00001314,Strengthening exercises,23,Poor,Patient participated in Strengthening exercises
+TS00000153,H00001314,Gait training,23,Poor,Patient participated in Gait training
+TS00000154,H00001314,Transfer training,24,Good,Patient participated in Transfer training
+TS00000154,H00001314,Bed mobility,24,Fair,Patient participated in Bed mobility
+TS00000155,H00001314,Transfer training,29,Fair,Patient participated in Transfer training
+TS00000155,H00001314,Gait training,29,Poor,Patient participated in Gait training
+TS00000156,H00001314,Transfer training,18,Fair,Patient participated in Transfer training
+TS00000156,H00001314,Bed mobility,18,Poor,Patient participated in Bed mobility
+TS00000157,H00001314,Bed mobility,27,Good,Patient participated in Bed mobility
+TS00000157,H00001314,Transfer training,27,Poor,Patient participated in Transfer training
+TS00000158,H00001500,Swallow evaluation,20,Fair,Patient participated in Swallow evaluation
+TS00000158,H00001500,Communication exercises,20,Fair,Patient participated in Communication exercises
+TS00000159,H00001500,Cognitive-linguistic tasks,26,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000159,H00001500,Communication exercises,26,Poor,Patient participated in Communication exercises
+TS00000160,H00001500,Cognitive-linguistic tasks,27,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000160,H00001500,Communication exercises,27,Fair,Patient participated in Communication exercises
+TS00000161,H00001500,Swallow evaluation,23,Fair,Patient participated in Swallow evaluation
+TS00000161,H00001500,Communication exercises,23,Fair,Patient participated in Communication exercises
+TS00000162,H00001500,Swallow evaluation,19,Fair,Patient participated in Swallow evaluation
+TS00000162,H00001500,Cognitive-linguistic tasks,19,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000163,H00001500,Communication exercises,16,Good,Patient participated in Communication exercises
+TS00000163,H00001500,Swallow evaluation,16,Fair,Patient participated in Swallow evaluation
+TS00000164,H00001500,Swallow evaluation,20,Fair,Patient participated in Swallow evaluation
+TS00000164,H00001500,Cognitive-linguistic tasks,20,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000165,H00001500,Cognitive-linguistic tasks,25,Good,Patient participated in Cognitive-linguistic tasks
+TS00000165,H00001500,Communication exercises,25,Good,Patient participated in Communication exercises
+TS00000166,H00001500,Swallow evaluation,27,Fair,Patient participated in Swallow evaluation
+TS00000166,H00001500,Cognitive-linguistic tasks,27,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000167,H00001500,Swallow evaluation,29,Fair,Patient participated in Swallow evaluation
+TS00000167,H00001500,Communication exercises,29,Good,Patient participated in Communication exercises
+TS00000168,H00001500,Oxygen titration,19,Good,Patient participated in Oxygen titration
+TS00000168,H00001500,Airway clearance,19,Fair,Patient participated in Airway clearance
+TS00000169,H00001500,Airway clearance,16,Good,Patient participated in Airway clearance
+TS00000169,H00001500,Oxygen titration,16,Good,Patient participated in Oxygen titration
+TS00000170,H00001500,Airway clearance,27,Fair,Patient participated in Airway clearance
+TS00000170,H00001500,Oxygen titration,27,Good,Patient participated in Oxygen titration
+TS00000171,H00001500,Airway clearance,28,Fair,Patient participated in Airway clearance
+TS00000171,H00001500,Oxygen titration,28,Poor,Patient participated in Oxygen titration
+TS00000172,H00001500,Airway clearance,23,Fair,Patient participated in Airway clearance
+TS00000172,H00001500,Ventilator weaning,23,Good,Patient participated in Ventilator weaning
+TS00000173,H00001500,Ventilator weaning,29,Fair,Patient participated in Ventilator weaning
+TS00000173,H00001500,Airway clearance,29,Good,Patient participated in Airway clearance
+TS00000174,H00001500,Airway clearance,19,Good,Patient participated in Airway clearance
+TS00000174,H00001500,Ventilator weaning,19,Fair,Patient participated in Ventilator weaning
+TS00000175,H00001178,Swallow evaluation,24,Good,Patient participated in Swallow evaluation
+TS00000175,H00001178,Cognitive-linguistic tasks,24,Good,Patient participated in Cognitive-linguistic tasks
+TS00000176,H00001178,Swallow evaluation,16,Good,Patient participated in Swallow evaluation
+TS00000176,H00001178,Cognitive-linguistic tasks,16,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000177,H00001178,Communication exercises,16,Good,Patient participated in Communication exercises
+TS00000177,H00001178,Swallow evaluation,16,Good,Patient participated in Swallow evaluation
+TS00000178,H00001178,Cognitive-linguistic tasks,18,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000178,H00001178,Swallow evaluation,18,Fair,Patient participated in Swallow evaluation
+TS00000179,H00001178,Swallow evaluation,21,Good,Patient participated in Swallow evaluation
+TS00000179,H00001178,Cognitive-linguistic tasks,21,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000180,H00001178,Swallow evaluation,29,Poor,Patient participated in Swallow evaluation
+TS00000180,H00001178,Communication exercises,29,Poor,Patient participated in Communication exercises
+TS00000181,H00001178,Cognitive-linguistic tasks,20,Good,Patient participated in Cognitive-linguistic tasks
+TS00000181,H00001178,Swallow evaluation,20,Good,Patient participated in Swallow evaluation
+TS00000182,H00001178,Communication exercises,24,Poor,Patient participated in Communication exercises
+TS00000182,H00001178,Swallow evaluation,24,Fair,Patient participated in Swallow evaluation
+TS00000183,H00001178,Upper extremity exercises,27,Good,Patient participated in Upper extremity exercises
+TS00000183,H00001178,ADL training,27,Poor,Patient participated in ADL training
+TS00000184,H00001178,ADL training,15,Fair,Patient participated in ADL training
+TS00000184,H00001178,Upper extremity exercises,15,Good,Patient participated in Upper extremity exercises
+TS00000185,H00001178,Cognitive tasks,15,Fair,Patient participated in Cognitive tasks
+TS00000185,H00001178,ADL training,15,Fair,Patient participated in ADL training
+TS00000186,H00001178,ADL training,26,Fair,Patient participated in ADL training
+TS00000186,H00001178,Cognitive tasks,26,Poor,Patient participated in Cognitive tasks
+TS00000187,H00001178,ADL training,24,Good,Patient participated in ADL training
+TS00000187,H00001178,Cognitive tasks,24,Good,Patient participated in Cognitive tasks
+TS00000188,H00001178,Cognitive tasks,29,Poor,Patient participated in Cognitive tasks
+TS00000188,H00001178,Fine motor skills,29,Good,Patient participated in Fine motor skills
+TS00000189,H00001178,Fine motor skills,29,Fair,Patient participated in Fine motor skills
+TS00000189,H00001178,Cognitive tasks,29,Fair,Patient participated in Cognitive tasks
+TS00000190,H00001178,Upper extremity exercises,26,Fair,Patient participated in Upper extremity exercises
+TS00000190,H00001178,Fine motor skills,26,Poor,Patient participated in Fine motor skills
+TS00000191,H00001265,Strengthening exercises,21,Poor,Patient participated in Strengthening exercises
+TS00000191,H00001265,Gait training,21,Fair,Patient participated in Gait training
+TS00000192,H00001265,Bed mobility,20,Good,Patient participated in Bed mobility
+TS00000192,H00001265,Strengthening exercises,20,Fair,Patient participated in Strengthening exercises
+TS00000193,H00001265,Transfer training,17,Good,Patient participated in Transfer training
+TS00000193,H00001265,Bed mobility,17,Fair,Patient participated in Bed mobility
+TS00000194,H00001265,Gait training,21,Poor,Patient participated in Gait training
+TS00000194,H00001265,Strengthening exercises,21,Fair,Patient participated in Strengthening exercises
+TS00000195,H00001265,Gait training,20,Poor,Patient participated in Gait training
+TS00000195,H00001265,Bed mobility,20,Fair,Patient participated in Bed mobility
+TS00000196,H00001265,Transfer training,16,Good,Patient participated in Transfer training
+TS00000196,H00001265,Bed mobility,16,Fair,Patient participated in Bed mobility
+TS00000197,H00001265,Transfer training,28,Poor,Patient participated in Transfer training
+TS00000197,H00001265,Strengthening exercises,28,Good,Patient participated in Strengthening exercises
+TS00000198,H00001265,Strengthening exercises,15,Fair,Patient participated in Strengthening exercises
+TS00000198,H00001265,Transfer training,15,Poor,Patient participated in Transfer training
+TS00000199,H00001265,Bed mobility,24,Poor,Patient participated in Bed mobility
+TS00000199,H00001265,Transfer training,24,Fair,Patient participated in Transfer training
+TS00000200,H00001162,Transfer training,23,Fair,Patient participated in Transfer training
+TS00000200,H00001162,Bed mobility,23,Fair,Patient participated in Bed mobility
+TS00000201,H00001162,Strengthening exercises,23,Poor,Patient participated in Strengthening exercises
+TS00000201,H00001162,Bed mobility,23,Good,Patient participated in Bed mobility
+TS00000202,H00001162,Gait training,17,Fair,Patient participated in Gait training
+TS00000202,H00001162,Strengthening exercises,17,Good,Patient participated in Strengthening exercises
+TS00000203,H00001162,Gait training,28,Fair,Patient participated in Gait training
+TS00000203,H00001162,Transfer training,28,Poor,Patient participated in Transfer training
+TS00000204,H00001266,Swallow evaluation,28,Poor,Patient participated in Swallow evaluation
+TS00000204,H00001266,Communication exercises,28,Good,Patient participated in Communication exercises
+TS00000205,H00001266,Swallow evaluation,24,Good,Patient participated in Swallow evaluation
+TS00000205,H00001266,Cognitive-linguistic tasks,24,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000206,H00001266,Cognitive-linguistic tasks,29,Good,Patient participated in Cognitive-linguistic tasks
+TS00000206,H00001266,Communication exercises,29,Good,Patient participated in Communication exercises
+TS00000207,H00001266,Communication exercises,25,Good,Patient participated in Communication exercises
+TS00000207,H00001266,Swallow evaluation,25,Fair,Patient participated in Swallow evaluation
+TS00000208,H00001266,Communication exercises,18,Fair,Patient participated in Communication exercises
+TS00000208,H00001266,Cognitive-linguistic tasks,18,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000209,H00001286,Upper extremity exercises,17,Fair,Patient participated in Upper extremity exercises
+TS00000209,H00001286,ADL training,17,Fair,Patient participated in ADL training
+TS00000210,H00001286,Upper extremity exercises,29,Poor,Patient participated in Upper extremity exercises
+TS00000210,H00001286,Fine motor skills,29,Fair,Patient participated in Fine motor skills
+TS00000211,H00001551,Gait training,21,Poor,Patient participated in Gait training
+TS00000211,H00001551,Strengthening exercises,21,Good,Patient participated in Strengthening exercises
+TS00000212,H00001551,Gait training,16,Good,Patient participated in Gait training
+TS00000212,H00001551,Strengthening exercises,16,Poor,Patient participated in Strengthening exercises
+TS00000213,H00001551,Bed mobility,22,Fair,Patient participated in Bed mobility
+TS00000213,H00001551,Gait training,22,Fair,Patient participated in Gait training
+TS00000214,H00001551,Strengthening exercises,16,Fair,Patient participated in Strengthening exercises
+TS00000214,H00001551,Bed mobility,16,Fair,Patient participated in Bed mobility
+TS00000215,H00001551,Transfer training,20,Good,Patient participated in Transfer training
+TS00000215,H00001551,Bed mobility,20,Fair,Patient participated in Bed mobility
+TS00000216,H00001551,Bed mobility,17,Good,Patient participated in Bed mobility
+TS00000216,H00001551,Transfer training,17,Poor,Patient participated in Transfer training
+TS00000217,H00001551,Breathing exercises,22,Good,Patient participated in Breathing exercises
+TS00000217,H00001551,Airway clearance,22,Fair,Patient participated in Airway clearance
+TS00000218,H00001551,Breathing exercises,28,Good,Patient participated in Breathing exercises
+TS00000218,H00001551,Ventilator weaning,28,Good,Patient participated in Ventilator weaning
+TS00000219,H00001551,Oxygen titration,28,Good,Patient participated in Oxygen titration
+TS00000219,H00001551,Ventilator weaning,28,Fair,Patient participated in Ventilator weaning
+TS00000220,H00001551,Oxygen titration,17,Fair,Patient participated in Oxygen titration
+TS00000220,H00001551,Ventilator weaning,17,Poor,Patient participated in Ventilator weaning
+TS00000221,H00001551,Ventilator weaning,16,Good,Patient participated in Ventilator weaning
+TS00000221,H00001551,Oxygen titration,16,Fair,Patient participated in Oxygen titration
+TS00000222,H00001551,Breathing exercises,19,Poor,Patient participated in Breathing exercises
+TS00000222,H00001551,Oxygen titration,19,Fair,Patient participated in Oxygen titration
+TS00000223,H00001551,Airway clearance,16,Fair,Patient participated in Airway clearance
+TS00000223,H00001551,Ventilator weaning,16,Good,Patient participated in Ventilator weaning
+TS00000224,H00001632,Communication exercises,16,Good,Patient participated in Communication exercises
+TS00000224,H00001632,Swallow evaluation,16,Poor,Patient participated in Swallow evaluation
+TS00000225,H00001632,Communication exercises,23,Poor,Patient participated in Communication exercises
+TS00000225,H00001632,Cognitive-linguistic tasks,23,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000226,H00001632,Swallow evaluation,18,Poor,Patient participated in Swallow evaluation
+TS00000226,H00001632,Communication exercises,18,Fair,Patient participated in Communication exercises
+TS00000227,H00001632,Cognitive-linguistic tasks,26,Good,Patient participated in Cognitive-linguistic tasks
+TS00000227,H00001632,Swallow evaluation,26,Poor,Patient participated in Swallow evaluation
+TS00000228,H00001632,Communication exercises,26,Poor,Patient participated in Communication exercises
+TS00000228,H00001632,Swallow evaluation,26,Good,Patient participated in Swallow evaluation
+TS00000229,H00001632,Communication exercises,18,Fair,Patient participated in Communication exercises
+TS00000229,H00001632,Cognitive-linguistic tasks,18,Good,Patient participated in Cognitive-linguistic tasks
+TS00000230,H00001632,Communication exercises,17,Fair,Patient participated in Communication exercises
+TS00000230,H00001632,Cognitive-linguistic tasks,17,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000231,H00001632,Cognitive-linguistic tasks,21,Good,Patient participated in Cognitive-linguistic tasks
+TS00000231,H00001632,Communication exercises,21,Good,Patient participated in Communication exercises
+TS00000232,H00001632,Upper extremity exercises,24,Poor,Patient participated in Upper extremity exercises
+TS00000232,H00001632,ADL training,24,Good,Patient participated in ADL training
+TS00000233,H00001632,Fine motor skills,18,Poor,Patient participated in Fine motor skills
+TS00000233,H00001632,Upper extremity exercises,18,Poor,Patient participated in Upper extremity exercises
+TS00000234,H00001632,Fine motor skills,21,Poor,Patient participated in Fine motor skills
+TS00000234,H00001632,Cognitive tasks,21,Good,Patient participated in Cognitive tasks
+TS00000235,H00001632,ADL training,21,Poor,Patient participated in ADL training
+TS00000235,H00001632,Cognitive tasks,21,Good,Patient participated in Cognitive tasks
+TS00000236,H00001632,Cognitive tasks,29,Good,Patient participated in Cognitive tasks
+TS00000236,H00001632,Upper extremity exercises,29,Good,Patient participated in Upper extremity exercises
+TS00000237,H00001632,Upper extremity exercises,15,Good,Patient participated in Upper extremity exercises
+TS00000237,H00001632,Cognitive tasks,15,Poor,Patient participated in Cognitive tasks
+TS00000238,H00001632,ADL training,26,Good,Patient participated in ADL training
+TS00000238,H00001632,Cognitive tasks,26,Good,Patient participated in Cognitive tasks
+TS00000239,H00001632,Upper extremity exercises,19,Good,Patient participated in Upper extremity exercises
+TS00000239,H00001632,Fine motor skills,19,Poor,Patient participated in Fine motor skills
+TS00000240,H00001632,Fine motor skills,27,Good,Patient participated in Fine motor skills
+TS00000240,H00001632,Cognitive tasks,27,Poor,Patient participated in Cognitive tasks
+TS00000241,H00001707,Fine motor skills,19,Good,Patient participated in Fine motor skills
+TS00000241,H00001707,Upper extremity exercises,19,Good,Patient participated in Upper extremity exercises
+TS00000242,H00001707,Upper extremity exercises,25,Good,Patient participated in Upper extremity exercises
+TS00000242,H00001707,Fine motor skills,25,Fair,Patient participated in Fine motor skills
+TS00000243,H00001707,Fine motor skills,20,Poor,Patient participated in Fine motor skills
+TS00000243,H00001707,ADL training,20,Good,Patient participated in ADL training
+TS00000244,H00001707,Cognitive tasks,20,Poor,Patient participated in Cognitive tasks
+TS00000244,H00001707,Upper extremity exercises,20,Fair,Patient participated in Upper extremity exercises
+TS00000245,H00001707,Upper extremity exercises,19,Poor,Patient participated in Upper extremity exercises
+TS00000245,H00001707,Fine motor skills,19,Fair,Patient participated in Fine motor skills
+TS00000246,H00001707,ADL training,28,Good,Patient participated in ADL training
+TS00000246,H00001707,Upper extremity exercises,28,Good,Patient participated in Upper extremity exercises
+TS00000247,H00001707,Fine motor skills,23,Poor,Patient participated in Fine motor skills
+TS00000247,H00001707,ADL training,23,Fair,Patient participated in ADL training
+TS00000248,H00001707,Ventilator weaning,29,Fair,Patient participated in Ventilator weaning
+TS00000248,H00001707,Oxygen titration,29,Poor,Patient participated in Oxygen titration
+TS00000249,H00001707,Oxygen titration,15,Poor,Patient participated in Oxygen titration
+TS00000249,H00001707,Airway clearance,15,Good,Patient participated in Airway clearance
+TS00000250,H00001707,Oxygen titration,15,Good,Patient participated in Oxygen titration
+TS00000250,H00001707,Breathing exercises,15,Good,Patient participated in Breathing exercises
+TS00000251,H00001707,Ventilator weaning,29,Good,Patient participated in Ventilator weaning
+TS00000251,H00001707,Airway clearance,29,Poor,Patient participated in Airway clearance
+TS00000252,H00001549,Ventilator weaning,15,Poor,Patient participated in Ventilator weaning
+TS00000252,H00001549,Breathing exercises,15,Fair,Patient participated in Breathing exercises
+TS00000253,H00001549,Breathing exercises,21,Good,Patient participated in Breathing exercises
+TS00000253,H00001549,Ventilator weaning,21,Good,Patient participated in Ventilator weaning
+TS00000254,H00001549,Oxygen titration,25,Good,Patient participated in Oxygen titration
+TS00000254,H00001549,Breathing exercises,25,Fair,Patient participated in Breathing exercises
+TS00000255,H00001549,Airway clearance,23,Fair,Patient participated in Airway clearance
+TS00000255,H00001549,Ventilator weaning,23,Fair,Patient participated in Ventilator weaning
+TS00000256,H00001549,Oxygen titration,17,Good,Patient participated in Oxygen titration
+TS00000256,H00001549,Airway clearance,17,Fair,Patient participated in Airway clearance
+TS00000257,H00001549,Ventilator weaning,22,Poor,Patient participated in Ventilator weaning
+TS00000257,H00001549,Breathing exercises,22,Poor,Patient participated in Breathing exercises
+TS00000258,H00001549,Ventilator weaning,19,Good,Patient participated in Ventilator weaning
+TS00000258,H00001549,Breathing exercises,19,Good,Patient participated in Breathing exercises
+TS00000259,H00001549,Oxygen titration,21,Fair,Patient participated in Oxygen titration
+TS00000259,H00001549,Breathing exercises,21,Good,Patient participated in Breathing exercises
+TS00000260,H00001546,Cognitive-linguistic tasks,24,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000260,H00001546,Communication exercises,24,Fair,Patient participated in Communication exercises
+TS00000261,H00001546,Cognitive-linguistic tasks,24,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000261,H00001546,Swallow evaluation,24,Fair,Patient participated in Swallow evaluation
+TS00000262,H00001546,Swallow evaluation,15,Fair,Patient participated in Swallow evaluation
+TS00000262,H00001546,Cognitive-linguistic tasks,15,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000263,H00001546,Swallow evaluation,22,Fair,Patient participated in Swallow evaluation
+TS00000263,H00001546,Cognitive-linguistic tasks,22,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000264,H00001546,Swallow evaluation,26,Fair,Patient participated in Swallow evaluation
+TS00000264,H00001546,Cognitive-linguistic tasks,26,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000265,H00001546,Swallow evaluation,24,Poor,Patient participated in Swallow evaluation
+TS00000265,H00001546,Cognitive-linguistic tasks,24,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000266,H00001546,Cognitive-linguistic tasks,15,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000266,H00001546,Communication exercises,15,Poor,Patient participated in Communication exercises
+TS00000267,H00001546,Cognitive-linguistic tasks,28,Good,Patient participated in Cognitive-linguistic tasks
+TS00000267,H00001546,Swallow evaluation,28,Good,Patient participated in Swallow evaluation
+TS00000268,H00001546,Communication exercises,28,Good,Patient participated in Communication exercises
+TS00000268,H00001546,Cognitive-linguistic tasks,28,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000269,H00001546,Cognitive tasks,28,Good,Patient participated in Cognitive tasks
+TS00000269,H00001546,ADL training,28,Good,Patient participated in ADL training
+TS00000270,H00001546,Upper extremity exercises,17,Poor,Patient participated in Upper extremity exercises
+TS00000270,H00001546,ADL training,17,Good,Patient participated in ADL training
+TS00000271,H00001546,Upper extremity exercises,26,Fair,Patient participated in Upper extremity exercises
+TS00000271,H00001546,ADL training,26,Good,Patient participated in ADL training
+TS00000272,H00001546,ADL training,28,Poor,Patient participated in ADL training
+TS00000272,H00001546,Cognitive tasks,28,Poor,Patient participated in Cognitive tasks
+TS00000273,H00001546,Fine motor skills,19,Good,Patient participated in Fine motor skills
+TS00000273,H00001546,Upper extremity exercises,19,Poor,Patient participated in Upper extremity exercises
+TS00000274,H00001546,Fine motor skills,28,Poor,Patient participated in Fine motor skills
+TS00000274,H00001546,Upper extremity exercises,28,Good,Patient participated in Upper extremity exercises
+TS00000275,H00001546,Upper extremity exercises,20,Poor,Patient participated in Upper extremity exercises
+TS00000275,H00001546,Cognitive tasks,20,Poor,Patient participated in Cognitive tasks
+TS00000276,H00001546,Upper extremity exercises,28,Good,Patient participated in Upper extremity exercises
+TS00000276,H00001546,Cognitive tasks,28,Poor,Patient participated in Cognitive tasks
+TS00000277,H00001501,Transfer training,28,Fair,Patient participated in Transfer training
+TS00000277,H00001501,Strengthening exercises,28,Poor,Patient participated in Strengthening exercises
+TS00000278,H00001501,Strengthening exercises,16,Fair,Patient participated in Strengthening exercises
+TS00000278,H00001501,Gait training,16,Good,Patient participated in Gait training
+TS00000279,H00001355,Airway clearance,16,Poor,Patient participated in Airway clearance
+TS00000279,H00001355,Ventilator weaning,16,Fair,Patient participated in Ventilator weaning
+TS00000280,H00001355,Airway clearance,19,Poor,Patient participated in Airway clearance
+TS00000280,H00001355,Ventilator weaning,19,Good,Patient participated in Ventilator weaning
+TS00000281,H00001355,Ventilator weaning,25,Poor,Patient participated in Ventilator weaning
+TS00000281,H00001355,Oxygen titration,25,Fair,Patient participated in Oxygen titration
+TS00000282,H00001355,Breathing exercises,17,Poor,Patient participated in Breathing exercises
+TS00000282,H00001355,Oxygen titration,17,Fair,Patient participated in Oxygen titration
+TS00000283,H00001355,Oxygen titration,23,Poor,Patient participated in Oxygen titration
+TS00000283,H00001355,Breathing exercises,23,Fair,Patient participated in Breathing exercises
+TS00000284,H00001355,Breathing exercises,26,Poor,Patient participated in Breathing exercises
+TS00000284,H00001355,Oxygen titration,26,Poor,Patient participated in Oxygen titration
+TS00000285,H00001355,Airway clearance,17,Poor,Patient participated in Airway clearance
+TS00000285,H00001355,Ventilator weaning,17,Good,Patient participated in Ventilator weaning
+TS00000286,H00001169,Gait training,22,Poor,Patient participated in Gait training
+TS00000286,H00001169,Bed mobility,22,Good,Patient participated in Bed mobility
+TS00000287,H00001169,Gait training,23,Fair,Patient participated in Gait training
+TS00000287,H00001169,Transfer training,23,Good,Patient participated in Transfer training
+TS00000288,H00001169,Strengthening exercises,17,Fair,Patient participated in Strengthening exercises
+TS00000288,H00001169,Bed mobility,17,Fair,Patient participated in Bed mobility
+TS00000289,H00001169,Gait training,22,Poor,Patient participated in Gait training
+TS00000289,H00001169,Bed mobility,22,Fair,Patient participated in Bed mobility
+TS00000290,H00001169,Bed mobility,28,Poor,Patient participated in Bed mobility
+TS00000290,H00001169,Strengthening exercises,28,Poor,Patient participated in Strengthening exercises
+TS00000291,H00001169,Bed mobility,27,Good,Patient participated in Bed mobility
+TS00000291,H00001169,Gait training,27,Good,Patient participated in Gait training
+TS00000292,H00001169,Transfer training,21,Good,Patient participated in Transfer training
+TS00000292,H00001169,Bed mobility,21,Good,Patient participated in Bed mobility
+TS00000293,H00001169,Fine motor skills,18,Good,Patient participated in Fine motor skills
+TS00000293,H00001169,Upper extremity exercises,18,Poor,Patient participated in Upper extremity exercises
+TS00000294,H00001169,Fine motor skills,17,Fair,Patient participated in Fine motor skills
+TS00000294,H00001169,Upper extremity exercises,17,Good,Patient participated in Upper extremity exercises
+TS00000295,H00001169,ADL training,18,Fair,Patient participated in ADL training
+TS00000295,H00001169,Upper extremity exercises,18,Good,Patient participated in Upper extremity exercises
+TS00000296,H00001169,ADL training,21,Good,Patient participated in ADL training
+TS00000296,H00001169,Fine motor skills,21,Fair,Patient participated in Fine motor skills
+TS00000297,H00001169,Upper extremity exercises,27,Fair,Patient participated in Upper extremity exercises
+TS00000297,H00001169,Fine motor skills,27,Fair,Patient participated in Fine motor skills
+TS00000298,H00001169,Upper extremity exercises,19,Poor,Patient participated in Upper extremity exercises
+TS00000298,H00001169,Fine motor skills,19,Fair,Patient participated in Fine motor skills
+TS00000299,H00001634,Gait training,22,Poor,Patient participated in Gait training
+TS00000299,H00001634,Transfer training,22,Fair,Patient participated in Transfer training
+TS00000300,H00001634,Bed mobility,15,Fair,Patient participated in Bed mobility
+TS00000300,H00001634,Gait training,15,Fair,Patient participated in Gait training
+TS00000301,H00001634,Bed mobility,27,Fair,Patient participated in Bed mobility
+TS00000301,H00001634,Strengthening exercises,27,Fair,Patient participated in Strengthening exercises
+TS00000302,H00001634,Transfer training,23,Fair,Patient participated in Transfer training
+TS00000302,H00001634,Strengthening exercises,23,Good,Patient participated in Strengthening exercises
+TS00000303,H00001511,Cognitive-linguistic tasks,15,Good,Patient participated in Cognitive-linguistic tasks
+TS00000303,H00001511,Swallow evaluation,15,Good,Patient participated in Swallow evaluation
+TS00000304,H00001511,Cognitive-linguistic tasks,26,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000304,H00001511,Communication exercises,26,Fair,Patient participated in Communication exercises
+TS00000305,H00001511,Communication exercises,25,Good,Patient participated in Communication exercises
+TS00000305,H00001511,Cognitive-linguistic tasks,25,Good,Patient participated in Cognitive-linguistic tasks
+TS00000306,H00001511,Swallow evaluation,20,Poor,Patient participated in Swallow evaluation
+TS00000306,H00001511,Cognitive-linguistic tasks,20,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000307,H00001511,Ventilator weaning,27,Fair,Patient participated in Ventilator weaning
+TS00000307,H00001511,Airway clearance,27,Good,Patient participated in Airway clearance
+TS00000308,H00001511,Oxygen titration,26,Poor,Patient participated in Oxygen titration
+TS00000308,H00001511,Ventilator weaning,26,Poor,Patient participated in Ventilator weaning
+TS00000309,H00001511,Breathing exercises,22,Fair,Patient participated in Breathing exercises
+TS00000309,H00001511,Oxygen titration,22,Poor,Patient participated in Oxygen titration
+TS00000310,H00001511,Breathing exercises,15,Poor,Patient participated in Breathing exercises
+TS00000310,H00001511,Airway clearance,15,Poor,Patient participated in Airway clearance
+TS00000311,H00001426,ADL training,17,Good,Patient participated in ADL training
+TS00000311,H00001426,Cognitive tasks,17,Good,Patient participated in Cognitive tasks
+TS00000312,H00001426,Upper extremity exercises,22,Fair,Patient participated in Upper extremity exercises
+TS00000312,H00001426,ADL training,22,Fair,Patient participated in ADL training
+TS00000313,H00001013,Cognitive tasks,21,Poor,Patient participated in Cognitive tasks
+TS00000313,H00001013,Fine motor skills,21,Fair,Patient participated in Fine motor skills
+TS00000314,H00001013,Upper extremity exercises,21,Good,Patient participated in Upper extremity exercises
+TS00000314,H00001013,Fine motor skills,21,Poor,Patient participated in Fine motor skills
+TS00000315,H00001013,Cognitive tasks,19,Good,Patient participated in Cognitive tasks
+TS00000315,H00001013,Fine motor skills,19,Good,Patient participated in Fine motor skills
+TS00000316,H00001013,Fine motor skills,20,Poor,Patient participated in Fine motor skills
+TS00000316,H00001013,ADL training,20,Good,Patient participated in ADL training
+TS00000317,H00001013,Cognitive tasks,29,Fair,Patient participated in Cognitive tasks
+TS00000317,H00001013,ADL training,29,Good,Patient participated in ADL training
+TS00000318,H00001013,Upper extremity exercises,29,Fair,Patient participated in Upper extremity exercises
+TS00000318,H00001013,Cognitive tasks,29,Poor,Patient participated in Cognitive tasks
+TS00000319,H00001013,ADL training,22,Fair,Patient participated in ADL training
+TS00000319,H00001013,Cognitive tasks,22,Good,Patient participated in Cognitive tasks
+TS00000320,H00001013,Cognitive tasks,28,Fair,Patient participated in Cognitive tasks
+TS00000320,H00001013,ADL training,28,Fair,Patient participated in ADL training
+TS00000321,H00001013,ADL training,16,Good,Patient participated in ADL training
+TS00000321,H00001013,Cognitive tasks,16,Fair,Patient participated in Cognitive tasks
+TS00000322,H00001013,Fine motor skills,21,Poor,Patient participated in Fine motor skills
+TS00000322,H00001013,Upper extremity exercises,21,Fair,Patient participated in Upper extremity exercises
+TS00000323,H00001013,Upper extremity exercises,27,Fair,Patient participated in Upper extremity exercises
+TS00000323,H00001013,ADL training,27,Fair,Patient participated in ADL training
+TS00000324,H00001013,Upper extremity exercises,20,Poor,Patient participated in Upper extremity exercises
+TS00000324,H00001013,Cognitive tasks,20,Fair,Patient participated in Cognitive tasks
+TS00000325,H00001013,ADL training,25,Poor,Patient participated in ADL training
+TS00000325,H00001013,Cognitive tasks,25,Poor,Patient participated in Cognitive tasks
+TS00000326,H00001013,Upper extremity exercises,22,Poor,Patient participated in Upper extremity exercises
+TS00000326,H00001013,ADL training,22,Fair,Patient participated in ADL training
+TS00000327,H00001013,Cognitive tasks,16,Poor,Patient participated in Cognitive tasks
+TS00000327,H00001013,Fine motor skills,16,Good,Patient participated in Fine motor skills
+TS00000328,H00001013,Cognitive tasks,21,Good,Patient participated in Cognitive tasks
+TS00000328,H00001013,ADL training,21,Good,Patient participated in ADL training
+TS00000329,H00001177,Cognitive-linguistic tasks,26,Good,Patient participated in Cognitive-linguistic tasks
+TS00000329,H00001177,Communication exercises,26,Poor,Patient participated in Communication exercises
+TS00000330,H00001177,Cognitive-linguistic tasks,23,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000330,H00001177,Swallow evaluation,23,Good,Patient participated in Swallow evaluation
+TS00000331,H00001177,Cognitive-linguistic tasks,24,Good,Patient participated in Cognitive-linguistic tasks
+TS00000331,H00001177,Communication exercises,24,Fair,Patient participated in Communication exercises
+TS00000332,H00001177,Cognitive-linguistic tasks,27,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000332,H00001177,Communication exercises,27,Fair,Patient participated in Communication exercises
+TS00000333,H00001177,Airway clearance,15,Poor,Patient participated in Airway clearance
+TS00000333,H00001177,Ventilator weaning,15,Poor,Patient participated in Ventilator weaning
+TS00000334,H00001177,Ventilator weaning,23,Fair,Patient participated in Ventilator weaning
+TS00000334,H00001177,Breathing exercises,23,Good,Patient participated in Breathing exercises
+TS00000335,H00001177,Airway clearance,26,Poor,Patient participated in Airway clearance
+TS00000335,H00001177,Ventilator weaning,26,Good,Patient participated in Ventilator weaning
+TS00000336,H00001177,Breathing exercises,25,Fair,Patient participated in Breathing exercises
+TS00000336,H00001177,Airway clearance,25,Fair,Patient participated in Airway clearance
+TS00000337,H00001400,Airway clearance,17,Good,Patient participated in Airway clearance
+TS00000337,H00001400,Ventilator weaning,17,Good,Patient participated in Ventilator weaning
+TS00000338,H00001400,Ventilator weaning,21,Poor,Patient participated in Ventilator weaning
+TS00000338,H00001400,Airway clearance,21,Good,Patient participated in Airway clearance
+TS00000339,H00001400,Ventilator weaning,17,Poor,Patient participated in Ventilator weaning
+TS00000339,H00001400,Breathing exercises,17,Good,Patient participated in Breathing exercises
+TS00000340,H00001400,Oxygen titration,26,Good,Patient participated in Oxygen titration
+TS00000340,H00001400,Breathing exercises,26,Good,Patient participated in Breathing exercises
+TS00000341,H00001400,Breathing exercises,17,Good,Patient participated in Breathing exercises
+TS00000341,H00001400,Ventilator weaning,17,Fair,Patient participated in Ventilator weaning
+TS00000342,H00001487,Fine motor skills,22,Poor,Patient participated in Fine motor skills
+TS00000342,H00001487,Upper extremity exercises,22,Poor,Patient participated in Upper extremity exercises
+TS00000343,H00001487,Upper extremity exercises,21,Good,Patient participated in Upper extremity exercises
+TS00000343,H00001487,ADL training,21,Good,Patient participated in ADL training
+TS00000344,H00001487,Upper extremity exercises,20,Fair,Patient participated in Upper extremity exercises
+TS00000344,H00001487,Fine motor skills,20,Good,Patient participated in Fine motor skills
+TS00000345,H00001487,Cognitive tasks,23,Fair,Patient participated in Cognitive tasks
+TS00000345,H00001487,Upper extremity exercises,23,Good,Patient participated in Upper extremity exercises
+TS00000346,H00001487,Cognitive tasks,26,Good,Patient participated in Cognitive tasks
+TS00000346,H00001487,Fine motor skills,26,Poor,Patient participated in Fine motor skills
+TS00000347,H00001487,Fine motor skills,18,Good,Patient participated in Fine motor skills
+TS00000347,H00001487,ADL training,18,Poor,Patient participated in ADL training
+TS00000348,H00001487,Breathing exercises,22,Fair,Patient participated in Breathing exercises
+TS00000348,H00001487,Ventilator weaning,22,Good,Patient participated in Ventilator weaning
+TS00000349,H00001487,Airway clearance,23,Fair,Patient participated in Airway clearance
+TS00000349,H00001487,Ventilator weaning,23,Fair,Patient participated in Ventilator weaning
+TS00000350,H00001487,Oxygen titration,15,Poor,Patient participated in Oxygen titration
+TS00000350,H00001487,Breathing exercises,15,Poor,Patient participated in Breathing exercises
+TS00000351,H00001487,Ventilator weaning,22,Fair,Patient participated in Ventilator weaning
+TS00000351,H00001487,Breathing exercises,22,Fair,Patient participated in Breathing exercises
+TS00000352,H00001487,Breathing exercises,25,Poor,Patient participated in Breathing exercises
+TS00000352,H00001487,Oxygen titration,25,Good,Patient participated in Oxygen titration
+TS00000353,H00001732,Oxygen titration,15,Good,Patient participated in Oxygen titration
+TS00000353,H00001732,Breathing exercises,15,Good,Patient participated in Breathing exercises
+TS00000354,H00001732,Ventilator weaning,17,Good,Patient participated in Ventilator weaning
+TS00000354,H00001732,Airway clearance,17,Fair,Patient participated in Airway clearance
+TS00000355,H00001732,Breathing exercises,18,Fair,Patient participated in Breathing exercises
+TS00000355,H00001732,Oxygen titration,18,Fair,Patient participated in Oxygen titration
+TS00000356,H00001732,Ventilator weaning,18,Fair,Patient participated in Ventilator weaning
+TS00000356,H00001732,Breathing exercises,18,Fair,Patient participated in Breathing exercises
+TS00000357,H00001732,Airway clearance,24,Good,Patient participated in Airway clearance
+TS00000357,H00001732,Oxygen titration,24,Poor,Patient participated in Oxygen titration
+TS00000358,H00001732,Breathing exercises,20,Poor,Patient participated in Breathing exercises
+TS00000358,H00001732,Oxygen titration,20,Good,Patient participated in Oxygen titration
+TS00000359,H00001732,Airway clearance,22,Fair,Patient participated in Airway clearance
+TS00000359,H00001732,Breathing exercises,22,Good,Patient participated in Breathing exercises
+TS00000360,H00001732,Airway clearance,27,Good,Patient participated in Airway clearance
+TS00000360,H00001732,Oxygen titration,27,Poor,Patient participated in Oxygen titration
+TS00000361,H00001732,Breathing exercises,16,Fair,Patient participated in Breathing exercises
+TS00000361,H00001732,Airway clearance,16,Fair,Patient participated in Airway clearance
+TS00000362,H00001732,Ventilator weaning,21,Fair,Patient participated in Ventilator weaning
+TS00000362,H00001732,Breathing exercises,21,Poor,Patient participated in Breathing exercises
+TS00000363,H00001732,Airway clearance,29,Good,Patient participated in Airway clearance
+TS00000363,H00001732,Breathing exercises,29,Good,Patient participated in Breathing exercises
+TS00000364,H00001732,Breathing exercises,21,Fair,Patient participated in Breathing exercises
+TS00000364,H00001732,Ventilator weaning,21,Good,Patient participated in Ventilator weaning
+TS00000365,H00001732,Airway clearance,25,Poor,Patient participated in Airway clearance
+TS00000365,H00001732,Ventilator weaning,25,Good,Patient participated in Ventilator weaning
+TS00000366,H00001732,Breathing exercises,15,Fair,Patient participated in Breathing exercises
+TS00000366,H00001732,Oxygen titration,15,Poor,Patient participated in Oxygen titration
+TS00000367,H00001732,Breathing exercises,18,Fair,Patient participated in Breathing exercises
+TS00000367,H00001732,Airway clearance,18,Fair,Patient participated in Airway clearance
+TS00000368,H00001732,Oxygen titration,26,Poor,Patient participated in Oxygen titration
+TS00000368,H00001732,Airway clearance,26,Good,Patient participated in Airway clearance
+TS00000369,H00001732,Oxygen titration,19,Poor,Patient participated in Oxygen titration
+TS00000369,H00001732,Airway clearance,19,Good,Patient participated in Airway clearance
+TS00000370,H00001732,Cognitive-linguistic tasks,19,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000370,H00001732,Swallow evaluation,19,Fair,Patient participated in Swallow evaluation
+TS00000371,H00001732,Swallow evaluation,16,Fair,Patient participated in Swallow evaluation
+TS00000371,H00001732,Cognitive-linguistic tasks,16,Good,Patient participated in Cognitive-linguistic tasks
+TS00000372,H00001732,Communication exercises,20,Poor,Patient participated in Communication exercises
+TS00000372,H00001732,Cognitive-linguistic tasks,20,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000373,H00001732,Cognitive-linguistic tasks,29,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000373,H00001732,Communication exercises,29,Good,Patient participated in Communication exercises
+TS00000374,H00001732,Swallow evaluation,22,Fair,Patient participated in Swallow evaluation
+TS00000374,H00001732,Communication exercises,22,Poor,Patient participated in Communication exercises
+TS00000375,H00001732,Swallow evaluation,20,Good,Patient participated in Swallow evaluation
+TS00000375,H00001732,Communication exercises,20,Good,Patient participated in Communication exercises
+TS00000376,H00001732,Swallow evaluation,27,Poor,Patient participated in Swallow evaluation
+TS00000376,H00001732,Cognitive-linguistic tasks,27,Good,Patient participated in Cognitive-linguistic tasks
+TS00000377,H00001732,Cognitive-linguistic tasks,22,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000377,H00001732,Swallow evaluation,22,Poor,Patient participated in Swallow evaluation
+TS00000378,H00001732,Swallow evaluation,28,Good,Patient participated in Swallow evaluation
+TS00000378,H00001732,Communication exercises,28,Poor,Patient participated in Communication exercises
+TS00000379,H00001732,Swallow evaluation,29,Good,Patient participated in Swallow evaluation
+TS00000379,H00001732,Cognitive-linguistic tasks,29,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000380,H00001732,Cognitive-linguistic tasks,19,Good,Patient participated in Cognitive-linguistic tasks
+TS00000380,H00001732,Swallow evaluation,19,Good,Patient participated in Swallow evaluation
+TS00000381,H00001732,Swallow evaluation,24,Poor,Patient participated in Swallow evaluation
+TS00000381,H00001732,Communication exercises,24,Poor,Patient participated in Communication exercises
+TS00000382,H00001732,Swallow evaluation,27,Good,Patient participated in Swallow evaluation
+TS00000382,H00001732,Cognitive-linguistic tasks,27,Good,Patient participated in Cognitive-linguistic tasks
+TS00000383,H00001732,Cognitive-linguistic tasks,22,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000383,H00001732,Swallow evaluation,22,Poor,Patient participated in Swallow evaluation
+TS00000384,H00001732,Communication exercises,28,Good,Patient participated in Communication exercises
+TS00000384,H00001732,Cognitive-linguistic tasks,28,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000385,H00001732,Communication exercises,23,Poor,Patient participated in Communication exercises
+TS00000385,H00001732,Cognitive-linguistic tasks,23,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000386,H00001732,Communication exercises,28,Fair,Patient participated in Communication exercises
+TS00000386,H00001732,Swallow evaluation,28,Good,Patient participated in Swallow evaluation
+TS00000387,H00001732,Swallow evaluation,29,Good,Patient participated in Swallow evaluation
+TS00000387,H00001732,Communication exercises,29,Fair,Patient participated in Communication exercises
+TS00000388,H00001056,Communication exercises,23,Good,Patient participated in Communication exercises
+TS00000388,H00001056,Swallow evaluation,23,Good,Patient participated in Swallow evaluation
+TS00000389,H00001056,Cognitive-linguistic tasks,19,Good,Patient participated in Cognitive-linguistic tasks
+TS00000389,H00001056,Communication exercises,19,Good,Patient participated in Communication exercises
+TS00000390,H00001056,Communication exercises,28,Poor,Patient participated in Communication exercises
+TS00000390,H00001056,Swallow evaluation,28,Good,Patient participated in Swallow evaluation
+TS00000391,H00001056,Communication exercises,17,Good,Patient participated in Communication exercises
+TS00000391,H00001056,Swallow evaluation,17,Fair,Patient participated in Swallow evaluation
+TS00000392,H00001056,Swallow evaluation,25,Fair,Patient participated in Swallow evaluation
+TS00000392,H00001056,Cognitive-linguistic tasks,25,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000393,H00001056,Swallow evaluation,21,Poor,Patient participated in Swallow evaluation
+TS00000393,H00001056,Cognitive-linguistic tasks,21,Good,Patient participated in Cognitive-linguistic tasks
+TS00000394,H00001056,Cognitive-linguistic tasks,27,Good,Patient participated in Cognitive-linguistic tasks
+TS00000394,H00001056,Communication exercises,27,Poor,Patient participated in Communication exercises
+TS00000395,H00001056,Swallow evaluation,15,Fair,Patient participated in Swallow evaluation
+TS00000395,H00001056,Communication exercises,15,Poor,Patient participated in Communication exercises
+TS00000396,H00001056,Swallow evaluation,26,Good,Patient participated in Swallow evaluation
+TS00000396,H00001056,Communication exercises,26,Fair,Patient participated in Communication exercises
+TS00000397,H00001056,Cognitive-linguistic tasks,18,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000397,H00001056,Swallow evaluation,18,Poor,Patient participated in Swallow evaluation
+TS00000398,H00001056,Swallow evaluation,25,Fair,Patient participated in Swallow evaluation
+TS00000398,H00001056,Cognitive-linguistic tasks,25,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000399,H00001056,Upper extremity exercises,27,Fair,Patient participated in Upper extremity exercises
+TS00000399,H00001056,Cognitive tasks,27,Good,Patient participated in Cognitive tasks
+TS00000400,H00001056,Cognitive tasks,22,Good,Patient participated in Cognitive tasks
+TS00000400,H00001056,ADL training,22,Good,Patient participated in ADL training
+TS00000401,H00001056,ADL training,24,Poor,Patient participated in ADL training
+TS00000401,H00001056,Upper extremity exercises,24,Good,Patient participated in Upper extremity exercises
+TS00000402,H00001056,Cognitive tasks,16,Good,Patient participated in Cognitive tasks
+TS00000402,H00001056,ADL training,16,Good,Patient participated in ADL training
+TS00000403,H00001056,Cognitive tasks,16,Good,Patient participated in Cognitive tasks
+TS00000403,H00001056,Fine motor skills,16,Good,Patient participated in Fine motor skills
+TS00000404,H00001056,Fine motor skills,24,Good,Patient participated in Fine motor skills
+TS00000404,H00001056,ADL training,24,Poor,Patient participated in ADL training
+TS00000405,H00001056,Upper extremity exercises,26,Good,Patient participated in Upper extremity exercises
+TS00000405,H00001056,Fine motor skills,26,Poor,Patient participated in Fine motor skills
+TS00000406,H00001056,ADL training,24,Fair,Patient participated in ADL training
+TS00000406,H00001056,Cognitive tasks,24,Good,Patient participated in Cognitive tasks
+TS00000407,H00001056,Cognitive tasks,16,Fair,Patient participated in Cognitive tasks
+TS00000407,H00001056,Upper extremity exercises,16,Fair,Patient participated in Upper extremity exercises
+TS00000408,H00001056,Upper extremity exercises,15,Good,Patient participated in Upper extremity exercises
+TS00000408,H00001056,Fine motor skills,15,Fair,Patient participated in Fine motor skills
+TS00000409,H00001056,Upper extremity exercises,20,Fair,Patient participated in Upper extremity exercises
+TS00000409,H00001056,ADL training,20,Good,Patient participated in ADL training
+TS00000410,H00001556,Oxygen titration,19,Fair,Patient participated in Oxygen titration
+TS00000410,H00001556,Ventilator weaning,19,Good,Patient participated in Ventilator weaning
+TS00000411,H00001556,Breathing exercises,21,Fair,Patient participated in Breathing exercises
+TS00000411,H00001556,Airway clearance,21,Good,Patient participated in Airway clearance
+TS00000412,H00001005,Communication exercises,29,Good,Patient participated in Communication exercises
+TS00000412,H00001005,Swallow evaluation,29,Good,Patient participated in Swallow evaluation
+TS00000413,H00001005,Communication exercises,22,Poor,Patient participated in Communication exercises
+TS00000413,H00001005,Swallow evaluation,22,Poor,Patient participated in Swallow evaluation
+TS00000414,H00001005,Swallow evaluation,20,Fair,Patient participated in Swallow evaluation
+TS00000414,H00001005,Cognitive-linguistic tasks,20,Good,Patient participated in Cognitive-linguistic tasks
+TS00000415,H00001005,Cognitive-linguistic tasks,15,Good,Patient participated in Cognitive-linguistic tasks
+TS00000415,H00001005,Swallow evaluation,15,Poor,Patient participated in Swallow evaluation
+TS00000416,H00001005,Breathing exercises,25,Good,Patient participated in Breathing exercises
+TS00000416,H00001005,Airway clearance,25,Poor,Patient participated in Airway clearance
+TS00000417,H00001005,Oxygen titration,26,Fair,Patient participated in Oxygen titration
+TS00000417,H00001005,Airway clearance,26,Good,Patient participated in Airway clearance
+TS00000418,H00001005,Airway clearance,19,Fair,Patient participated in Airway clearance
+TS00000418,H00001005,Ventilator weaning,19,Good,Patient participated in Ventilator weaning
+TS00000419,H00001005,Ventilator weaning,16,Poor,Patient participated in Ventilator weaning
+TS00000419,H00001005,Oxygen titration,16,Fair,Patient participated in Oxygen titration
+TS00000420,H00001568,Gait training,23,Good,Patient participated in Gait training
+TS00000420,H00001568,Bed mobility,23,Fair,Patient participated in Bed mobility
+TS00000421,H00001568,Strengthening exercises,17,Good,Patient participated in Strengthening exercises
+TS00000421,H00001568,Bed mobility,17,Fair,Patient participated in Bed mobility
+TS00000422,H00001568,Strengthening exercises,19,Good,Patient participated in Strengthening exercises
+TS00000422,H00001568,Gait training,19,Poor,Patient participated in Gait training
+TS00000423,H00001568,Strengthening exercises,25,Poor,Patient participated in Strengthening exercises
+TS00000423,H00001568,Gait training,25,Fair,Patient participated in Gait training
+TS00000424,H00001568,Gait training,22,Fair,Patient participated in Gait training
+TS00000424,H00001568,Bed mobility,22,Poor,Patient participated in Bed mobility
+TS00000425,H00001568,Gait training,23,Good,Patient participated in Gait training
+TS00000425,H00001568,Transfer training,23,Good,Patient participated in Transfer training
+TS00000426,H00001568,Strengthening exercises,17,Poor,Patient participated in Strengthening exercises
+TS00000426,H00001568,Transfer training,17,Poor,Patient participated in Transfer training
+TS00000427,H00001568,Strengthening exercises,20,Fair,Patient participated in Strengthening exercises
+TS00000427,H00001568,Transfer training,20,Fair,Patient participated in Transfer training
+TS00000428,H00001568,Gait training,27,Good,Patient participated in Gait training
+TS00000428,H00001568,Strengthening exercises,27,Fair,Patient participated in Strengthening exercises
+TS00000429,H00001568,Swallow evaluation,16,Fair,Patient participated in Swallow evaluation
+TS00000429,H00001568,Communication exercises,16,Poor,Patient participated in Communication exercises
+TS00000430,H00001568,Cognitive-linguistic tasks,21,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000430,H00001568,Communication exercises,21,Poor,Patient participated in Communication exercises
+TS00000431,H00001568,Communication exercises,27,Poor,Patient participated in Communication exercises
+TS00000431,H00001568,Cognitive-linguistic tasks,27,Good,Patient participated in Cognitive-linguistic tasks
+TS00000432,H00001568,Communication exercises,18,Fair,Patient participated in Communication exercises
+TS00000432,H00001568,Cognitive-linguistic tasks,18,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000433,H00001568,Communication exercises,26,Poor,Patient participated in Communication exercises
+TS00000433,H00001568,Swallow evaluation,26,Fair,Patient participated in Swallow evaluation
+TS00000434,H00001568,Swallow evaluation,18,Fair,Patient participated in Swallow evaluation
+TS00000434,H00001568,Cognitive-linguistic tasks,18,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000435,H00001568,Communication exercises,27,Fair,Patient participated in Communication exercises
+TS00000435,H00001568,Cognitive-linguistic tasks,27,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000436,H00001658,Cognitive-linguistic tasks,29,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000436,H00001658,Communication exercises,29,Good,Patient participated in Communication exercises
+TS00000437,H00001658,Cognitive-linguistic tasks,16,Good,Patient participated in Cognitive-linguistic tasks
+TS00000437,H00001658,Communication exercises,16,Fair,Patient participated in Communication exercises
+TS00000438,H00001658,Cognitive-linguistic tasks,25,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000438,H00001658,Swallow evaluation,25,Poor,Patient participated in Swallow evaluation
+TS00000439,H00001658,Bed mobility,16,Good,Patient participated in Bed mobility
+TS00000439,H00001658,Strengthening exercises,16,Good,Patient participated in Strengthening exercises
+TS00000440,H00001658,Bed mobility,18,Poor,Patient participated in Bed mobility
+TS00000440,H00001658,Gait training,18,Good,Patient participated in Gait training
+TS00000441,H00001658,Gait training,29,Poor,Patient participated in Gait training
+TS00000441,H00001658,Transfer training,29,Poor,Patient participated in Transfer training
+TS00000442,H00001658,Transfer training,18,Poor,Patient participated in Transfer training
+TS00000442,H00001658,Gait training,18,Good,Patient participated in Gait training
+TS00000443,H00001322,Swallow evaluation,29,Poor,Patient participated in Swallow evaluation
+TS00000443,H00001322,Communication exercises,29,Good,Patient participated in Communication exercises
+TS00000444,H00001322,Swallow evaluation,29,Good,Patient participated in Swallow evaluation
+TS00000444,H00001322,Communication exercises,29,Fair,Patient participated in Communication exercises
+TS00000445,H00001322,Swallow evaluation,18,Poor,Patient participated in Swallow evaluation
+TS00000445,H00001322,Communication exercises,18,Poor,Patient participated in Communication exercises
+TS00000446,H00001322,Swallow evaluation,28,Good,Patient participated in Swallow evaluation
+TS00000446,H00001322,Communication exercises,28,Good,Patient participated in Communication exercises
+TS00000447,H00001322,Cognitive-linguistic tasks,26,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000447,H00001322,Swallow evaluation,26,Good,Patient participated in Swallow evaluation
+TS00000448,H00001322,Cognitive-linguistic tasks,19,Poor,Patient participated in Cognitive-linguistic tasks
+TS00000448,H00001322,Swallow evaluation,19,Good,Patient participated in Swallow evaluation
+TS00000449,H00001322,Communication exercises,26,Poor,Patient participated in Communication exercises
+TS00000449,H00001322,Swallow evaluation,26,Fair,Patient participated in Swallow evaluation
+TS00000450,H00001322,Ventilator weaning,25,Poor,Patient participated in Ventilator weaning
+TS00000450,H00001322,Airway clearance,25,Fair,Patient participated in Airway clearance
+TS00000451,H00001322,Oxygen titration,27,Good,Patient participated in Oxygen titration
+TS00000451,H00001322,Breathing exercises,27,Fair,Patient participated in Breathing exercises
+TS00000452,H00001322,Ventilator weaning,17,Fair,Patient participated in Ventilator weaning
+TS00000452,H00001322,Breathing exercises,17,Good,Patient participated in Breathing exercises
+TS00000453,H00001322,Breathing exercises,17,Poor,Patient participated in Breathing exercises
+TS00000453,H00001322,Ventilator weaning,17,Fair,Patient participated in Ventilator weaning
+TS00000454,H00001322,Breathing exercises,26,Fair,Patient participated in Breathing exercises
+TS00000454,H00001322,Oxygen titration,26,Good,Patient participated in Oxygen titration
+TS00000455,H00001322,Ventilator weaning,15,Good,Patient participated in Ventilator weaning
+TS00000455,H00001322,Airway clearance,15,Poor,Patient participated in Airway clearance
+TS00000456,H00001322,Airway clearance,28,Poor,Patient participated in Airway clearance
+TS00000456,H00001322,Ventilator weaning,28,Fair,Patient participated in Ventilator weaning
+TS00000457,H00001322,Ventilator weaning,28,Poor,Patient participated in Ventilator weaning
+TS00000457,H00001322,Breathing exercises,28,Poor,Patient participated in Breathing exercises
+TS00000458,H00001195,ADL training,25,Good,Patient participated in ADL training
+TS00000458,H00001195,Cognitive tasks,25,Good,Patient participated in Cognitive tasks
+TS00000459,H00001195,Fine motor skills,20,Poor,Patient participated in Fine motor skills
+TS00000459,H00001195,Upper extremity exercises,20,Poor,Patient participated in Upper extremity exercises
+TS00000460,H00001195,Fine motor skills,21,Fair,Patient participated in Fine motor skills
+TS00000460,H00001195,Upper extremity exercises,21,Good,Patient participated in Upper extremity exercises
+TS00000461,H00001195,ADL training,15,Poor,Patient participated in ADL training
+TS00000461,H00001195,Upper extremity exercises,15,Poor,Patient participated in Upper extremity exercises
+TS00000462,H00001195,Fine motor skills,17,Poor,Patient participated in Fine motor skills
+TS00000462,H00001195,Upper extremity exercises,17,Poor,Patient participated in Upper extremity exercises
+TS00000463,H00001062,Swallow evaluation,25,Fair,Patient participated in Swallow evaluation
+TS00000463,H00001062,Communication exercises,25,Fair,Patient participated in Communication exercises
+TS00000464,H00001062,Cognitive-linguistic tasks,19,Fair,Patient participated in Cognitive-linguistic tasks
+TS00000464,H00001062,Communication exercises,19,Poor,Patient participated in Communication exercises
+TS00000465,H00001062,Swallow evaluation,24,Poor,Patient participated in Swallow evaluation
+TS00000465,H00001062,Communication exercises,24,Good,Patient participated in Communication exercises
+TS00000466,H00001737,ADL training,16,Poor,Patient participated in ADL training
+TS00000466,H00001737,Cognitive tasks,16,Good,Patient participated in Cognitive tasks
+TS00000467,H00001737,Cognitive tasks,26,Good,Patient participated in Cognitive tasks
+TS00000467,H00001737,Fine motor skills,26,Good,Patient participated in Fine motor skills
+TS00000468,H00001737,Upper extremity exercises,24,Fair,Patient participated in Upper extremity exercises
+TS00000468,H00001737,Cognitive tasks,24,Fair,Patient participated in Cognitive tasks
+TS00000469,H00001737,Fine motor skills,27,Good,Patient participated in Fine motor skills
+TS00000469,H00001737,Upper extremity exercises,27,Poor,Patient participated in Upper extremity exercises
+TS00000470,H00001691,Bed mobility,22,Good,Patient participated in Bed mobility
+TS00000470,H00001691,Strengthening exercises,22,Poor,Patient participated in Strengthening exercises
+TS00000471,H00001691,Gait training,25,Fair,Patient participated in Gait training
+TS00000471,H00001691,Transfer training,25,Good,Patient participated in Transfer training
+TS00000472,H00001691,Gait training,22,Poor,Patient participated in Gait training
+TS00000472,H00001691,Bed mobility,22,Poor,Patient participated in Bed mobility
+TS00000473,H00001691,Strengthening exercises,21,Poor,Patient participated in Strengthening exercises
+TS00000473,H00001691,Bed mobility,21,Poor,Patient participated in Bed mobility
+TS00000474,H00001691,Gait training,22,Poor,Patient participated in Gait training
+TS00000474,H00001691,Bed mobility,22,Fair,Patient participated in Bed mobility
+TS00000475,H00001691,Gait training,22,Fair,Patient participated in Gait training
+TS00000475,H00001691,Bed mobility,22,Poor,Patient participated in Bed mobility
+TS00000476,H00001691,Gait training,26,Poor,Patient participated in Gait training
+TS00000476,H00001691,Transfer training,26,Poor,Patient participated in Transfer training
+TS00000477,H00001691,Gait training,21,Good,Patient participated in Gait training
+TS00000477,H00001691,Transfer training,21,Fair,Patient participated in Transfer training
+TS00000478,H00001691,Strengthening exercises,28,Good,Patient participated in Strengthening exercises
+TS00000478,H00001691,Bed mobility,28,Poor,Patient participated in Bed mobility
+TS00000479,H00001691,Bed mobility,25,Poor,Patient participated in Bed mobility
+TS00000479,H00001691,Gait training,25,Good,Patient participated in Gait training
+TS00000480,H00001691,Bed mobility,21,Good,Patient participated in Bed mobility
+TS00000480,H00001691,Gait training,21,Poor,Patient participated in Gait training
+TS00000481,H00001691,Bed mobility,19,Poor,Patient participated in Bed mobility
+TS00000481,H00001691,Gait training,19,Fair,Patient participated in Gait training
+TS00000482,H00001691,Transfer training,20,Good,Patient participated in Transfer training
+TS00000482,H00001691,Bed mobility,20,Fair,Patient participated in Bed mobility
+TS00000483,H00001691,Strengthening exercises,26,Poor,Patient participated in Strengthening exercises
+TS00000483,H00001691,Gait training,26,Fair,Patient participated in Gait training
+TS00000484,H00001685,Gait training,15,Poor,Patient participated in Gait training
+TS00000484,H00001685,Bed mobility,15,Poor,Patient participated in Bed mobility
+TS00000485,H00001685,Strengthening exercises,25,Poor,Patient participated in Strengthening exercises
+TS00000485,H00001685,Gait training,25,Good,Patient participated in Gait training
+TS00000486,H00001685,Ventilator weaning,24,Poor,Patient participated in Ventilator weaning
+TS00000486,H00001685,Breathing exercises,24,Poor,Patient participated in Breathing exercises
+TS00000487,H00001685,Airway clearance,28,Good,Patient participated in Airway clearance
+TS00000487,H00001685,Breathing exercises,28,Good,Patient participated in Breathing exercises
+TS00000488,H00001272,Strengthening exercises,29,Poor,Patient participated in Strengthening exercises
+TS00000488,H00001272,Transfer training,29,Poor,Patient participated in Transfer training
+TS00000489,H00001272,Gait training,28,Fair,Patient participated in Gait training
+TS00000489,H00001272,Bed mobility,28,Good,Patient participated in Bed mobility
+TS00000490,H00001272,Gait training,28,Poor,Patient participated in Gait training
+TS00000490,H00001272,Bed mobility,28,Poor,Patient participated in Bed mobility
+TS00000491,H00001272,Bed mobility,22,Fair,Patient participated in Bed mobility
+TS00000491,H00001272,Strengthening exercises,22,Poor,Patient participated in Strengthening exercises
+TS00000492,H00001272,Bed mobility,29,Fair,Patient participated in Bed mobility
+TS00000492,H00001272,Gait training,29,Good,Patient participated in Gait training
+TS00000493,H00001272,Strengthening exercises,24,Poor,Patient participated in Strengthening exercises
+TS00000493,H00001272,Gait training,24,Poor,Patient participated in Gait training
+TS00000494,H00001272,Upper extremity exercises,25,Fair,Patient participated in Upper extremity exercises
+TS00000494,H00001272,Cognitive tasks,25,Fair,Patient participated in Cognitive tasks
+TS00000495,H00001272,Fine motor skills,26,Poor,Patient participated in Fine motor skills
+TS00000495,H00001272,Upper extremity exercises,26,Fair,Patient participated in Upper extremity exercises
+TS00000496,H00001272,ADL training,24,Fair,Patient participated in ADL training
+TS00000496,H00001272,Fine motor skills,24,Fair,Patient participated in Fine motor skills
+TS00000497,H00001272,Cognitive tasks,27,Fair,Patient participated in Cognitive tasks
+TS00000497,H00001272,ADL training,27,Fair,Patient participated in ADL training
+TS00000498,H00001272,Fine motor skills,27,Poor,Patient participated in Fine motor skills
+TS00000498,H00001272,ADL training,27,Good,Patient participated in ADL training
+TS00000499,H00001272,Fine motor skills,22,Good,Patient participated in Fine motor skills
+TS00000499,H00001272,Cognitive tasks,22,Poor,Patient participated in Cognitive tasks
+TS00000500,H00001351,Strengthening exercises,20,Poor,Patient participated in Strengthening exercises

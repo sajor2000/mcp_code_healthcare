@@ -1,0 +1,1000 @@
+hospitalization_id,provider_id,provider_name,provider_specialty,provider_role
+H00001000,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001000,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001000,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001001,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001001,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001001,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001002,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001002,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001003,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001003,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001003,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001003,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001004,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001004,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001004,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001004,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001005,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001005,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001005,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001006,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001006,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001006,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001006,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001007,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001007,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001007,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001008,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001008,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001008,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001009,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001009,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001009,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001010,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001010,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001010,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001010,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001011,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001011,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001011,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001011,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001012,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001012,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001012,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001012,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001013,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001013,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001013,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001014,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001014,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001015,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001015,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001016,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001016,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001016,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001016,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001017,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001017,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001017,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001017,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001018,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001018,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001019,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001019,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001020,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001020,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001020,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001021,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001021,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001022,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001022,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001022,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001022,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001023,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001023,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001023,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001024,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001024,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001024,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001025,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001025,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001025,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001025,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001026,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001026,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001026,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001026,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001027,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001027,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001028,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001028,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001028,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001029,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001029,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001029,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001030,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001030,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001030,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001030,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001031,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001031,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001031,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001031,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001032,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001032,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001033,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001033,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001033,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001033,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001034,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001034,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001034,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001034,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001035,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001035,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001035,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001035,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001036,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001036,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001036,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001036,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001037,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001037,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001038,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001038,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001038,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001039,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001039,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001040,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001040,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001040,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001041,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001041,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001041,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001041,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001042,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001042,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001042,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001042,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001043,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001043,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001043,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001044,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001044,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001044,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001045,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001045,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001046,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001046,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001047,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001047,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001048,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001048,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001048,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001049,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001049,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001050,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001050,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001050,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001050,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001051,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001051,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001051,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001052,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001052,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001052,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001052,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001053,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001053,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001054,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001054,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001054,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001054,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001055,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001055,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001056,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001056,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001057,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001057,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001057,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001057,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001058,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001058,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001058,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001059,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001059,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001060,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001060,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001060,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001061,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001061,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001061,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001062,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001062,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001062,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001062,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001063,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001063,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001063,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001063,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001064,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001064,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001065,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001065,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001066,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001066,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001066,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001066,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001067,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001067,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001067,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001067,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001068,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001068,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001069,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001069,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001069,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001070,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001070,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001071,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001071,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001071,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001071,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001072,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001072,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001072,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001073,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001073,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001073,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001074,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001074,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001075,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001075,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001075,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001075,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001076,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001076,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001076,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001076,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001077,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001077,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001077,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001077,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001078,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001078,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001078,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001078,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001079,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001079,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001080,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001080,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001081,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001081,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001081,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001082,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001082,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001083,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001083,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001084,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001084,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001084,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001084,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001085,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001085,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001086,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001086,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001086,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001086,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001087,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001087,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001087,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001088,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001088,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001088,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001088,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001089,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001089,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001089,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001089,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001090,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001090,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001090,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001090,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001091,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001091,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001091,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001091,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001092,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001092,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001092,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001092,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001093,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001093,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001093,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001094,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001094,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001095,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001095,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001095,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001095,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001096,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001096,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001096,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001096,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001097,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001097,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001097,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001098,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001098,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001098,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001098,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001099,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001099,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001100,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001100,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001100,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001101,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001101,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001101,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001102,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001102,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001102,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001102,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001103,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001103,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001104,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001104,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001104,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001104,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001105,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001105,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001105,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001106,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001106,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001106,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001106,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001107,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001107,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001107,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001107,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001108,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001108,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001108,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001108,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001109,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001109,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001110,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001110,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001111,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001111,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001111,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001111,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001112,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001112,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001112,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001112,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001113,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001113,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001113,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001113,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001114,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001114,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001115,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001115,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001115,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001115,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001116,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001116,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001116,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001116,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001117,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001117,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001118,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001118,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001119,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001119,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001119,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001119,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001120,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001120,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001120,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001121,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001121,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001121,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001121,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001122,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001122,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001122,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001122,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001123,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001123,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001123,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001124,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001124,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001124,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001124,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001125,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001125,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001126,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001126,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001126,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001126,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001127,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001127,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001127,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001128,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001128,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001129,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001129,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001130,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001130,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001130,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001131,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001131,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001131,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001132,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001132,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001132,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001133,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001133,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001133,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001134,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001134,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001135,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001135,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001135,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001136,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001136,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001136,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001137,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001137,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001137,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001138,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001138,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001138,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001138,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001139,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001139,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001139,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001140,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001140,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001140,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001141,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001141,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001141,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001142,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001142,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001142,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001142,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001143,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001143,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001143,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001144,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001144,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001145,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001145,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001145,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001145,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001146,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001146,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001146,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001147,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001147,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001148,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001148,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001148,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001149,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001149,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001149,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001149,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001150,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001150,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001150,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001151,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001151,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001151,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001151,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001152,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001152,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001152,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001152,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001153,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001153,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001153,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001153,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001154,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001154,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001154,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001155,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001155,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001156,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001156,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001156,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001156,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001157,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001157,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001157,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001157,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001158,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001158,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001158,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001159,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001159,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001159,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001160,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001160,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001161,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001161,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001161,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001162,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001162,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001162,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001163,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001163,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001164,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001164,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001164,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001165,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001165,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001166,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001166,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001167,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001167,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001168,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001168,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001169,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001169,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001169,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001170,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001170,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001171,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001171,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001171,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001172,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001172,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001173,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001173,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001174,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001174,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001175,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001175,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001176,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001176,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001176,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001176,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001177,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001177,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001177,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001178,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001178,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001179,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001179,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001179,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001179,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001180,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001180,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001180,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001180,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001181,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001181,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001181,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001181,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001182,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001182,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001182,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001182,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001183,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001183,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001183,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001184,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001184,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001184,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001185,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001185,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001185,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001185,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001186,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001186,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001186,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001187,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001187,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001187,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001188,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001188,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001188,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001189,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001189,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001189,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001190,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001190,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001190,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001191,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001191,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001192,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001192,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001192,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001192,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001193,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001193,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001193,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001193,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001194,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001194,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001194,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001194,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001195,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001195,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001195,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001195,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001196,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001196,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001196,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001196,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001197,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001197,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001197,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001198,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001198,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001198,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001199,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001199,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001199,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001200,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001200,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001200,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001200,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001201,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001201,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001201,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001202,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001202,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001203,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001203,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001203,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001204,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001204,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001204,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001205,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001205,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001205,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001206,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001206,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001206,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001207,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001207,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001208,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001208,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001209,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001209,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001209,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001209,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001210,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001210,PROV00026,Dr. Williams A,Nephrology,Attending
+H00001211,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001211,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001212,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001212,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001213,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001213,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001213,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001213,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001214,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001214,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001214,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001214,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001215,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001215,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001216,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001216,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001217,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001217,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001217,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001218,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001218,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001218,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001218,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001219,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001219,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001219,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001220,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001220,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001220,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001220,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001221,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001221,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001222,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001222,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001222,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001222,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001223,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001223,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001224,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001224,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001224,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001225,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001225,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001225,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001226,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001226,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001226,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001227,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001227,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001228,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001228,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001228,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001228,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001229,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001229,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001229,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001230,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001230,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001231,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001231,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001231,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001231,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001232,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001232,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001232,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001233,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001233,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001233,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001233,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001234,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001234,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001235,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001235,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001235,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001236,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001236,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001237,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001237,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001238,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001238,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001238,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001239,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001239,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001239,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001240,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001240,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001240,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001241,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001241,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001241,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001242,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001242,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001242,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001242,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001243,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001243,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001244,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001244,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001244,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001244,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001245,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001245,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001245,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001245,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001246,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001246,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001246,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001247,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001247,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001248,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001248,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001249,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001249,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001249,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001249,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001250,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001250,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001251,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001251,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001251,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001252,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001252,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001253,PROV00047,Dr. Jones A,Cardiology,Resident
+H00001253,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001253,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001253,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001254,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001254,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001255,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001255,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001255,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001256,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001256,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001257,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001257,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001258,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001258,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001258,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001259,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001259,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001259,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001260,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001260,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001260,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001260,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001261,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001261,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001261,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001261,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001262,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001262,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001262,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001262,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001263,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001263,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001264,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001264,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001264,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001265,PROV00022,Dr. Williams A,Infectious Disease,Attending
+H00001265,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001265,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001266,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001266,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001267,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001267,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001268,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001268,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001268,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001269,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001269,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001269,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001269,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001270,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001270,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001270,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001271,PROV00041,Dr. Brown A,Nephrology,Attending
+H00001271,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001271,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001272,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001272,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001272,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001273,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001273,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001274,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001274,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001275,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001275,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001275,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001276,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001276,PROV00028,Dr. Johnson D,Critical Care,Fellow
+H00001276,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001277,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001277,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001277,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001277,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001278,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001278,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001278,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001279,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001279,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001280,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001280,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001281,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001281,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001282,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001282,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001283,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001283,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001284,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001284,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001284,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001284,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001285,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001285,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001285,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001286,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001286,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001286,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001286,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001287,PROV00009,Dr. Johnson C,Nephrology,Fellow
+H00001287,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001287,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001287,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001288,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001288,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001288,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001288,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001289,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001289,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001289,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001289,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001290,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001290,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001290,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001290,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001291,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001291,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001292,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001292,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001292,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001292,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001293,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001293,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001294,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001294,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001294,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001294,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001295,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001295,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001296,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001296,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001296,PROV00033,Dr. Jones D,Pulmonology,Resident
+H00001296,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001297,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001297,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001298,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001298,PROV00010,Dr. Williams A,Infectious Disease,Resident
+H00001299,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001299,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001300,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001300,PROV00025,Dr. Williams B,Infectious Disease,Fellow
+H00001300,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001301,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001301,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001301,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001301,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001302,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001302,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001302,PROV00023,Dr. Smith D,Nephrology,Fellow
+H00001303,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001303,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001304,PROV00017,Dr. Williams B,Cardiology,Attending
+H00001304,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001305,PROV00021,Dr. Brown A,Critical Care,Attending
+H00001305,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001305,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001305,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001306,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001306,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001306,PROV00024,Dr. Williams D,Nephrology,Fellow
+H00001306,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001307,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001307,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001308,PROV00037,Dr. Jones B,Cardiology,Resident
+H00001308,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001309,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001309,PROV00031,Dr. Smith B,Nephrology,Attending
+H00001310,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001310,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001310,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001311,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001311,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001311,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001311,PROV00019,Dr. Jones C,Critical Care,Attending
+H00001312,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001312,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001313,PROV00038,Dr. Jones D,Cardiology,Resident
+H00001313,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001313,PROV00034,Dr. Williams D,Nephrology,Attending
+H00001313,PROV00014,Dr. Johnson C,Pulmonology,Resident
+H00001314,PROV00044,Dr. Jones C,Infectious Disease,Fellow
+H00001314,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001315,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001315,PROV00020,Dr. Johnson C,Pulmonology,Resident
+H00001315,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001315,PROV00030,Dr. Johnson C,Cardiology,Attending
+H00001316,PROV00035,Dr. Williams D,Critical Care,Fellow
+H00001316,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001316,PROV00003,Dr. Brown B,Pulmonology,Resident
+H00001317,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001317,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001317,PROV00005,Dr. Williams B,Critical Care,Attending
+H00001318,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001318,PROV00007,Dr. Johnson C,Cardiology,Resident
+H00001319,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001319,PROV00049,Dr. Johnson D,Cardiology,Resident
+H00001320,PROV00008,Dr. Smith D,Nephrology,Fellow
+H00001320,PROV00018,Dr. Jones A,Pulmonology,Attending
+H00001321,PROV00013,Dr. Williams C,Nephrology,Resident
+H00001321,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001321,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001322,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001322,PROV00032,Dr. Williams C,Pulmonology,Resident
+H00001323,PROV00012,Dr. Brown B,Pulmonology,Attending
+H00001323,PROV00040,Dr. Williams A,Infectious Disease,Resident
+H00001323,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001323,PROV00050,Dr. Johnson B,Infectious Disease,Attending
+H00001324,PROV00027,Dr. Brown A,Cardiology,Resident
+H00001324,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001325,PROV00046,Dr. Brown B,Critical Care,Fellow
+H00001325,PROV00043,Dr. Johnson D,Nephrology,Attending
+H00001325,PROV00011,Dr. Williams A,Infectious Disease,Fellow
+H00001325,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001326,PROV00045,Dr. Johnson D,Cardiology,Fellow
+H00001326,PROV00015,Dr. Jones D,Cardiology,Resident
+H00001327,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001327,PROV00004,Dr. Brown B,Cardiology,Attending
+H00001328,PROV00042,Dr. Brown A,Critical Care,Fellow
+H00001328,PROV00001,Dr. Jones B,Nephrology,Fellow
+H00001328,PROV00016,Dr. Johnson B,Nephrology,Attending
+H00001328,PROV00006,Dr. Jones C,Pulmonology,Resident
+H00001329,PROV00036,Dr. Brown D,Nephrology,Resident
+H00001329,PROV00039,Dr. Brown B,Cardiology,Resident
+H00001330,PROV00002,Dr. Williams A,Cardiology,Resident
+H00001330,PROV00029,Dr. Brown B,Cardiology,Fellow
+H00001331,PROV00048,Dr. Jones B,Cardiology,Fellow
+H00001331,PROV00035,Dr. Williams D,Critical Care,Fellow

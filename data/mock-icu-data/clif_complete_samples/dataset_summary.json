@@ -1,0 +1,34 @@
+{
+  "dataset_info": {
+    "n_patients": 500,
+    "n_hospitalizations": 747,
+    "n_icu_locations": 747,
+    "mortality_rate": 0.296,
+    "tables_generated": 23
+  },
+  "table_counts": {
+    "patient": 500,
+    "hospitalization": 747,
+    "adt": 1859,
+    "vitals": 390942,
+    "labs": 170272,
+    "patient_assessments": 214214,
+    "respiratory_support": 19056,
+    "medication_orders": 3174,
+    "medication_admin_continuous": 38022,
+    "medication_admin_intermittent": 26991,
+    "crrt_therapy": 2550,
+    "ecmo_mcs": 1139,
+    "position": 15532,
+    "procedures": 1925,
+    "intake_output": 32454,
+    "microbiology_culture": 1104,
+    "sensitivity": 2772,
+    "microbiology_non_culture": 599,
+    "admission_diagnosis": 2066,
+    "code_status": 381,
+    "provider": 2233,
+    "therapy_session": 3565,
+    "therapy_details": 7130
+  }
+}
