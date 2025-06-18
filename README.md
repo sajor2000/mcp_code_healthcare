@@ -9,9 +9,11 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 
 🏥 **Transform natural language medical questions into complete, STROBE-compliant research analyses**
 
-✨ **NEW: Complete OMOP CDM v5.4 support with comprehensive medical ontology integration (ICD-10, RxNorm, LOINC, SNOMED CT)**
+✨ **NEW: TRIPOD+AI v2024 integration for AI prediction model development with algorithmic fairness assessment**
 
-🔬 **Enhanced with STROBE guidelines and CDC Adult Sepsis Event definitions for rigorous observational research**
+🔬 **Complete OMOP CDM v5.4 support with comprehensive medical ontology integration (ICD-10, RxNorm, LOINC, SNOMED CT)**
+
+📊 **Enhanced with STROBE guidelines and CDC Adult Sepsis Event definitions for rigorous observational research**
 
 ## Features
 
@@ -54,6 +56,23 @@ A production-ready Model Context Protocol (MCP) server for health services resea
   - Concept mapping between vocabularies
   - Standard concept usage enforcement
 
+### 🤖 TRIPOD+AI Prediction Model Guidelines
+- **Complete TRIPOD+AI v2024 Compliance**: All 27 checklist items implemented
+- **AI-Specific Best Practices**: 
+  - Algorithmic fairness assessment across demographic groups
+  - Model interpretability with SHAP values and explainability methods
+  - Rigorous validation with cross-validation and performance metrics
+  - Bias detection and mitigation strategies
+- **Advanced AI Features**:
+  - Hyperparameter tuning automation for ML/DL models
+  - Feature engineering and preprocessing pipelines
+  - Calibration plots and robustness testing
+  - Integration with R (tidymodels) and Python (scikit-learn, TensorFlow)
+- **Trustworthy AI Implementation**:
+  - Transparent reporting requirements
+  - Reproducibility standards with code sharing
+  - Clinical validation considerations
+
 ### 🔒 Enterprise Features
 - HIPAA-compliant data handling
 - Row-level security and audit logging
@@ -78,6 +97,9 @@ npm run build:standalone
 # Test OMOP-enhanced features
 npm run build:omop
 ./test-omop-enhanced.sh
+
+# Test TRIPOD+AI integration
+./test-tripod-ai.sh
 ```
 
 ## Installation (Full Version)
@@ -268,9 +290,47 @@ const query = "Using this dataset I have uploaded, define sepsis, provide
 }
 ```
 
-### OMOP-Enhanced Tools (New!)
+### TRIPOD+AI Guidelines Tools (Latest!)
 
-The server now includes comprehensive OMOP CDM v5.4 support with 10 specialized tools:
+**Complete TRIPOD+AI v2024 compliance for AI prediction models:**
+
+#### 1. TRIPOD+AI Guidelines Access
+```typescript
+{
+  tool: "get_tripod_ai_guidelines",
+  arguments: {
+    study_type: "development" | "validation" | "both",
+    model_type: "machine_learning" | "deep_learning" | "ensemble"
+  }
+}
+```
+
+#### 2. AI Model Code Generation 
+```typescript
+{
+  tool: "generate_ai_prediction_code",
+  arguments: {
+    query: string,                    // Natural language prediction task
+    model_type: "machine_learning" | "deep_learning",
+    language: "R" | "Python",
+    include_fairness: boolean         // Algorithmic fairness assessment
+  }
+}
+```
+
+#### 3. Compliance Assessment
+```typescript
+{
+  tool: "assess_tripod_ai_compliance",
+  arguments: {
+    study_features: object            // Study characteristics for assessment
+  }
+}
+```
+
+### OMOP-Enhanced Tools
+
+**Comprehensive OMOP CDM v5.4 support with 10 specialized tools:**
 
 #### 1. OMOP Schema Access
 ```typescript
