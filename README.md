@@ -9,7 +9,9 @@ A production-ready Model Context Protocol (MCP) server for health services resea
 
 🏥 **Transform natural language medical questions into complete, STROBE-compliant research analyses**
 
-✨ **NEW: TRIPOD+AI v2024 integration for AI prediction model development with algorithmic fairness assessment**
+✨ **NEW: Decision Curve Analysis (DCA) integration for clinical utility assessment of AI prediction models**
+
+🤖 **TRIPOD+AI v2024 compliance for transparent AI model development with algorithmic fairness**
 
 🔬 **Complete OMOP CDM v5.4 support with comprehensive medical ontology integration (ICD-10, RxNorm, LOINC, SNOMED CT)**
 
@@ -63,6 +65,11 @@ A production-ready Model Context Protocol (MCP) server for health services resea
   - Model interpretability with SHAP values and explainability methods
   - Rigorous validation with cross-validation and performance metrics
   - Bias detection and mitigation strategies
+- **Decision Curve Analysis (DCA)**:
+  - Clinical utility assessment beyond traditional metrics
+  - Net benefit calculations across threshold probabilities
+  - Based on Vickers & Elkin (2006) methodology
+  - Support for both R (rmda, dcurves) and Python (dcurves) packages
 - **Advanced AI Features**:
   - Hyperparameter tuning automation for ML/DL models
   - Feature engineering and preprocessing pipelines
@@ -90,16 +97,11 @@ git clone https://github.com/sajor2000/mcp_code_healthcare.git
 cd mcp_code_healthcare
 npm install
 
-# Quick test (no database needed)
-npm run build:standalone
-./test-mcp-standalone.sh
-
-# Test OMOP-enhanced features
+# Build the MCP server
 npm run build:omop
-./test-omop-enhanced.sh
 
-# Test TRIPOD+AI integration
-./test-tripod-ai.sh
+# Start the server
+npm run start:omop
 ```
 
 ## Installation (Full Version)
