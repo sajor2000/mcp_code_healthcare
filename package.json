@@ -26,6 +26,8 @@
     "build:standalone": "tsc src/server/index-standalone.ts --outDir dist/server --module esnext --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck",
     "start:enhanced": "node dist/server/index-enhanced.js",
     "build:enhanced": "tsc src/server/index-enhanced.ts src/utils/fetch-guidelines.ts --outDir dist --module esnext --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck",
+    "start:complete": "node dist/server/index-complete.js",
+    "build:complete": "tsc src/server/index-complete.ts src/utils/fetch-guidelines.ts src/utils/enhanced-code-generator.ts --outDir dist --module esnext --target es2020 --moduleResolution node --esModuleInterop --skipLibCheck",
     "start:prod": "node dist/server/index-production.js",
     "dev": "tsx watch src/server/index.ts",
     "test": "vitest",
