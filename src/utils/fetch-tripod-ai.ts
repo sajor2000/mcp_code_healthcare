@@ -282,6 +282,38 @@ export const TRIPOD_AI_CHECKLIST = {
   }
 };
 
+// Decision Curve Analysis Integration
+export const DECISION_CURVE_ANALYSIS = {
+  title: 'Decision Curve Analysis for Clinical Utility Assessment',
+  citation: {
+    primary: 'Vickers AJ, Elkin EB. Decision curve analysis: a novel method for evaluating prediction models. Med Decis Making. 2006;26(6):565-74.',
+    step_by_step: 'Vickers AJ, van Calster B, Steyerberg EW. A simple, step-by-step guide to interpreting decision curve analysis. Diagn Progn Res. 2019;3:18.',
+    doi: '10.1177/0272989X06295361'
+  },
+  description: 'Evaluates clinical utility of prediction models by calculating net benefit across threshold probabilities',
+  methodology: {
+    net_benefit_formula: 'net benefit = sensitivity × prevalence - (1 - specificity) × (1 - prevalence) × w',
+    where: 'w = odds at threshold probability',
+    threshold_probability: 'Minimum disease probability warranting intervention',
+    clinical_utility: 'Incorporates consequences of decisions made based on model predictions'
+  },
+  implementation: {
+    r_packages: ['rmda', 'dcurves'],
+    python_packages: ['dcurves'],
+    interpretation: [
+      'Plot net benefit vs threshold probability',
+      'Compare model against treat-all and treat-none strategies',
+      'Highest net benefit strategy is preferred',
+      'Evaluate across clinically reasonable threshold range'
+    ]
+  },
+  tripod_ai_integration: {
+    items: [22, 23], // Performance assessment and model evaluation
+    purpose: 'Extends TRIPOD+AI Item 22 (Model Performance) with clinical utility assessment',
+    requirement: 'Essential for AI prediction models in clinical settings'
+  }
+};
+
 // Key AI-Specific Considerations
 export const TRIPOD_AI_PRINCIPLES = {
   trustworthiness: {

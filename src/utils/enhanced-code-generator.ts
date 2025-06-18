@@ -9,6 +9,7 @@ import {
   TRIPOD_AI_PRINCIPLES, 
   TRIPOD_AI_INTEGRATION,
   TRIPOD_AI_METRICS,
+  DECISION_CURVE_ANALYSIS,
   generateTripodAIChecklist,
   assessTripodAICompliance 
 } from './fetch-tripod-ai.js';
@@ -1326,6 +1327,234 @@ for group in ['race', 'gender']:  # Adjust based on available demographics
 print("\\nFairness Assessment - AUC by Demographic Groups:")
 for group, auc in fairness_results.items():
     print(f"{group}: {auc:.4f}")
+`;
+    }
+
+    return code;
+  }
+
+  generateDecisionCurveAnalysis(language: string, spec: AnalysisSpec): string {
+    if (!spec.prediction_model) return '';
+
+    let code = '';
+    
+    if (language === 'R') {
+      code += `
+# ============================================================================
+# Decision Curve Analysis (Vickers & Elkin, 2006)
+# TRIPOD+AI Item 22: Clinical Utility Assessment
+# ============================================================================
+
+# Citation: ${DECISION_CURVE_ANALYSIS.citation.primary}
+# DOI: ${DECISION_CURVE_ANALYSIS.citation.doi}
+
+# Install and load DCA packages if needed
+# install.packages(c("rmda", "dcurves"))
+library(rmda)
+library(dcurves)
+
+# Method 1: Using rmda package
+# Prepare data for decision curve analysis
+dca_data <- test_data %>%
+  mutate(
+    predicted_prob = predict(final_model, new_data = test_data, type = "prob")$.pred_yes,
+    outcome = as.numeric(${spec.prediction_model.outcomes[0]}) - 1
+  )
+
+# Generate decision curve using rmda
+dca_rmda <- decision_curve(
+  outcome ~ predicted_prob,
+  data = dca_data,
+  family = binomial(link = "logit"),
+  thresholds = seq(0, 1, by = 0.01),
+  confidence.intervals = "bootstrap",
+  bootstraps = 500
+)
+
+# Plot decision curve
+plot_decision_curve(
+  dca_rmda,
+  curve.names = c("Prediction Model"),
+  cost.benefit.axis = TRUE,
+  col = c("red", "blue", "green"),
+  confidence.intervals = TRUE,
+  standardize = FALSE
+) +
+  labs(
+    title = "Decision Curve Analysis",
+    subtitle = "Clinical Utility of ${spec.prediction_model.type.replace('_', ' ').toUpperCase()} Model",
+    x = "Threshold Probability",
+    y = "Net Benefit"
+  ) +
+  theme_minimal()
+
+# Method 2: Using dcurves package (alternative implementation)
+dca_dcurves <- dca(
+  outcome ~ predicted_prob,
+  data = dca_data,
+  thresholds = seq(0, 0.5, by = 0.01),
+  label = list(predicted_prob = "Prediction Model")
+) %>%
+  plot(smooth = TRUE) +
+  labs(
+    title = "Decision Curve Analysis (dcurves package)",
+    subtitle = "Net Benefit vs Threshold Probability"
+  )
+
+print(dca_dcurves)
+
+# Clinical interpretation
+cat("\\n=== Decision Curve Analysis Interpretation ===\\n")
+cat("Net Benefit Formula: ${DECISION_CURVE_ANALYSIS.methodology.net_benefit_formula}\\n")
+cat("Where: ${DECISION_CURVE_ANALYSIS.methodology.where}\\n\\n")
+
+# Calculate net benefit at specific thresholds
+key_thresholds <- c(0.05, 0.10, 0.15, 0.20, 0.25, 0.30)
+net_benefits <- sapply(key_thresholds, function(threshold) {
+  pred_positive <- dca_data$predicted_prob >= threshold
+  tp <- sum(pred_positive & dca_data$outcome == 1)
+  fp <- sum(pred_positive & dca_data$outcome == 0)
+  tn <- sum(!pred_positive & dca_data$outcome == 0)
+  fn <- sum(!pred_positive & dca_data$outcome == 1)
+  
+  sensitivity <- tp / (tp + fn)
+  specificity <- tn / (tn + fp)
+  prevalence <- mean(dca_data$outcome)
+  
+  w <- threshold / (1 - threshold)
+  net_benefit <- sensitivity * prevalence - (1 - specificity) * (1 - prevalence) * w
+  
+  return(net_benefit)
+})
+
+# Display results
+threshold_results <- data.frame(
+  Threshold = key_thresholds,
+  Net_Benefit = round(net_benefits, 4)
+)
+
+print("Net Benefit at Key Thresholds:")
+print(threshold_results)
+
+# Save DCA results
+write_csv(threshold_results, "decision_curve_results.csv")
+ggsave("decision_curve_plot.png", dca_dcurves, width = 10, height = 6, dpi = 300)
+
+`;
+    } else {
+      // Python implementation
+      code += `
+# ============================================================================
+# Decision Curve Analysis (Vickers & Elkin, 2006)
+# TRIPOD+AI Item 22: Clinical Utility Assessment
+# ============================================================================
+
+# Citation: ${DECISION_CURVE_ANALYSIS.citation.primary}
+# DOI: ${DECISION_CURVE_ANALYSIS.citation.doi}
+
+# Install DCA package: pip install dcurves
+try:
+    from dcurves import dca, plot_graphs
+    import matplotlib.pyplot as plt
+    import seaborn as sns
+    DCA_AVAILABLE = True
+except ImportError:
+    print("Warning: dcurves package not available. Install with: pip install dcurves")
+    DCA_AVAILABLE = False
+
+if DCA_AVAILABLE:
+    # Prepare data for decision curve analysis
+    dca_data = test_data.copy()
+    dca_data['predicted_prob'] = y_pred_proba
+    dca_data['outcome'] = y_test
+    
+    # Perform Decision Curve Analysis
+    dca_results = dca(
+        data=dca_data,
+        outcome='outcome',
+        modelnames=['predicted_prob'],
+        thresholds=np.arange(0, 0.51, 0.01),
+        models_to_prob=['predicted_prob']  # Convert to probabilities if needed
+    )
+    
+    # Plot standard DCA graph
+    fig, ax = plt.subplots(figsize=(10, 6))
+    plot_graphs(
+        plot_df=dca_results,
+        graph_type='net_benefit',
+        y_limits=[-0.05, None],
+        color_names=['blue', 'red', 'green'],
+        ax=ax
+    )
+    
+    plt.title('Decision Curve Analysis\\nClinical Utility of ${spec.prediction_model ? spec.prediction_model.type.replace(/_/g, ' ') : "Prediction"} Model')
+    plt.xlabel('Threshold Probability')
+    plt.ylabel('Net Benefit')
+    plt.grid(True, alpha=0.3)
+    plt.tight_layout()
+    plt.savefig('decision_curve_analysis.png', dpi=300, bbox_inches='tight')
+    plt.show()
+    
+    # Alternative DCA plot: Clinical Impact
+    fig, ax = plt.subplots(figsize=(10, 6))
+    plot_graphs(
+        plot_df=dca_results,
+        graph_type='clinical_impact',
+        y_limits=[0, None],
+        ax=ax
+    )
+    
+    plt.title('Clinical Impact Curve\\nNumber of High-Risk Classifications')
+    plt.tight_layout()
+    plt.savefig('clinical_impact_curve.png', dpi=300, bbox_inches='tight')
+    plt.show()
+    
+    # Manual calculation for interpretation
+    print("\\n=== Decision Curve Analysis Interpretation ===")
+    print(f"Net Benefit Formula: ${DECISION_CURVE_ANALYSIS.methodology.net_benefit_formula}")
+    print(f"Where: ${DECISION_CURVE_ANALYSIS.methodology.where}\\n")
+    
+    # Calculate net benefit at specific thresholds
+    key_thresholds = [0.05, 0.10, 0.15, 0.20, 0.25, 0.30]
+    threshold_results = []
+    
+    for threshold in key_thresholds:
+        pred_positive = dca_data['predicted_prob'] >= threshold
+        tp = np.sum(pred_positive & (dca_data['outcome'] == 1))
+        fp = np.sum(pred_positive & (dca_data['outcome'] == 0))
+        tn = np.sum(~pred_positive & (dca_data['outcome'] == 0))
+        fn = np.sum(~pred_positive & (dca_data['outcome'] == 1))
+        
+        sensitivity = tp / (tp + fn) if (tp + fn) > 0 else 0
+        specificity = tn / (tn + fp) if (tn + fp) > 0 else 0
+        prevalence = np.mean(dca_data['outcome'])
+        
+        w = threshold / (1 - threshold)
+        net_benefit = sensitivity * prevalence - (1 - specificity) * (1 - prevalence) * w
+        
+        threshold_results.append({
+            'Threshold': threshold,
+            'Net_Benefit': round(net_benefit, 4),
+            'Sensitivity': round(sensitivity, 3),
+            'Specificity': round(specificity, 3)
+        })
+    
+    # Display results
+    threshold_df = pd.DataFrame(threshold_results)
+    print("Net Benefit at Key Thresholds:")
+    print(threshold_df.to_string(index=False))
+    
+    # Save DCA results
+    threshold_df.to_csv('decision_curve_results.csv', index=False)
+    dca_results.to_csv('dca_full_results.csv', index=False)
+    
+    print("\\nDCA plots saved: decision_curve_analysis.png, clinical_impact_curve.png")
+    print("DCA results saved: decision_curve_results.csv, dca_full_results.csv")
+
+else:
+    print("\\nSkipping Decision Curve Analysis - dcurves package not available")
+    print("Install with: pip install dcurves")
+
 `;
     }
 
