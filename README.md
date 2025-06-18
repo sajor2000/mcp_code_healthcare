@@ -652,9 +652,22 @@ private static generateCustomAnalysis(): string {
 
 Contributions are welcome! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
+## Attribution and Citations
+
+This project integrates several important medical standards and guidelines. Full citations and acknowledgments are provided in [CITATIONS.md](CITATIONS.md).
+
+### Key Sources:
+- **TRIPOD+AI**: Collins GS, et al. BMJ. 2024;385:q902
+- **STROBE**: von Elm E, et al. Lancet. 2007;370(9596):1453-7  
+- **OMOP CDM**: OHDSI Collaborative. Apache License 2.0
+- **CLIF**: MIT License
+- **Medical Ontologies**: ICD-10 (Public Domain), RxNorm (Public Domain), LOINC (Free License), SNOMED CT (Affiliate License)
+
 ## License
 
 MIT License - see [LICENSE](LICENSE) for details.
+
+**Important**: While this software is MIT licensed, some integrated medical ontologies have their own licensing requirements for commercial use (particularly SNOMED CT). See [CITATIONS.md](CITATIONS.md) for full licensing information.
 
 ## Citation
 
@@ -662,15 +675,16 @@ If you use this software in your research, please cite:
 
 ```bibtex
 @software{healthcare_research_mcp,
-  title = {Healthcare Research MCP Server},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/yourusername/healthcare-research-mcp}
+  title={Healthcare Research MCP Server: OMOP, CLIF, and AI-Guided Medical Research},
+  author={Healthcare Research MCP Contributors},
+  year={2024},
+  url={https://github.com/sajor2000/mcp_code_healthcare},
+  license={MIT}
 }
 ```
 
 ## Support
 
-- **Documentation**: [https://docs.your-domain.com](https://docs.your-domain.com)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/healthcare-research-mcp/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/healthcare-research-mcp/discussions)
+- **Documentation**: See README and [CITATIONS.md](CITATIONS.md)
+- **Issues**: [GitHub Issues](https://github.com/sajor2000/mcp_code_healthcare/issues)
+- **Repository**: [https://github.com/sajor2000/mcp_code_healthcare](https://github.com/sajor2000/mcp_code_healthcare)

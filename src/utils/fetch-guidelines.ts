@@ -1,6 +1,19 @@
 /**
  * Fetch Clinical Guidelines using Firecrawl
  * Scrapes STROBE and CDC guidelines for the knowledge base
+ * 
+ * STROBE Statement Citation:
+ * von Elm E, Altman DG, Egger M, et al. The Strengthening the Reporting of 
+ * Observational Studies in Epidemiology (STROBE) statement: guidelines for 
+ * reporting observational studies. Lancet. 2007;370(9596):1453-7.
+ * 
+ * CDC Adult Sepsis Event Citation:
+ * Rhee C, Dantes R, Epstein L, et al. Incidence and Trends of Sepsis in US 
+ * Hospitals Using Clinical vs Claims Data, 2009-2014. JAMA. 2017;318(13):1241-1249.
+ * 
+ * Sources:
+ * - STROBE: https://www.strobe-statement.org/ (CC Attribution License)
+ * - CDC: https://www.cdc.gov/sepsis/ (Public Domain)
  */
 
 // import axios from 'axios';  // Commented out for standalone version

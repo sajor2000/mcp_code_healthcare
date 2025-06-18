@@ -1,7 +1,19 @@
 /**
  * TRIPOD+AI Guidelines for AI Prediction Models
  * Updated guidance for reporting clinical prediction models using regression or machine learning methods
- * Published: BMJ 2024; doi: 10.1136/bmj-2023-078378
+ * 
+ * Citation:
+ * Collins GS, Moons KGM, Dhiman P, et al. TRIPOD+AI statement: updated guidance 
+ * for reporting clinical prediction models that use regression or machine learning 
+ * methods. BMJ. 2024;385:q902. doi: 10.1136/bmj.q902
+ * 
+ * Source: https://www.tripod-statement.org/
+ * Published: April 18, 2024, BMJ
+ * License: Creative Commons Attribution License
+ * 
+ * This implementation provides the complete 27-item TRIPOD+AI checklist with
+ * AI-specific considerations for trustworthy and transparent reporting of 
+ * prediction models in healthcare.
  */
 
 // TRIPOD+AI Complete 27-Item Checklist

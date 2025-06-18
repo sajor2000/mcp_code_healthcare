@@ -1,6 +1,17 @@
 /**
  * Fetch OMOP CDM Specifications
  * Retrieves the latest OMOP Common Data Model specifications
+ * 
+ * Citation:
+ * OHDSI Collaborative. OMOP Common Data Model v5.4. Observational Health Data 
+ * Sciences and Informatics (OHDSI). 2023.
+ * 
+ * Source: https://ohdsi.github.io/CommonDataModel/
+ * GitHub: https://github.com/OHDSI/CommonDataModel
+ * License: Apache License 2.0
+ * 
+ * This implementation provides complete OMOP CDM v5.4 table specifications,
+ * relationships, and standard concept mappings for healthcare data standardization.
  */
 
 // OMOP CDM v5.4 Complete Table Specifications

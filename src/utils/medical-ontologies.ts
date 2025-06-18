@@ -1,6 +1,30 @@
 /**
  * Medical Ontologies and Code Systems
  * Comprehensive support for ICD-10, RxNorm, LOINC, and SNOMED CT
+ * 
+ * Citations:
+ * 
+ * ICD-10-CM:
+ * World Health Organization. International Statistical Classification of Diseases 
+ * and Related Health Problems 10th Revision (ICD-10). WHO; 2019.
+ * License: Public Domain
+ * 
+ * RxNorm:
+ * Nelson SJ, Zeng K, Kilbourne J, et al. Normalized names for clinical drugs: 
+ * RxNorm at 6 years. J Am Med Inform Assoc. 2011;18(4):441-8.
+ * Source: U.S. National Library of Medicine
+ * License: Public Domain (U.S. Government Work)
+ * 
+ * LOINC:
+ * McDonald CJ, Huff SM, Suico JG, et al. LOINC, a universal standard for 
+ * identifying laboratory observations: a 5-year update. Clin Chem. 2003;49(4):624-33.
+ * Source: Regenstrief Institute
+ * License: LOINC License (free for use)
+ * 
+ * SNOMED CT:
+ * SNOMED International. SNOMED CT. SNOMED International; 2023.
+ * License: SNOMED CT Affiliate License
+ * Note: Implementation uses publicly available subset for demonstration
  */
 
 // ICD-10 Common Codes for Healthcare Research
